@@ -22,25 +22,25 @@
         "name": "treezone1-1",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/treezone/treezone1-starttocheck.png"
+        "img": "images/maps/treezone/treezone1-1.png"
     },
     {
         "name": "treezone1-2",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/treezone/treezone1-checktoend.png"
+        "img": "images/maps/treezone/treezone1-2.png"
     },
     {
         "name": "treezone2-1",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/treezone/treezone2-starttocheck.png"
+        "img": "images/maps/treezone/treezone2-1.png"
     },
     {
         "name": "treezone2-2",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/treezone/treezone2-checktoend.png"
+        "img": "images/maps/treezone/treezone2-2.png"
     },
     {
         "name": "treezone3-1",
@@ -68,6 +68,18 @@
     },
     {
         "name": "treezone4-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/treezone/treezone4-2.png"
+    },
+    {
+        "name": "treezone5-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/treezone/treezone4-1.png"
+    },
+    {
+        "name": "treezone5-2",
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/treezone/treezone4-2.png"
