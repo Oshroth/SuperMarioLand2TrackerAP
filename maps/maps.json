@@ -76,12 +76,12 @@
         "name": "treezone5-1",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/treezone/treezone4-1.png"
+        "img": "images/maps/treezone/treezone5-1.png"
     },
     {
         "name": "treezone5-2",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/treezone/treezone4-2.png"
+        "img": "images/maps/treezone/treezone5-2.png"
     }
 ]

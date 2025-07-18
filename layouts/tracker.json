@@ -171,6 +171,32 @@
                         }
                       ]
                     }
+                  },
+                  {
+                    "title": "Tree Zone 5",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Start to Checkpoint",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "treezone5-1"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Checkpoint to End",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "treezone5-2"
+                            ]
+                          }
+                        }
+                      ]
+                    }
                   }
                 ]
               }
