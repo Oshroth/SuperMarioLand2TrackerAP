@@ -1,0 +1,183 @@
+﻿{
+  "tracker_horizontal": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "shared_item_grid"
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Overworld",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "overworld"
+                ]
+              }
+            },
+            {
+              "title": "Mushroom Zone",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "mushhouse"
+                ]
+              }
+            },
+            {
+              "title": "Tree Zone",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Tree Zone Hub",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "treezone"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Tree Zone 1",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Start to Checkpoint",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "treezone1-1"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Checkpoint to End",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "treezone1-2"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Tree Zone 2",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Start to Checkpoint",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "treezone2-1"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Checkpoint to End",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "treezone2-2"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Tree Zone 3",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Lower",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "treezone3-1"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Middle",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "treezone3-2"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Upper",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "treezone3-3"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Tree Zone 4",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Start to Checkpoint",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "treezone4-1"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Checkpoint to End",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "treezone4-2"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

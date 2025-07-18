@@ -1,0 +1,75 @@
+//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
+[
+    {
+        "name": "overworld",
+        "location_size": 8,
+        "location_border_thickness": 2,
+        "img": "images/maps/overworld.png"
+    },
+    {
+        "name": "mushhouse",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/mushhouse.png"
+    },
+    {
+        "name": "treezone",
+        "location_size": 3,
+        "location_border_thickness": 1,
+        "img": "images/maps/treezone/treezone.png"
+    },
+    {
+        "name": "treezone1-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/treezone/treezone1-starttocheck.png"
+    },
+    {
+        "name": "treezone1-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/treezone/treezone1-checktoend.png"
+    },
+    {
+        "name": "treezone2-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/treezone/treezone2-starttocheck.png"
+    },
+    {
+        "name": "treezone2-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/treezone/treezone2-checktoend.png"
+    },
+    {
+        "name": "treezone3-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/treezone/treezone3-1.png"
+    },
+    {
+        "name": "treezone3-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/treezone/treezone3-2.png"
+    },
+    {
+        "name": "treezone3-3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/treezone/treezone3-3.png"
+    },
+    {
+        "name": "treezone4-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/treezone/treezone4-1.png"
+    },
+    {
+        "name": "treezone4-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/treezone/treezone4-2.png"
+    }
+]
