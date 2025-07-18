@@ -83,5 +83,41 @@
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/treezone/treezone5-2.png"
+    },
+    {
+        "name": "treezonesp-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/treezone/treezonesp-1.png"
+    },
+    {
+        "name": "treezonesp-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/treezone/treezonesp-2.png"
+    },
+        {
+        "name": "wariocastle-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/wariocastle/wariocastle-1.png"
+    },
+    {
+        "name": "wariocastle-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/wariocastle/wariocastle-2.png"
+    },
+    {
+        "name": "wariocastle-3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/wariocastle/wariocastle-3.png"
+    },
+    {
+        "name": "wariocastle-4",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/wariocastle/wariocastle-4.png"
     }
 ]

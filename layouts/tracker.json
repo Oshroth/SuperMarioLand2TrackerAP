@@ -197,6 +197,76 @@
                         }
                       ]
                     }
+                  },
+                  {
+                    "title": "Tree Zone Special",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Start",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "treezonesp-1"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "End",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "treezonesp-2"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Wario's Castle",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Lower",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "wariocastle-1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Middle",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "wariocastle-2"
+                      ]
+                    }
+                },
+                {
+                    "title": "Top",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "wariocastle-3"
+                      ]
+                    }
+                },
+                {
+                    "title": "Wario",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "wariocastle-4"
+                      ]
+                    }
                   }
                 ]
               }
