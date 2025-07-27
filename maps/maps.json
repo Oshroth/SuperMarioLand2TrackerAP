@@ -1,4 +1,3 @@
-//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
 [
     {
         "name": "overworld",
@@ -7,10 +6,28 @@
         "img": "images/maps/overworld.png"
     },
     {
-        "name": "mushhouse",
+        "name": "mushhouse1",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/mushhouse.png"
+        "img": "images/maps/mushhouse/mushhouse1.png"
+    },
+    {
+        "name": "mushhouse2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/mushhouse/mushhouse2.png"
+    },
+    {
+        "name": "mushhouse3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/mushhouse/mushhouse3.png"
+    },
+    {
+        "name": "mushhouse4",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/mushhouse/mushhouse4.png"
     },
     {
         "name": "treezone",
@@ -119,5 +136,71 @@
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/wariocastle/wariocastle-4.png"
+    },
+    {
+        "name": "turtlezone1-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/turtlezone/turtlezone1-1.png"
+    },
+    {
+        "name": "turtlezone1-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/turtlezone/turtlezone1-2.png"
+    },
+    {
+        "name": "turtlezone2-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/turtlezone/turtlezone2-1.png"
+    },
+    {
+        "name": "turtlezone2-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/turtlezone/turtlezone2-2.png"
+    },
+    {
+        "name": "turtlezone2-3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/turtlezone/turtlezone2-3.png"
+    },
+    {
+        "name": "turtlezone2-4",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/turtlezone/turtlezone2-4.png"
+    },
+    {
+        "name": "turtlezone3-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/turtlezone/turtlezone3-1.png"
+    },
+    {
+        "name": "turtlezone3-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/turtlezone/turtlezone3-2.png"
+    },
+    {
+        "name": "turtlezone3-3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/turtlezone/turtlezone3-3.png"
+    },
+    {
+        "name": "turtlezonesp-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/turtlezone/turtlezonesp-1.png"
+    },
+    {
+        "name": "turtlezonesp-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/turtlezone/turtlezonesp-2.png"
     }
 ]
