@@ -202,5 +202,347 @@
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/turtlezone/turtlezonesp-2.png"
+    },
+    {
+        "name": "mariozone1-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/mariozone/mariozone1-1.png"
+    },
+    {
+        "name": "mariozone1-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/mariozone/mariozone1-2.png"
+    },
+    {
+        "name": "mariozone1-3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/mariozone/mariozone1-3.png"
+    },
+    {
+        "name": "mariozone1-4",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/mariozone/mariozone1-4.png"
+    },
+    {
+        "name": "mariozone2-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/mariozone/mariozone2-1.png"
+    },
+    {
+        "name": "mariozone2-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/mariozone/mariozone2-2.png"
+    },
+    {
+        "name": "mariozone3-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/mariozone/mariozone3-1.png"
+    },
+    {
+        "name": "mariozone3-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/mariozone/mariozone3-2.png"
+    },
+    {
+        "name": "mariozone4-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/mariozone/mariozone4-1.png"
+    },
+    {
+        "name": "mariozone4-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/mariozone/mariozone4-2.png"
+    },
+    {
+        "name": "hippo-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/hippo/hippo-1.png"
+    },
+    {
+        "name": "hippo-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/hippo/hippo-2.png"
+    },
+    {
+        "name": "macrozone1-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/macrozone/macrozone1-1.png"
+    },
+    {
+        "name": "macrozone1-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/macrozone/macrozone1-2.png"
+    },
+    {
+        "name": "macrozone1-3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/macrozone/macrozone1-3.png"
+    },
+    {
+        "name": "macrozone1-4",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/macrozone/macrozone1-4.png"
+    },
+    {
+        "name": "macrozone1-5",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/macrozone/macrozone1-5.png"
+    },
+    {
+        "name": "macrozone2-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/macrozone/macrozone2-1.png"
+    },
+    {
+        "name": "macrozone2-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/macrozone/macrozone2-2.png"
+    },
+    {
+        "name": "macrozone2-3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/macrozone/macrozone2-3.png"
+    },
+    {
+        "name": "macrozone3-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/macrozone/macrozone3-1.png"
+    },
+    {
+        "name": "macrozone3-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/macrozone/macrozone3-2.png"
+    },
+    {
+        "name": "macrozone3-3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/macrozone/macrozone3-3.png"
+    },
+    {
+        "name": "macrozone4-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/macrozone/macrozone4-1.png"
+    },
+    {
+        "name": "macrozone4-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/macrozone/macrozone4-2.png"
+    },
+       {
+        "name": "macrozonesp-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/macrozone/macrozonesp-1.png"
+    },
+    {
+        "name": "macrozonesp-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/macrozone/macrozonesp-2.png"
+    },
+    {
+        "name": "spacezone1-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/spacezone/spacezone1-1.png"
+    },
+    {
+        "name": "spacezone1-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/spacezone/spacezone1-2.png"
+    },
+    {
+        "name": "spacezone2-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/spacezone/spacezone2-1.png"
+    },
+       {
+        "name": "spacezone2-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/spacezone/spacezone2-2.png"
+    },
+    {
+        "name": "spacezone2-3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/spacezone/spacezone2-3.png"
+    },
+    {
+        "name": "spacezone2-4",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/spacezone/spacezone2-4.png"
+    },
+    {
+        "name": "spacezonesp-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/spacezone/spacezonesp-1.png"
+    },
+    {
+        "name": "spacezonesp-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/spacezone/spacezonesp-2.png"
+    },
+    {
+        "name": "pumpkinzone1-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzone1-1.png"
+    },
+    {
+        "name": "pumpkinzone1-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzone1-2.png"
+    },
+    {
+        "name": "pumpkinzone1-3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzone1-3.png"
+    },
+    {
+        "name": "pumpkinzone2-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzone2-1.png"
+    },
+    {
+        "name": "pumpkinzone2-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzone2-2.png"
+    },
+    {
+        "name": "pumpkinzone2-3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzone2-3.png"
+    },
+    {
+        "name": "pumpkinzone2-4",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzone2-4.png"
+    },
+    {
+        "name": "pumpkinzone3-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzone3-1.png"
+    },
+    {
+        "name": "pumpkinzone3-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzone3-2.png"
+    },
+    {
+        "name": "pumpkinzone3-3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzone3-3.png"
+    },
+    {
+        "name": "pumpkinzone3-4",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzone3-4.png"
+    },
+        {
+        "name": "pumpkinzone4-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzone4-1.png"
+    },
+    {
+        "name": "pumpkinzone4-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzone4-2.png"
+    },
+    {
+        "name": "pumpkinzone4-3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzone4-3.png"
+    },
+    {
+        "name": "pumpkinzone4-4",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzone4-4.png"
+    },
+    {
+        "name": "pumpkinzone4-5",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzone4-5.png"
+    },
+    {
+        "name": "pumpkinzonesp1-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzonesp1-1.png"
+    },
+    {
+        "name": "pumpkinzonesp1-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzonesp1-2.png"
+    },
+        {
+        "name": "pumpkinzonesp2-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzonesp2-1.png"
+    },
+    {
+        "name": "pumpkinzonesp2-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzonesp2-2.png"
+    },
+        {
+        "name": "pumpkinzonesp2-3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzonesp2-3.png"
+    },
+    {
+        "name": "pumpkinzonesp2-4",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzonesp2-4.png"
     }
 ]
