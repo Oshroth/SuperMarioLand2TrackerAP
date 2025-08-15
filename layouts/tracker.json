@@ -51,7 +51,7 @@
                                         }
                                     },
                                     {
-                                        "title": "Part 1",
+                                        "title": "Cave 1",
                                         "content": {
                                             "type": "map",
                                             "maps": [
@@ -60,7 +60,7 @@
                                         }
                                     },
                                     {
-                                        "title": "Part 2",
+                                        "title": "Enemies Path",
                                         "content": {
                                             "type": "map",
                                             "maps": [
