@@ -268,6 +268,15 @@
                                 "type": "tabbed",
                                 "tabs": [
                                     {
+                                        "title": "Coins Zone",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "coinszone"
+                                            ]
+                                        }
+                                    },
+                                    {
                                         "title": "Lower",
                                         "content": {
                                             "type": "map",
@@ -311,6 +320,15 @@
                             "content": {
                                 "type": "tabbed",
                                 "tabs": [
+                                    {
+                                        "title": "Turtle Zone Hub",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "turtlezonehub"
+                                            ]
+                                        }
+                                    },
                                     {
                                         "title": "Turtle Zone 1",
                                         "content": {
@@ -450,6 +468,15 @@
                             "content": {
                                 "type": "tabbed",
                                 "tabs": [
+                                    {
+                                        "title": "Mario Zone Hub",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "mariozonehub"
+                                            ]
+                                        }
+                                    },
                                     {
                                         "title": "Mario Zone 1",
                                         "content": {
@@ -606,6 +633,15 @@
                             "content": {
                                 "type": "tabbed",
                                 "tabs": [
+                                    {
+                                        "title": "Macro Zone Hub",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "macrozonehub"
+                                            ]
+                                        }
+                                    },
                                     {
                                         "title": "Macro Zone 1",
                                         "content": {
@@ -790,6 +826,15 @@
                                 "type": "tabbed",
                                 "tabs": [
                                     {
+                                        "title": "Space Zone Hub",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "spacezonehub"
+                                            ]
+                                        }
+                                    },
+                                    {
                                         "title": "Space Zone 1",
                                         "content": {
                                             "type": "tabbed",
@@ -893,6 +938,15 @@
                             "content": {
                                 "type": "tabbed",
                                 "tabs": [
+                                    {
+                                        "title": "Pumpkin Zone Hub",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "pumpkinzonehub"
+                                            ]
+                                        }
+                                    },
                                     {
                                         "title": "Pumpkin Zone 1",
                                         "content": {

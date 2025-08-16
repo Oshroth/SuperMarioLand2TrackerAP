@@ -113,7 +113,13 @@
         "location_border_thickness": 2,
         "img": "images/maps/treezone/treezonesp-2.png"
     },
-        {
+    {
+        "name": "coinszone",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/wariocastle/coinszone.png"
+    },
+    {
         "name": "wariocastle-1",
         "location_size": 12,
         "location_border_thickness": 2,
@@ -136,6 +142,12 @@
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/wariocastle/wariocastle-4.png"
+    },
+    {
+        "name": "turtlezonehub",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/turtlezone/turtlezonehub.png"
     },
     {
         "name": "turtlezone1-1",
@@ -202,6 +214,12 @@
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/turtlezone/turtlezonesp-2.png"
+    },
+    {
+        "name": "mariozonehub",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/mariozone/mariozonehub.png"
     },
     {
         "name": "mariozone1-1",
@@ -274,6 +292,12 @@
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/hippo/hippo-2.png"
+    },
+    {
+        "name": "macrozonehub",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/macrozone/macrozonehub.png"
     },
     {
         "name": "macrozone1-1",
@@ -366,6 +390,12 @@
         "img": "images/maps/macrozone/macrozonesp-2.png"
     },
     {
+        "name": "spacezonehub",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/spacezone/spacezonehub.png"
+    },
+    {
         "name": "spacezone1-1",
         "location_size": 12,
         "location_border_thickness": 2,
@@ -412,6 +442,12 @@
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/spacezone/spacezonesp-2.png"
+    },
+    {
+        "name": "pumpkinzonehub",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pumpkinzone/pumpkinzonehub.png"
     },
     {
         "name": "pumpkinzone1-1",
