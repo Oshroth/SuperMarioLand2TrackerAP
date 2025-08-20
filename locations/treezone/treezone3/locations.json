@@ -1,0 +1,25 @@
+[
+    {
+        "name": "treezone3",
+        "children": [
+            {
+                "name": "Normal Exit",
+                "sections": [
+                    {
+                        "name": "Take the Exit",
+                        "chest_unopened_img": "images/items/normalexit.png",
+                        "chest_opened_img": "images/items/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone3-3",
+                        "x": 1255,
+                        "y": 227
+                    }
+                ]
+            }
+        ]
+    }
+]

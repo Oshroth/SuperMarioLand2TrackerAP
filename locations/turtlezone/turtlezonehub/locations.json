@@ -1,0 +1,102 @@
+[
+    {
+        "name": "TurtleZone1",
+        "children": [
+            {
+                "name": "Turtle Zone 1",
+                "sections": [
+                    {
+                        "ref": "turtlezone1/Midway Bell/Get it!",
+                        "name": "Turtle Zone 1 - Midway Bell"
+                    },
+                    {
+                        "ref": "turtlezone1/Normal Exit/Take the Exit",
+                        "name": "Turtle Zone 1 - Normal Exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezonehub",
+                        "x": 91,
+                        "y": 113
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TurtleZone2",
+        "children": [
+            {
+                "name": "Turtle Zone 2",
+                "sections": [
+                    {
+                        "ref": "turtlezone2/Midway Bell/Get it!",
+                        "name": "Turtle Zone 2 - Midway Bell"
+                    },
+                    {
+                        "ref": "turtlezone2/Normal Exit/Take the Exit",
+                        "name": "Turtle Zone 2 - Normal Exit"
+                    },
+                    {
+                        "ref": "turtlezone2/Secret Exit/Take the Exit",
+                        "name": "Turtle Zone 2 - Secret Exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezonehub",
+                        "x": 115,
+                        "y": 89
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TurtleZone3",
+        "children": [
+            {
+                "name": "Turtle Zone 3",
+                "sections": [
+                    {
+                        "ref": "turtlezone3/Midway Bell/Get it!",
+                        "name": "Turtle Zone 3 - Midway Bell"
+                    },
+                    {
+                        "ref": "turtlezone3/Boss/Beat the Boss",
+                        "name": "Turtle Zone 3 - Beat the Boss"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezonehub",
+                        "x": 75,
+                        "y": 33
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TurtleZoneSp",
+        "children": [
+            {
+                "name": "Turtle Zone Secret Course 1",
+                "sections": [
+                    {
+                        "ref": "turtlezonesp/Normal Exit/Take the Exit",
+                        "name": "Turtle Zone Secret Course 1 - Normal Exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezonehub",
+                        "x": 144,
+                        "y": 4
+                    }
+                ]
+            }
+        ]
+    }
+]

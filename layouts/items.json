@@ -7,7 +7,8 @@
         "margin": "0,0",
         "content": [
             {
-                "type": "array",
+                "type": "dock",
+                "dock": "bottom",
                 "orientation": "horizontal",
                 "margin": "0,0",
                 "content": [
@@ -17,12 +18,50 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "toggle",
-                                "progressive"           
-                            ],
+                                "mushroom",
+                                "fireflower",
+                                "carrot",
+                                "hippo"           
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "dock",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "left",
+                        "rows": [
                             [
-                                "consumable",
-                                "progressive_toggle"
+                                "mariocoin",
+                                "treecoin",
+                                "macrocoin",
+                                "spacecoin",
+                                "pumpkincoin",
+                                "turtlecoin"    
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "dock",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "macrozoneprog",
+                                "treezoneprog"      
                             ]
                         ]
                     }

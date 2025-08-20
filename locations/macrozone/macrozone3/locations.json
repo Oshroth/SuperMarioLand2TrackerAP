@@ -1,0 +1,48 @@
+[
+    {
+        "name": "macrozone3",
+        "children": [
+            {
+                "name": "Midway Bell",
+                "sections": [
+                    {
+                        "name": "Get it!",
+                        "chest_unopened_img": "images/items/midwaybell.png",
+                        "chest_opened_img": "images/items/midwaybell_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "macrozone3-3",
+                        "x": 244,
+                        "y": 426
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "macrozone3",
+        "children": [
+            {
+                "name": "Normal Exit",
+                "sections": [
+                    {
+                        "name": "Take the Exit",
+                        "chest_unopened_img": "images/items/normalexit.png",
+                        "chest_opened_img": "images/items/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "macrozone3-3",
+                        "x": 1508,
+                        "y": 134
+                    }
+                ]
+            }
+        ]
+    }
+]

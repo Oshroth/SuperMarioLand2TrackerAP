@@ -1,0 +1,48 @@
+[
+    {
+        "name": "pumpkinzone1",
+        "children": [
+            {
+                "name": "Midway Bell",
+                "sections": [
+                    {
+                        "name": "Get it!",
+                        "chest_unopened_img": "images/items/midwaybell.png",
+                        "chest_opened_img": "images/items/midwaybell_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzone1-2",
+                        "x": 786,
+                        "y": 422
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "pumpkinzone1",
+        "children": [
+            {
+                "name": "Normal Exit",
+                "sections": [
+                    {
+                        "name": "Take the Exit",
+                        "chest_unopened_img": "images/items/normalexit.png",
+                        "chest_opened_img": "images/items/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzone1-3",
+                        "x": 1192,
+                        "y": 483
+                    }
+                ]
+            }
+        ]
+    }
+]

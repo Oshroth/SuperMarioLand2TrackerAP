@@ -1,0 +1,48 @@
+[
+    {
+        "name": "mariocastle",
+        "children": [
+            {
+                "name": "Midway Bell",
+                "sections": [
+                    {
+                        "name": "Get it!",
+                        "chest_unopened_img": "images/items/midwaybell.png",
+                        "chest_opened_img": "images/items/midwaybell_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariocastle-3",
+                        "x": 2680,
+                        "y": 148
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "mariocastle",
+        "children": [
+            {
+                "name": "Goal",
+                "sections": [
+                    {
+                        "name": "Beat the Boss",
+                        "chest_unopened_img": "images/items/boss/wario.png",
+                        "chest_opened_img": "images/items/boss/wario_beaten.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariocastle-4",
+                        "x": 387,
+                        "y": 163
+                    }
+                ]
+            }
+        ]
+    }
+]

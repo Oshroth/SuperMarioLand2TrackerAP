@@ -1,0 +1,28 @@
+[
+    {
+        "name": "spacezonesp",
+        "children": [
+            {
+                "name": "Normal Exit",
+                "sections": [
+              {
+                        "name": "Take the Exit",
+                        "chest_unopened_img": "images/items/normalexit.png",
+                        "chest_opened_img": "images/items/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "spacezonesp-2",
+                        "x": 705,
+                        "y": 452
+                    }
+                ]
+            }
+        ]
+    }
+]
+
+
+

@@ -1,54 +1,17 @@
 [
     {
-        "name": "Mushroom Zone",
-        "children": [
-            {
-                "name": "Normal Exit",
-                "sections": [
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "mushhouse",
-                        "x": 2023,
-                        "y": 640
-                    }
-                ]
-            },
-            {
-                "name": "Midway Bell",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "mushhouse",
-                        "x": 743,
-                        "y": 567
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "MushZoneOverworld",
+        "name": "mushzoneoverworld",
         "children": [
             {
                 "name": "Mushroom Zone",
                 "sections": [
                     {
-                        "name": "Mushroom Zone - Midway Bell",
-                        "item_count": 1
+                        "ref": "mushroomzone/Midway Bell/Get it!",
+                        "name": "Mushroom Zone - Midway Bell"
                     },
                     {
-                        "name": "Mushroom Zone - Normal Exit",
-                        "item_count": 1
+                        "ref": "mushroomzone/Normal Exit/Take the Exit",
+                        "name": "Mushroom Zone - Normal Exit"
                     }
                 ],
                 "map_locations": [
@@ -62,54 +25,54 @@
         ]
     },
     {
-        "name": "TreeZoneOverworld",
+        "name": "treezoneoverworld",
         "children": [
             {
                 "name": "Tree Zone",
                 "sections": [
                     {
-                        "name": "Tree Zone 1 - Midway Bell",
-                        "item_count": 1
+                        "ref": "treezone1/Midway Bell/Get it!",
+                        "name": "Tree Zone 1 - Midway Bell"
                     },
                     {
-                        "name": "Tree Zone 1 - Normal Exit",
-                        "item_count": 1
+                        "ref": "treezone1/Normal Exit/Take the Exit",
+                        "name": "Tree Zone 1 - Normal Exit"
                     },
                     {
-                        "name": "Tree Zone 2 - Midway Bell",
-                        "item_count": 1
+                        "ref": "treezone2/Midway Bell/Get it!",
+                        "name": "Tree Zone 2 - Midway Bell"
                     },
                     {
-                        "name": "Tree Zone 2 - Secret Exit",
-                        "item_count": 1
+                        "ref": "treezone2/Secret Exit/Take the Exit",
+                        "name": "Tree Zone 2 - Secret Exit"
                     },
                     {
-                        "name": "Tree Zone 2 - Normal Exit",
-                        "item_count": 1
+                        "ref": "treezone2/Normal Exit/Take the Exit",
+                        "name": "Tree Zone 2 - Normal Exit"
                     },
                     {
-                        "name": "Tree Zone 3 - Normal Exit",
-                        "item_count": 1
+                        "ref": "treezone3/Normal Exit/Take the Exit",
+                        "name": "Tree Zone 3 - Normal Exit"
                     },
                     {
-                        "name": "Tree Zone 4 - Midway Bell",
-                        "item_count": 1
+                        "ref": "treezone4/Midway Bell/Get it!",
+                        "name": "Tree Zone 4 - Midway Bell"
                     },
                     {
-                        "name": "Tree Zone 4 - Normal Exit",
-                        "item_count": 1
+                        "ref": "treezone4/Normal Exit/Take the Exit",
+                        "name": "Tree Zone 4 - Midway Bell"
                     },
                     {
-                        "name": "Tree Zone 5 - Midway Bell",
-                        "item_count": 1
+                        "ref": "treezone5/Midway Bell/Get it!",
+                        "name": "Tree Zone 5 - Midway Bell"
                     },
                     {
-                        "name": "Tree Zone 5 - Boss",
-                        "item_count": 1
+                        "ref": "treezone5/Boss/Beat the Boss",
+                        "name": "Tree Zone 5 - Boss"
                     },
                     {
-                        "name": "Tree Zone Special - Normal Exit",
-                        "item_count": 1
+                        "ref": "treezonesp/Normal Exit/Take the Exit",
+                        "name": "Tree Zone Secret Course 1 - Normal Exit"
                     }
                 ],
                 "map_locations": [
@@ -123,419 +86,42 @@
         ]
     },
     {
-        "name": "TreeZoneHub",
-        "children": [
-            {
-                "name": "Tree Zone 1",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "treezone",
-                        "x": 48,
-                        "y": 110
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "TreeZone1",
-        "children": [
-            {
-                "name": "Tree Zone 1",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "treezone1",
-                        "x": 105,
-                        "y": 943
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Tree Zone 1",
-        "children": [
-            {
-                "name": "Tree Zone 1",
-                "sections": [
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "treezone1",
-                        "x": 2008,
-                        "y": 1007
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "TreeZoneHub",
-        "children": [
-            {
-                "name": "Tree Zone 2",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Secret Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "treezone",
-                        "x": 88,
-                        "y": 110
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "TreeZone2",
-        "children": [
-            {
-                "name": "Tree Zone 2",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "treezone2",
-                        "x": 2328,
-                        "y": 330
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "TreeZone2",
-        "children": [
-            {
-                "name": "Tree Zone 2",
-                "sections": [
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "treezone2",
-                        "x": 1996,
-                        "y": 971
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "TreeZone2",
-        "children": [
-            {
-                "name": "Tree Zone 2",
-                "sections": [
-                    {
-                        "name": "Special Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "treezone2",
-                        "x": 1996,
-                        "y": 651
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "TreeZone3",
-        "children": [
-            {
-                "name": "Tree Zone 3",
-                "sections": [
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "treezone",
-                        "x": 44,
-                        "y": 66
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "TreeZone3",
-        "children": [
-            {
-                "name": "Tree Zone 3",
-                "sections": [
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "treezone3",
-                        "x": 1255,
-                        "y": 227
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "TreeZoneHub",
-        "children": [
-            {
-                "name": "Tree Zone 4",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "treezone",
-                        "x": 111,
-                        "y": 66
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "TreeZone4",
-        "children": [
-            {
-                "name": "Tree Zone 4",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "treezone4",
-                        "x": 987,
-                        "y": 580
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "TreeZone4",
-        "children": [
-            {
-                "name": "Tree Zone 4",
-                "sections": [
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "treezone4",
-                        "x": 1987,
-                        "y": 922
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "TreeZone5",
-        "children": [
-            {
-                "name": "Tree Zone 5",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Boss",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "treezone",
-                        "x": 74,
-                        "y": 34
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "TreeZone5",
-        "children": [
-            {
-                "name": "Tree Zone 5",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "treezone5",
-                        "x": 63,
-                        "y": 407
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "TreeZone5",
-        "children": [
-            {
-                "name": "Tree Zone 5",
-                "sections": [
-                    {
-                        "name": "Boss",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "treezone5",
-                        "x": 1535,
-                        "y": 412
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "TreeZoneSp",
-        "children": [
-            {
-                "name": "Tree Zone Special",
-                "sections": [
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "treezone",
-                        "x": 149,
-                        "y": 121
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "TreeZoneSp",
-        "children": [
-            {
-                "name": "Tree Zone Special",
-                "sections": [
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "treezonesp",
-                        "x": 1383,
-                        "y": 367
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "MarioZoneOverworld",
+        "name": "mariozoneoverworld",
         "children": [
             {
                 "name": "Mario Zone",
                 "sections": [
                     {
-                        "name": "Mario Zone 1 - Midway Bell",
-                        "item_count": 1
+                        "ref": "mariozone1/Midway Bell/Get it!",
+                        "name": "Mario Zone 1 - Midway Bell"
                     },
                     {
-                        "name": "Mario Zone 1 - Normal Exit",
-                        "item_count": 1
+                        "ref": "mariozone1/Normal Exit/Take the Exit",
+                        "name": "Mario Zone 1 - Normal Exit"
                     },
                     {
-                        "name": "Mario Zone 2 - Midway Bell",
-                        "item_count": 1
+                        "ref": "mariozone2/Midway Bell/Get it!",
+                        "name": "Mario Zone 2 - Midway Bell"
                     },
                     {
-                        "name": "Mario Zone 2 - Normal Exit",
-                        "item_count": 1
+                        "ref": "mariozone2/Normal Exit/Take the Exit",
+                        "name": "Mario Zone 2 - Normal Exit"
                     },
                     {
-                        "name": "Mario Zone 3 - Midway Bell",
-                        "item_count": 1
+                        "ref": "mariozone3/Midway Bell/Get it!",
+                        "name": "Mario Zone 3 - Midway Bell"
                     },
                     {
-                        "name": "Mario Zone 3 - Normal Exit",
-                        "item_count": 1
+                        "ref": "mariozone3/Normal Exit/Take the Exit",
+                        "name": "Mario Zone 3 - Normal Exit"
                     },
                     {
-                        "name": "Mario Zone 4 - Midway Bell",
-                        "item_count": 1
+                        "ref": "mariozone4/Midway Bell/Get it!",
+                        "name": "Mario Zone 4 - Normal Exit"
                     },
                     {
-                        "name": "Mario Zone 4 - Boss",
-                        "item_count": 1
+                        "ref": "mariozone4/Boss/Beat the Boss",
+                        "name": "Mario Zone 4 - Normal Exit"
                     }
                 ],
                 "map_locations": [
@@ -549,306 +135,34 @@
         ]
     },
     {
-        "name": "MarioZone1",
-        "children": [
-            {
-                "name": "Mario Zone 1",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "mariozone",
-                        "x": 62,
-                        "y": 111
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "MarioZone2",
-        "children": [
-            {
-                "name": "Mario Zone 2",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "mariozone",
-                        "x": 80,
-                        "y": 89
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "MarioZone3",
-        "children": [
-            {
-                "name": "Mario Zone 3",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "mariozone",
-                        "x": 80,
-                        "y": 70
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "MarioZone4",
-        "children": [
-            {
-                "name": "Mario Zone 4",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Boss",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "mariozone",
-                        "x": 80,
-                        "y": 10
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "MarioZone1Lvl",
-        "children": [
-            {
-                "name": "Mario Zone 1",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "mariozone1",
-                        "x": 256,
-                        "y": 864
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "MarioZone1Lvl",
-        "children": [
-            {
-                "name": "Mario Zone 1",
-                "sections": [
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "mariozone1",
-                        "x": 1384,
-                        "y": 1007
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "MarioZone2Lvl",
-        "children": [
-            {
-                "name": "Mario Zone 2",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "mariozone2",
-                        "x": 167,
-                        "y": 610
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "MarioZone2Lvl",
-        "children": [
-            {
-                "name": "Mario Zone 2",
-                "sections": [
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "mariozone2",
-                        "x": 1895,
-                        "y": 690
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "MarioZone3Lvl",
-        "children": [
-            {
-                "name": "Mario Zone 3",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "mariozone3",
-                        "x": 1607,
-                        "y": 135
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "MarioZone3Lvl",
-        "children": [
-            {
-                "name": "Mario Zone 3",
-                "sections": [
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "mariozone3",
-                        "x": 1619,
-                        "y": 397
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "MarioZone4Lvl",
-        "children": [
-            {
-                "name": "Mario Zone 4",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "mariozone4",
-                        "x": 433,
-                        "y": 615
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "MarioZone4Lvl",
-        "children": [
-            {
-                "name": "Mario Zone 4",
-                "sections": [
-                    {
-                        "name": "Boss",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "mariozone4",
-                        "x": 1922,
-                        "y": 633
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "SpaceZoneOverworld",
+        "name": "spacezoneoverworld",
         "children": [
             {
                 "name": "Space Zone",
                 "sections": [
                     {
-                        "name": "Space Zone 1 - Midway Bell",
-                        "item_count": 1
+                        "ref": "spacezone1/Midway Bell/Get it!",
+                        "name": "Space Zone 1 - Midway Bell"
                     },
                     {
-                        "name": "Space Zone 1 - Normal Exit",
-                        "item_count": 1
+                        "ref": "spacezone1/Normal Exit/Take the Exit",
+                        "name": "Space Zone 1 - Normal Exit"
                     },
                     {
-                        "name": "Space Zone 1 - Secret Exit",
-                        "item_count": 1
+                        "ref": "spacezone1/Secret Exit/Take the Exit",
+                        "name": "Space Zone 1 - Secret Exit"
                     },
                     {
-                        "name": "Space Zone 2 - Midway Bell",
-                        "item_count": 1
+                        "ref": "spacezone2/Midway Bell/Get it!",
+                        "name": "Space Zone 2 - Midway Bell"
                     },
                     {
-                        "name": "Space Zone 2 - Normal Exit",
-                        "item_count": 1
+                        "ref": "spacezone2/Boss/Beat the Boss",
+                        "name": "Space Zone 2 - Beat the Boss"
                     },
                     {
-                        "name": "Space Zone 3 - Midway Bell",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Space Zone 3 - Normal Exit",
-                        "item_count": 1
+                        "ref": "spacezonesp/Normal Exit/Take the Exit",
+                        "name": "Space Zone Secret Course 1 - Normal Exit"
                     }
                 ],
                 "map_locations": [
@@ -862,293 +176,243 @@
         ]
     },
     {
-        "name": "SpaceZone1",
+        "name": "macrozoneoverworld",
         "children": [
             {
-                "name": "Space Zone 1",
+                "name": "Macro Zone",
                 "sections": [
                     {
-                        "name": "Midway Bell",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "spacezone1",
-                        "x": 343,
-                        "y": 864
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "SpaceZone1",
-        "children": [
-            {
-                "name": "Space Zone 1",
-                "sections": [
-                    {
-                        "name": "Secret Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "spacezone1",
-                        "x": 1385,
-                        "y": 637
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "SpaceZone1",
-        "children": [
-            {
-                "name": "Space Zone 1",
-                "sections": [
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "spacezone1",
-                        "x": 1385,
-                        "y": 902
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "SpaceZone1",
-        "children": [
-            {
-                "name": "Space Zone 1",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
+                        "ref": "macrozone1/Midway Bell/Get it!",
+                        "name": "Macro Zone 1 - Midway Bell"
                     },
                     {
-                        "name": "Normal Exit",
-                        "item_count": 1
+                        "ref": "macrozone1/Normal Exit/Take the Exit",
+                        "name": "Macro Zone 1 - Normal Exit"
                     },
                     {
-                        "name": "Secret Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "spacezone",
-                        "x": 75,
-                        "y": 81
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "SpaceZone1",
-        "children": [
-            {
-                "name": "Space Zone 2",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
+                        "ref": "macrozone1/Secret Exit/Take the Exit",
+                        "name": "Macro Zone 1 - Secret Exit"
                     },
                     {
-                        "name": "Boss",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "spacezone",
-                        "x": 59,
-                        "y": 33
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "SpaceZone2",
-        "children": [
-            {
-                "name": "Space Zone 2",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "spacezone2",
-                        "x": 1342,
-                        "y": 414
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "SpaceZone2",
-        "children": [
-            {
-                "name": "Space Zone 2",
-                "sections": [
-                    {
-                        "name": "Boss",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "spacezone2",
-                        "x": 2090,
-                        "y": 396
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "SpaceZone2",
-        "children": [
-            {
-                "name": "Space Zone Special",
-                "sections": [
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "spacezone",
-                        "x": 147,
-                        "y": 33
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "SpaceZone2",
-        "children": [
-            {
-                "name": "Space Zone Special",
-                "sections": [
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "spacezonesp",
-                        "x": 1512,
-                        "y": 447
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "MacroZone1",
-        "children": [
-            {
-                "name": "Macro Zone 1",
-                "sections": [
-                    {
-                        "name": "Normal Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "macrozone1",
-                        "x": 1574,
-                        "y": 675
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "MacroZone1",
-        "children": [
-            {
-                "name": "Macro Zone 1",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "macrozone1",
-                        "x": 418,
-                        "y": 665
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "MacroZone1",
-        "children": [
-            {
-                "name": "Macro Zone 1",
-                "sections": [
-                    {
-                        "name": "Secret Exit",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "macrozone1",
-                        "x": 1361,
-                        "y": 461
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "MacroZone1",
-        "children": [
-            {
-                "name": "Macro Zone 1",
-                "sections": [
-                    {
-                        "name": "Midway Bell",
-                        "item_count": 1
+                        "ref": "macrozone2/Midway Bell/Get it!",
+                        "name": "Macro Zone 2 - Midway Bell"
                     },
                     {
-                        "name": "Normal Exit",
-                        "item_count": 1
+                        "ref": "macrozone2/Normal Exit/Take the Exit",
+                        "name": "Macro Zone 2 - Normal Exit"
                     },
                     {
-                        "name": "Secret Exit",
-                        "item_count": 1
+                        "ref": "macrozone3/Midway Bell/Get it!",
+                        "name": "Macro Zone 3 - Midway Bell"
+                    },
+                    {
+                        "ref": "macrozone3/Normal Exit/Take the Exit",
+                        "name": "Macro Zone 3 - Normal Exit"
+                    },
+                    {
+                        "ref": "macrozone4/Midway Bell/Get it!",
+                        "name": "Macro Zone 4 - Midway Bell"
+                    },
+                    {
+                        "ref": "macrozone4/Boss/Beat the Boss",
+                        "name": "Macro Zone 4 - Beat the Boss"
+                    },
+                    {
+                        "ref": "macrozonesp/Normal Exit/Take the Exit",
+                        "name": "Macro Zone Secret Course 1 - Normal Exit"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "macrozone",
-                        "x": 19,
-                        "y": 117
+                        "map": "overworld",
+                        "x": 213,
+                        "y": 137
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "sceniccourseoverworld",
+        "children": [
+            {
+                "name": "Scenic Course",
+                "sections": [
+                    {
+                        "ref": "sceniccourse/Normal Exit/Take the Exit",
+                        "name": "Scenic Course - Normal Exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 167,
+                        "y": 260
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "mariocastleoverworld",
+        "children": [
+            {
+                "name": "Mario Castle",
+                "sections": [
+                    {
+                        "ref": "mariocastle/Midway Bell/Get it!",
+                        "name": "Mario Castle - Midway Bell"
+                    },
+                    {
+                        "ref": "mariocastle/Goal/Beat the Boss",
+                        "name": "Mario Castle - Beat the Boss"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 256,
+                        "y": 213
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "hippozoneoverworld",
+        "children": [
+            {
+                "name": "Hippo Zone",
+                "sections": [
+                    {
+                        "ref": "hippozone/Exit/Take the Exit",
+                        "name": "Hippo Zone - Exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 96,
+                        "y": 124
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "turtlezoneoverworld",
+        "children": [
+            {
+                "name": "Turtle Zone",
+                "sections": [
+                    {
+                        "ref": "turtlezone1/Midway Bell/Get it!",
+                        "name": "Turtle Zone 1 - Midway Bell"
+                    },
+                    {
+                        "ref": "turtlezone1/Normal Exit/Take the Exit",
+                        "name": "Turtle Zone 1 - Normal Exit"
+                    },
+                    {
+                        "ref": "turtlezone2/Midway Bell/Get it!",
+                        "name": "Turtle Zone 2 - Midway Bell"
+                    },
+                    {
+                        "ref": "turtlezone2/Normal Exit/Take the Exit",
+                        "name": "Turtle Zone 2 - Normal Exit"
+                    },
+                    {
+                        "ref": "turtlezone2/Secret Exit/Take the Exit",
+                        "name": "Turtle Zone 2 - Secret Exit"
+                    },
+                    {
+                        "ref": "turtlezone3/Midway Bell/Get it!",
+                        "name": "Turtle Zone 3 - Midway Bell"
+                    },
+                    {
+                        "ref": "turtlezone3/Boss/Beat the Boss",
+                        "name": "Turtle Zone 3 - Beat the Boss"
+                    },
+                    {
+                        "ref": "turtlezonesp/Boss/Beat the Boss",
+                        "name": "Turtle Zone Secret Course 1 - Normal Exit"
+                    },
+                    {
+                        "ref": "turtlezonesp/Normal Exit/Take the Exit",
+                        "name": "Turtle Zone Secret Course 1 - Normal Exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 381,
+                        "y": 388
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "pumpkinzoneoverworld",
+        "children": [
+            {
+                "name": "Pumpkin Zone",
+                "sections": [
+                    {
+                        "ref": "pumpkinzone1/Midway Bell/Get it!",
+                        "name": "Pumpkin Zone 1 - Midway Bell"
+                    },
+                    {
+                        "ref": "pumpkinzone1/Normal Exit/Take the Exit",
+                        "name": "Pumpkin Zone 1 - Normal Exit"
+                    },
+                    {
+                        "ref": "pumpkinzone2/Midway Bell/Get it!",
+                        "name": "Pumpkin Zone 2 - Midway Bell"
+                    },
+                    {
+                        "ref": "pumpkinzone2/Normal Exit/Take the Exit",
+                        "name": "Pumpkin Zone 2 - Normal Exit"
+                    },
+                    {
+                        "ref": "pumpkinzone2/Secret Exit/Take the Exit",
+                        "name": "Pumpkin Zone 2 - Secret Exit"
+                    },
+                    {
+                        "ref": "pumpkinzone3/Midway Bell/Get it!",
+                        "name": "Pumpkin Zone 3 - Midway Bell"
+                    },
+                    {
+                        "ref": "pumpkinzone3/Normal Exit/Take the Exit",
+                        "name": "Pumpkin Zone 3 - Normal Exit"
+                    },
+                    {
+                        "ref": "pumpkinzone3/Secret Exit/Take the Exit",
+                        "name": "Pumpkin Zone 3 - Secret Exit"
+                    },
+                    {
+                        "ref": "pumpkinzone4/Midway Bell/Get it!",
+                        "name": "Pumpkin Zone 4 - Midway Bell"
+                    },
+                    {
+                        "ref": "pumpkinzone4/Boss/Beat the Boss",
+                        "name": "Pumpkin Zone 4 - Beat the Boss"
+                    },
+                    {
+                        "ref": "pumpkinzonesp1/Normal Exit/Take the Exit",
+                        "name": "Pumpkin Zone Secret Course 1 - Normal Exit"
+                    },
+                    {
+                        "ref": "pumpkinzonesp2/Normal Exit/Take the Exit",
+                        "name": "Pumpkin Zone Secret Course 2 - Normal Exit"
+                    }
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 384,
+                        "y": 129
                     }
                 ]
             }

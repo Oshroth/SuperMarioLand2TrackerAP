@@ -1,0 +1,53 @@
+[
+    {
+        "name": "turtlezone3",
+        "children": [
+            {
+                "name": "Midway Bell",
+                "sections": [
+                    {
+                        "name": "Get it!",
+                        "chest_unopened_img": "images/items/midwaybell.png",
+                        "chest_opened_img": "images/items/midwaybell_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezone3-1",
+                        "x": 1376,
+                        "y": 120
+                    },
+                    {
+                        "map": "turtlezone3-2",
+                        "x": 20,
+                        "y": 120
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "turtlezone3",
+        "children": [
+            {
+                "name": "Boss",
+                "sections": [
+                    {
+                        "name": "Beat the Boss",
+                        "chest_unopened_img": "images/items/boss/pako.png",
+                        "chest_opened_img": "images/items/boss/pako_beaten.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezone3-3",
+                        "x": 80,
+                        "y": 73
+                    }
+                ]
+            }
+        ]
+    }
+]

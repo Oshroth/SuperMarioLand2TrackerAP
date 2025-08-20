@@ -1,0 +1,148 @@
+[
+    {
+        "name": "TreeZoneHub",
+        "children": [
+            {
+                "name": "Tree Zone 1",
+                "sections": [
+                    {
+                        "ref": "treezone1/Midway Bell/Get it!",
+                        "name": "Tree Zone 1 - Midway Bell"
+                    },
+                    {
+                        "ref": "treezone1/Normal Exit/Take the Exit",
+                        "name": "Tree Zone 1 - Normal Exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone",
+                        "x": 48,
+                        "y": 110
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TreeZoneHub",
+        "children": [
+            {
+                "name": "Tree Zone 2",
+                "sections": [
+                    {
+                        "ref": "treezone2/Midway Bell/Get it!",
+                        "name": "Midway Bell"
+                    },
+                    {
+                        "ref": "treezone2/Normal Exit/Take the Exit",
+                        "name": "Normal Exit"
+                    },
+                    {
+                        "ref": "treezone2/Secret Exit/Take the Exit",
+                        "name": "Secret Exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone",
+                        "x": 88,
+                        "y": 110
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TreeZone3",
+        "children": [
+            {
+                "name": "Tree Zone 3",
+                "sections": [
+                    {
+                        "ref": "treezone3/Normal Exit/Take the Exit",
+                        "name": "Normal Exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone",
+                        "x": 44,
+                        "y": 66
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TreeZoneHub",
+        "children": [
+            {
+                "name": "Tree Zone 4",
+                "sections": [
+                    {
+                        "ref": "treezone4/Midway Bell/Get it!",
+                        "name": "Tree Zone 4 - Midway Bell"
+                    },
+                    {
+                        "ref": "treezone4/Normal Exit/Take the Exit",
+                        "name": "Tree Zone 4 - Midway Bell"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone",
+                        "x": 111,
+                        "y": 66
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TreeZone5",
+        "children": [
+            {
+                "name": "Tree Zone 5",
+                "sections": [
+                    {
+                        "ref": "treezone5/Midway Bell/Get it!",
+                        "name": "Tree Zone 5 - Midway Bell"
+                    },
+                    {
+                        "ref": "treezone5/Boss/Beat the Boss",
+                        "name": "Tree Zone 5 - Boss"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone",
+                        "x": 74,
+                        "y": 34
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TreeZoneSp",
+        "children": [
+            {
+                "name": "Tree Zone Special",
+                "sections": [
+                    {
+                        "ref": "treezonesp/Normal Exit/Take the Exit",
+                        "name": "Tree Zone Special - Normal Exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone",
+                        "x": 149,
+                        "y": 121
+                    }
+                ]
+            }
+        ]
+    }
+]

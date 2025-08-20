@@ -1,0 +1,67 @@
+[
+    {
+        "name": "spacezone1",
+        "children": [
+            {
+                "name": "Midway Bell",
+                "sections": [
+                    {
+                        "name": "Get it!",
+                        "chest_unopened_img": "images/items/midwaybell.png",
+                        "chest_opened_img": "images/items/midwaybell_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "spacezone1-1",
+                        "x": 1912,
+                        "y": 422
+                    },
+                    {
+                        "map": "spacezone1-2",
+                        "x": 27,
+                        "y": 422
+                    }
+                ]
+            },
+            {
+                "name": "Normal Exit",
+                "sections": [
+                    {
+                        "name": "Take the Exit",
+                        "chest_unopened_img": "images/items/normalexit.png",
+                        "chest_opened_img": "images/items/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "spacezone1-2",
+                        "x": 1163,
+                        "y": 175
+                    }
+                ]
+            },
+                        {
+                "name": "Secret Exit",
+                "sections": [
+                    {
+                        "name": "Take the Exit",
+                        "chest_unopened_img": "images/items/secretexit.png",
+                        "chest_opened_img": "images/items/secretexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "spacezone1-2",
+                        "x": 1163,
+                        "y": 464
+                    }
+                ]
+            }
+        ]
+    }
+]
+

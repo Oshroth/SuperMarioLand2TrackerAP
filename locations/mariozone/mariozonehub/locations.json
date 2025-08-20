@@ -1,0 +1,102 @@
+[
+    {
+        "name": "MarioZone1",
+        "children": [
+            {
+                "name": "Mario Zone 1",
+                "sections": [
+                    {
+                        "ref": "mariozone1/Midway Bell/Get it!",
+                        "name": "Mario Zone 1 - Midway Bell"
+                    },
+                    {
+                        "ref": "mariozone1/Normal Exit/Take the Exit",
+                        "name": "Mario Zone 1 - Normal Exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariozonehub",
+                        "x": 62,
+                        "y": 111
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "MarioZone2",
+        "children": [
+            {
+                "name": "Mario Zone 2",
+                "sections": [
+                    {
+                        "ref": "mariozone2/Midway Bell/Get it!",
+                        "name": "Mario Zone 2 - Midway Bell"
+                    },
+                    {
+                        "ref": "mariozone2/Normal Exit/Take the Exit",
+                        "name": "Mario Zone 2 - Normal Exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariozonehub",
+                        "x": 80,
+                        "y": 89
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "MarioZone3",
+        "children": [
+            {
+                "name": "Mario Zone 3",
+                "sections": [
+                    {
+                        "ref": "mariozone3/Midway Bell/Get it!",
+                        "name": "Mario Zone 3 - Midway Bell"
+                    },
+                    {
+                        "ref": "mariozone3/Normal Exit/Take the Exit",
+                        "name": "Mario Zone 3 - Normal Exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariozonehub",
+                        "x": 80,
+                        "y": 70
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "MarioZone4",
+        "children": [
+            {
+                "name": "Mario Zone 4",
+                "sections": [
+                    {
+                        "ref": "mariozone4/Midway Bell/Get it!",
+                        "name": "Mario Zone 4 - Normal Exit"
+                    },
+                    {
+                        "ref": "mariozone4/Boss/Beat the Boss",
+                        "name": "Mario Zone 4 - Normal Exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariozonehub",
+                        "x": 80,
+                        "y": 10
+                    }
+                ]
+            }
+        ]
+    }
+]

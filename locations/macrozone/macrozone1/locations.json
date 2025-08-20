@@ -1,0 +1,71 @@
+[
+    {
+        "name": "macrozone1",
+        "children": [
+            {
+                "name": "Midway Bell",
+                "sections": [
+                    {
+                        "name": "Get it!",
+                        "chest_unopened_img": "images/items/midwaybell.png",
+                        "chest_opened_img": "images/items/midwaybell_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "macrozone1-3",
+                        "x": 1229,
+                        "y": 206
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "macrozone1",
+        "children": [
+            {
+                "name": "Normal Exit",
+                "sections": [
+                    {
+                        "name": "Take the Exit",
+                        "chest_unopened_img": "images/items/normalexit.png",
+                        "chest_opened_img": "images/items/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "macrozone1-5",
+                        "x": 820,
+                        "y": 373
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "macrozone1",
+        "children": [
+            {
+                "name": "Secret Exit",
+                "sections": [
+                    {
+                        "name": "Take the Exit",
+                        "chest_unopened_img": "images/items/secretexit.png",
+                        "chest_opened_img": "images/items/secretexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "macrozone1-5",
+                        "x": 564,
+                        "y": 116
+                    }
+                ]
+            }
+        ]
+    }
+]

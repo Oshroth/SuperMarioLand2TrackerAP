@@ -1,0 +1,53 @@
+[
+    {
+        "name": "pumpkinzone4",
+        "children": [
+            {
+                "name": "Midway Bell",
+                "sections": [
+                    {
+                        "name": "Get it!",
+                        "chest_unopened_img": "images/items/midwaybell.png",
+                        "chest_opened_img": "images/items/midwaybell_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzone4-2",
+                        "x": 1185,
+                        "y": 182
+                    },
+                    {
+                        "map": "pumpkinzone4-3",
+                        "x": 18,
+                        "y": 182
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "pumpkinzone4",
+        "children": [
+            {
+                "name": "Boss",
+                "sections": [
+                    {
+                        "name": "Beat the Boss",
+                        "chest_unopened_img": "images/items/boss/witch.png",
+                        "chest_opened_img": "images/items/boss/witch_beaten.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzone4-5",
+                        "x": 18,
+                        "y": 87
+                    }
+                ]
+            }
+        ]
+    }
+]

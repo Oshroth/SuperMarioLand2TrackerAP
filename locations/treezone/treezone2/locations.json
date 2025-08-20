@@ -1,0 +1,76 @@
+[    
+    {
+        "name": "treezone2",
+        "children": [
+            {
+                "name": "Midway Bell",
+                "sections": [
+                    {
+                        "name": "Get it!",
+                        "chest_unopened_img": "images/items/midwaybell.png",
+                        "chest_opened_img": "images/items/midwaybell_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone2-1",
+                        "x": 2328,
+                        "y": 278
+                    },
+                    {
+                        "map": "treezone2-2",
+                        "x": 34,
+                        "y": 111
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "treezone2",
+        "children": [
+            {
+                "name": "Normal Exit",
+                "sections": [
+                    {
+                        "name": "Take the Exit",
+                        "chest_unopened_img": "images/items/normalexit.png",
+                        "chest_opened_img": "images/items/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone2-2",
+                        "x": 2033,
+                        "y": 490
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "treezone2",
+        "children": [
+            {
+                "name": "Secret Exit",
+                "sections": [
+                    {
+                        "name": "Take the Exit",
+                        "chest_unopened_img": "images/items/secretexit.png",
+                        "chest_opened_img": "images/items/secretexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone2-2",
+                        "x": 2033,
+                        "y": 168
+                    }
+                ]
+            }
+        ]
+    }
+]

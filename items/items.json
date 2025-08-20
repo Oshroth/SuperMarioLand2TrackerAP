@@ -1,56 +1,75 @@
 //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
 [
     {
-        "name": "Toggle",
+        "name": "Carrot",
         "type": "toggle",
-        "img": "images/items/toggle.png",
-        "codes": "toggle"
+        "img": "images/items/carrot_powerup.png",
+        "codes": "carrot"
     },
     {
-        "name": "Progressive",
-        "type": "progressive",
-        "allow_disabled": true,
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/progressive.png",
-                "codes": "progressive",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/items/progressive_2.png",
-                "codes": "progressive_2",
-                "inherit_codes": false
-            }
-        ]
+        "name": "Hippo Bubble",
+        "type": "toggle",
+        "img": "images/items/hippobubble.png",
+        "codes": "hippo"
     },
     {
-        "name": "Consumable",
-        "type": "consumable",
-        "img": "images/items/consumable.png",
-        "max_quantity": 8,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 1,
-        "overlay_background": "#000000",
-        "overlay_font_size": 8,
-        "codes": "consumable"
+        "name": "Fire Flower",
+        "type": "toggle",
+        "img": "images/items/fireflower.png",
+        "codes": "fireflower"
     },
     {
-        "name": "Progressive Toggle",
-        "type": "progressive_toggle",
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/progressive.png",
-                "codes": "progressive_toggle",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/items/progressive_2.png",
-                "codes": "progressive_toggle_2",
-                "inherit_codes": false
-            }
-        ]
+        "name": "Mushroom",
+        "type": "toggle",
+        "img": "images/items/mushroom.png",
+        "codes": "mushroom"
+    },
+    {
+        "name": "Tree Coin",
+        "type": "toggle",
+        "img": "images/items/treecoin.png",
+        "codes": "treecoin"
+    },
+    {
+        "name": "Space Coin",
+        "type": "toggle",
+        "img": "images/items/spacecoin.png",
+        "codes": "spacecoin"
+    },
+    {
+        "name": "Macro Coin",
+        "type": "toggle",
+        "img": "images/items/macrocoin.png",
+        "codes": "macrocoin"
+    },
+    {
+        "name": "Mario Coin",
+        "type": "toggle",
+        "img": "images/items/mariocoin.png",
+        "codes": "mariocoin"
+    },
+    {
+        "name": "Pumpkin Coin",
+        "type": "toggle",
+        "img": "images/items/pumpkincoin.png",
+        "codes": "pumpkincoin"
+    },
+    {
+        "name": "Turtle Coin",
+        "type": "toggle",
+        "img": "images/items/turtlecoin.png",
+        "codes": "turtlecoin"
+    },
+    {
+        "name": "Macro Zone Progression",
+        "type": "toggle",
+        "img": "images/items/progzones/macrozoneprog.png",
+        "codes": "macrozoneprog"
+    },
+        {
+        "name": "Tree Zone Progression",
+        "type": "toggle",
+        "img": "images/items/progzones/treezoneprog.png",
+        "codes": "treezoneprog"
     }
 ]

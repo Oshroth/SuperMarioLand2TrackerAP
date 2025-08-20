@@ -37,572 +37,6 @@
                             }
                         },
                         {
-                            "title": "Mushroom House",
-                            "content": {
-                                "type": "tabbed",
-                                "tabs": [
-                                    {
-                                        "title": "Start",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "mushhouse1"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Cave 1",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "mushhouse2"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Enemies Path",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "mushhouse3"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Goal",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "mushhouse4"
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Tree Zone",
-                            "content": {
-                                "type": "tabbed",
-                                "tabs": [
-                                    {
-                                        "title": "Tree Zone Hub",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "treezone"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Tree Zone 1",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Start to Midway Bell",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "treezone1-1"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Midway Bell to Goal",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "treezone1-2"
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Tree Zone 2",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Start to Midway Bell",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "treezone2-1"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Midway Bell to Goal",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "treezone2-2"
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Tree Zone 3",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Lower",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "treezone3-1"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Middle",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "treezone3-2"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Upper",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "treezone3-3"
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Tree Zone 4",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Start to Midway Bell",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "treezone4-1"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Midway Bell to Goal",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "treezone4-2"
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Tree Zone 5",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Start to Midway Bell",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "treezone5-1"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Midway Bell to Goal",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "treezone5-2"
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Tree Zone Special",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Start",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "treezonesp-1"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Goal",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "treezonesp-2"
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Wario's Castle",
-                            "content": {
-                                "type": "tabbed",
-                                "tabs": [
-                                    {
-                                        "title": "Coins Zone",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "coinszone"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Lower",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "wariocastle-1"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Middle",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "wariocastle-2"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Top",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "wariocastle-3"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Wario",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "wariocastle-4"
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Turtle Zone",
-                            "content": {
-                                "type": "tabbed",
-                                "tabs": [
-                                    {
-                                        "title": "Turtle Zone Hub",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "turtlezonehub"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Turtle Zone 1",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Start to Midway Bell",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "turtlezone1-1"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Midway Bell to Goal",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "turtlezone1-2"
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Turtle Zone 2",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Start",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "turtlezone2-1"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Ascension",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "turtlezone2-2"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Pipe Room",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "turtlezone2-3"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Goal",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "turtlezone2-4"
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Turtle Zone 3",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Start to Midway Bell",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "turtlezone3-1"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Midway Bell to Goal",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "turtlezone3-2"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Boss",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "turtlezone3-3"
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Turtle Zone Special",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Start",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "turtlezonesp-1"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Goal",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "turtlezonesp-2"
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Mario Zone",
-                            "content": {
-                                "type": "tabbed",
-                                "tabs": [
-                                    {
-                                        "title": "Mario Zone Hub",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "mariozonehub"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Mario Zone 1",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Start Ascension",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "mariozone1-1"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Wheel Area",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "mariozone1-2"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Midway Bell",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "mariozone1-3"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Goal",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "mariozone1-4"
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Mario Zone 2",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Start to Midway Bell",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "mariozone2-1"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Midway Bell to Goal",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "mariozone2-2"
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Mario Zone 3",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Start to Midway Bell",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "mariozone3-1"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Midway Bell to Goal",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "mariozone3-2"
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Mario Zone 4",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Start to Midway Bell",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "mariozone4-1"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Midway Bell to Goal",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "mariozone4-2"
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
                             "title": "Hippo",
                             "content": {
                                 "type": "tabbed",
@@ -780,7 +214,7 @@
                                                     }
                                                 },
                                                 {
-                                                    "title": "Midway Bell to Goal",
+                                                    "title": "Midway Bell to Boss",
                                                     "content": {
                                                         "type": "map",
                                                         "maps": [
@@ -792,7 +226,7 @@
                                         }
                                     },
                                     {
-                                        "title": "Macro Zone Special",
+                                        "title": "Macro Zone Secret Course 1",
                                         "content": {
                                             "type": "tabbed",
                                             "tabs": [
@@ -821,91 +255,21 @@
                             }
                         },
                         {
-                            "title": "Space Zone",
+                            "title": "Mario Zone",
                             "content": {
                                 "type": "tabbed",
                                 "tabs": [
                                     {
-                                        "title": "Space Zone Hub",
+                                        "title": "Mario Zone Hub",
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "spacezonehub"
+                                                "mariozonehub"
                                             ]
                                         }
                                     },
                                     {
-                                        "title": "Space Zone 1",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Start Path",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "spacezone1-1"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Goal",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "spacezone1-2"
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Space Zone 2",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Star Path",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "spacezone2-1"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Star Maze",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "spacezone2-2"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Midway Bell",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "spacezone2-3"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Midway Bell to Boss",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "spacezone2-4"
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Space Zone Special",
+                                        "title": "Mario Zone 1",
                                         "content": {
                                             "type": "tabbed",
                                             "tabs": [
@@ -914,19 +278,159 @@
                                                     "content": {
                                                         "type": "map",
                                                         "maps": [
-                                                            "spacezonesp-1"
+                                                            "mariozone1-1"
                                                         ]
                                                     }
                                                 },
                                                 {
-                                                    "title": "Descension to Goal",
+                                                    "title": "Wheel Area",
                                                     "content": {
                                                         "type": "map",
                                                         "maps": [
-                                                            "spacezonesp-2"
+                                                            "mariozone1-2"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Midway Bell",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "mariozone1-3"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Goal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "mariozone1-4"
                                                         ]
                                                     }
                                                 }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Mario Zone 2",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Start to Midway Bell",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "mariozone2-1"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Midway Bell to Goal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "mariozone2-2"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Mario Zone 3",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Start to Midway Bell",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "mariozone3-1"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Midway Bell to Goal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "mariozone3-2"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Mario Zone 4",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Start to Midway Bell",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "mariozone4-1"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Midway Bell to Boss",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "mariozone4-2"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Mushroom House",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Start",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "mushhouse1"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Cave 1",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "mushhouse2"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Enemies Path",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "mushhouse3"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Goal",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "mushhouse4"
                                             ]
                                         }
                                     }
@@ -997,7 +501,7 @@
                                                     }
                                                 },
                                                 {
-                                                    "title": "Midway Bell Undergound Path",
+                                                    "title": "Midway Bell Underground Path",
                                                     "content": {
                                                         "type": "map",
                                                         "maps": [
@@ -1112,20 +616,19 @@
                                                     }
                                                 },
                                                 {
-                                                   
                                                     "title": "Boss",
                                                     "content": {
                                                         "type": "map",
                                                         "maps": [
                                                             "pumpkinzone4-5"
                                                         ]
-                                                    } 
+                                                    }
                                                 }
                                             ]
                                         }
                                     },
                                     {
-                                        "title": "Pumpkin Zone Special 1",
+                                        "title": "Pumpkin Zone Secret Course 1",
                                         "content": {
                                             "type": "tabbed",
                                             "tabs": [
@@ -1151,7 +654,7 @@
                                         }
                                     },
                                     {
-                                        "title": "Pumpkin Zone Special 2",
+                                        "title": "Pumpkin Zone Secret Course 2",
                                         "content": {
                                             "type": "tabbed",
                                             "tabs": [
@@ -1191,6 +694,528 @@
                                                         ]
                                                     }
                                                 }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Scenic Course",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Start",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "sceniccourse-1"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Goal",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "sceniccourse-2"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Space Zone",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Space Zone Hub",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "spacezonehub"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Space Zone 1",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Start Path",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "spacezone1-1"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Goal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "spacezone1-2"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Space Zone 2",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Star Path",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "spacezone2-1"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Star Maze",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "spacezone2-2"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Midway Bell",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "spacezone2-3"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Midway Bell to Boss",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "spacezone2-4"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Space Zone Secret Course 1",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Start Ascension",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "spacezonesp-1"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Descension to Goal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "spacezonesp-2"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Tree Zone",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Tree Zone Hub",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "treezone"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Tree Zone 1",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Start to Midway Bell",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "treezone1-1"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Midway Bell to Goal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "treezone1-2"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Tree Zone 2",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Start to Midway Bell",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "treezone2-1"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Midway Bell to Goal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "treezone2-2"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Tree Zone 3",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Lower",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "treezone3-1"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Middle",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "treezone3-2"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Upper",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "treezone3-3"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Tree Zone 4",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Start to Cave",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "treezone4-1"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Cave to Midway Bell",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "treezone4-2"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Midway Bell to Goal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "treezone4-3"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Tree Zone 5",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Start to Midway Bell",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "treezone5-1"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Midway Bell to Boss",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "treezone5-2"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Tree Zone Secret Course 1",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Start",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "treezonesp-1"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Goal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "treezonesp-2"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Turtle Zone",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Turtle Zone Hub",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "turtlezonehub"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Turtle Zone 1",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Start to Midway Bell",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "turtlezone1-1"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Midway Bell to Goal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "turtlezone1-2"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Turtle Zone 2",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Start",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "turtlezone2-1"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Ascension",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "turtlezone2-2"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Pipe Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "turtlezone2-3"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Goal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "turtlezone2-4"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Turtle Zone 3",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Start to Midway Bell",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "turtlezone3-1"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Midway Bell to Boss",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "turtlezone3-2"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Boss",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "turtlezone3-3"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Turtle Zone Secret Course 1",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Start",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "turtlezonesp-1"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Goal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "turtlezonesp-2"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Mario's Castle",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Lower",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "mariocastle-1"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Middle",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "mariocastle-2"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Top",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "mariocastle-3"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Wario",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "mariocastle-4"
                                             ]
                                         }
                                     }

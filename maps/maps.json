@@ -19,7 +19,7 @@
     },
     {
         "name": "mushhouse3",
-        "location_size": 12,
+        "location_size": 8,
         "location_border_thickness": 2,
         "img": "images/maps/mushhouse/mushhouse3.png"
     },
@@ -90,14 +90,20 @@
         "img": "images/maps/treezone/treezone4-2.png"
     },
     {
-        "name": "treezone5-1",
+        "name": "treezone4-3",
         "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/treezone/treezone4-3.png"
+    },
+    {
+        "name": "treezone5-1",
+        "location_size": 8,
         "location_border_thickness": 2,
         "img": "images/maps/treezone/treezone5-1.png"
     },
     {
         "name": "treezone5-2",
-        "location_size": 12,
+        "location_size": 8,
         "location_border_thickness": 2,
         "img": "images/maps/treezone/treezone5-2.png"
     },
@@ -117,35 +123,35 @@
         "name": "coinszone",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/wariocastle/coinszone.png"
+        "img": "images/maps/mariocastle/coinszone.png"
     },
     {
-        "name": "wariocastle-1",
+        "name": "mariocastle-1",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/wariocastle/wariocastle-1.png"
+        "img": "images/maps/mariocastle/mariocastle-1.png"
     },
     {
-        "name": "wariocastle-2",
+        "name": "mariocastle-2",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/wariocastle/wariocastle-2.png"
+        "img": "images/maps/mariocastle/mariocastle-2.png"
     },
     {
-        "name": "wariocastle-3",
+        "name": "mariocastle-3",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/wariocastle/wariocastle-3.png"
+        "img": "images/maps/mariocastle/mariocastle-3.png"
     },
     {
-        "name": "wariocastle-4",
+        "name": "mariocastle-4",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/wariocastle/wariocastle-4.png"
+        "img": "images/maps/mariocastle/mariocastle-4.png"
     },
     {
         "name": "turtlezonehub",
-        "location_size": 12,
+        "location_size": 3,
         "location_border_thickness": 2,
         "img": "images/maps/turtlezone/turtlezonehub.png"
     },
@@ -199,7 +205,7 @@
     },
     {
         "name": "turtlezone3-3",
-        "location_size": 12,
+        "location_size": 8,
         "location_border_thickness": 2,
         "img": "images/maps/turtlezone/turtlezone3-3.png"
     },
@@ -217,7 +223,7 @@
     },
     {
         "name": "mariozonehub",
-        "location_size": 12,
+        "location_size": 3,
         "location_border_thickness": 2,
         "img": "images/maps/mariozone/mariozonehub.png"
     },
@@ -235,7 +241,7 @@
     },
     {
         "name": "mariozone1-3",
-        "location_size": 12,
+        "location_size": 6,
         "location_border_thickness": 2,
         "img": "images/maps/mariozone/mariozone1-3.png"
     },
@@ -295,7 +301,7 @@
     },
     {
         "name": "macrozonehub",
-        "location_size": 12,
+        "location_size": 3,
         "location_border_thickness": 2,
         "img": "images/maps/macrozone/macrozonehub.png"
     },
@@ -391,7 +397,7 @@
     },
     {
         "name": "spacezonehub",
-        "location_size": 12,
+        "location_size": 3,
         "location_border_thickness": 2,
         "img": "images/maps/spacezone/spacezonehub.png"
     },
@@ -445,7 +451,7 @@
     },
     {
         "name": "pumpkinzonehub",
-        "location_size": 12,
+        "location_size": 3,
         "location_border_thickness": 2,
         "img": "images/maps/pumpkinzone/pumpkinzonehub.png"
     },
@@ -541,7 +547,7 @@
     },
     {
         "name": "pumpkinzone4-5",
-        "location_size": 12,
+        "location_size": 8,
         "location_border_thickness": 2,
         "img": "images/maps/pumpkinzone/pumpkinzone4-5.png"
     },
@@ -580,5 +586,17 @@
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/pumpkinzone/pumpkinzonesp2-4.png"
+    },
+    {
+        "name": "sceniccourse-1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/sceniccourse/sceniccourse-1.png"
+    },
+    {
+        "name": "sceniccourse-2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/sceniccourse/sceniccourse-2.png"
     }
 ]
