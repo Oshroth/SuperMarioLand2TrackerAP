@@ -14,54 +14,36 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "10, 10",
+                        "item_margin": "5, 5",
                         "h_alignment": "left",
+                        "item_h_alignment": "center",
                         "rows": [
                             [
                                 "mushroom",
                                 "fireflower",
                                 "carrot",
-                                "hippo"           
-                            ]
-                        ]
-                    }
-                ]
-            },
-            {
-                "type": "dock",
-                "orientation": "horizontal",
-                "margin": "0,0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "10, 10",
-                        "h_alignment": "left",
-                        "rows": [
+                                "hippo",
+                                "spacephysics",
+                                "waterphysics"
+                            ],
                             [
                                 "mariocoin",
                                 "treecoin",
                                 "macrocoin",
                                 "spacecoin",
                                 "pumpkincoin",
-                                "turtlecoin"    
-                            ]
-                        ]
-                    }
-                ]
-            },
-            {
-                "type": "dock",
-                "orientation": "horizontal",
-                "margin": "0,0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "10, 10",
-                        "h_alignment": "left",
-                        "rows": [
+                                "turtlecoin"
+                            ],
                             [
+                                "mariozoneprog",
+                                "treezoneprog",
                                 "macrozoneprog",
-                                "treezoneprog"      
+                                "spacezoneprog",
+                                "pumpkinzoneprog",
+                                "turtlezoneprog"
+                            ],
+                            [
+                                "mariocoinfrag"
                             ]
                         ]
                     }

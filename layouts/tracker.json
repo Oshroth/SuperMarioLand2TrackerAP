@@ -1,6 +1,6 @@
 ﻿{
     "tracker_horizontal": {
-        "type": "container",
+        "type": "dock",
         "background": "#000000",
         "content": {
             "type": "dock",
@@ -9,17 +9,51 @@
                 {
                     "type": "dock",
                     "dock": "bottom",
+                    "v_alignment": "stretch",
                     "content": [
                         {
                             "type": "group",
                             "header": "Items",
                             "dock": "left",
-                            "margin": "0,0,3,0",
                             "content": {
                                 "type": "layout",
-                                "h_alignment": "center",
-                                "v_alignment": "center",
                                 "key": "shared_item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pipes",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "pipetrav"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Midway Bells",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "midwaybells"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Secrets",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "secret"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Cancel Auto Scrolls",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "scroll"
                             }
                         }
                     ]

@@ -1,14 +1,14 @@
 [
     {
-        "name": "mariozone2",
+        "name": "mariozone2-mb",
         "children": [
             {
                 "name": "Midway Bell",
                 "sections": [
                     {
                         "name": "Get it!",
-                        "chest_unopened_img": "images/items/midwaybell.png",
-                        "chest_opened_img": "images/items/midwaybell_off.png",
+                        "chest_unopened_img": "images/items/levels/midwaybell.png",
+                        "chest_opened_img": "images/items/levels/midwaybell_off.png",
                         "item_count": 1
                     }
                 ],
@@ -28,15 +28,15 @@
         ]
     },
     {
-        "name": "mariozone2",
+        "name": "mariozone2-ne",
         "children": [
             {
                 "name": "Normal Exit",
                 "sections": [
                     {
                         "name": "Take the Exit",
-                        "chest_unopened_img": "images/items/normalexit.png",
-                        "chest_opened_img": "images/items/normalexit_off.png",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
                         "item_count": 1
                     }
                 ],

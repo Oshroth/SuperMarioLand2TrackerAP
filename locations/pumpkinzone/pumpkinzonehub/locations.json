@@ -6,11 +6,11 @@
                 "name": "Pumpkin Zone 1",
                 "sections": [
                     {
-                        "ref": "pumpkinzone1/Midway Bell/Get it!",
+                        "ref": "pumpkinzone1-mb/Midway Bell/Get it!",
                         "name": "Pumpkin Zone 1 - Midway Bell"
                     },
                     {
-                        "ref": "pumpkinzone1/Normal Exit/Take the Exit",
+                        "ref": "pumpkinzone1-ne/Normal Exit/Take the Exit",
                         "name": "Pumpkin Zone 1 - Normal Exit"
                     }
                 ],
@@ -31,15 +31,15 @@
                 "name": "Pumpkin Zone 2",
                 "sections": [
                     {
-                        "ref": "pumpkinzone2/Midway Bell/Get it!",
+                        "ref": "pumpkinzone2-mb/Midway Bell/Get it!",
                         "name": "Pumpkin Zone 2 - Midway Bell"
                     },
                     {
-                        "ref": "pumpkinzone2/Normal Exit/Take the Exit",
+                        "ref": "pumpkinzone2-ne/Normal Exit/Take the Exit",
                         "name": "Pumpkin Zone 2 - Normal Exit"
                     },
                     {
-                        "ref": "pumpkinzone2/Secret Exit/Take the Exit",
+                        "ref": "pumpkinzone2-se/Secret Exit/Take the Exit",
                         "name": "Pumpkin Zone 2 - Secret Exit"
                     }
                 ],
@@ -60,15 +60,15 @@
                 "name": "Pumpkin Zone 3",
                 "sections": [
                     {
-                        "ref": "pumpkinzone3/Midway Bell/Get it!",
+                        "ref": "pumpkinzone3-mb/Midway Bell/Get it!",
                         "name": "Pumpkin Zone 3 - Midway Bell"
                     },
                     {
-                        "ref": "pumpkinzone3/Normal Exit/Take the Exit",
+                        "ref": "pumpkinzone3-ne/Normal Exit/Take the Exit",
                         "name": "Pumpkin Zone 3 - Normal Exit"
                     },
                     {
-                        "ref": "pumpkinzone3/Secret Exit/Take the Exit",
+                        "ref": "pumpkinzone3-se/Secret Exit/Take the Exit",
                         "name": "Pumpkin Zone 3 - Secret Exit"
                     }
                 ],
@@ -89,11 +89,11 @@
                 "name": "Pumpkin Zone 4",
                 "sections": [
                     {
-                        "ref": "pumpkinzone4/Midway Bell/Get it!",
+                        "ref": "pumpkinzone4-mb/Midway Bell/Get it!",
                         "name": "Pumpkin Zone 4 - Midway Bell"
                     },
                     {
-                        "ref": "pumpkinzone4/Boss/Beat the Boss",
+                        "ref": "pumpkinzone4-boss/Boss/Beat the Boss",
                         "name": "Pumpkin Zone 4 - Beat the Boss"
                     }
                 ],

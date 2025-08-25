@@ -43,5 +43,8 @@ if PopVersion and PopVersion >= "0.18.0" then
     ScriptHost:LoadScript("scripts/autotracking.lua")
 end
 
--- Logic
+-- Locations
 ScriptHost:LoadScript("scripts/locations.lua")
+
+-- Layout
+ScriptHost:LoadScript("scripts/layouts.lua")

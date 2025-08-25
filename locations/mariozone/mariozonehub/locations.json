@@ -6,11 +6,11 @@
                 "name": "Mario Zone 1",
                 "sections": [
                     {
-                        "ref": "mariozone1/Midway Bell/Get it!",
+                        "ref": "mariozone1-mb/Midway Bell/Get it!",
                         "name": "Mario Zone 1 - Midway Bell"
                     },
                     {
-                        "ref": "mariozone1/Normal Exit/Take the Exit",
+                        "ref": "mariozone1-ne/Normal Exit/Take the Exit",
                         "name": "Mario Zone 1 - Normal Exit"
                     }
                 ],
@@ -31,11 +31,11 @@
                 "name": "Mario Zone 2",
                 "sections": [
                     {
-                        "ref": "mariozone2/Midway Bell/Get it!",
+                        "ref": "mariozone2-mb/Midway Bell/Get it!",
                         "name": "Mario Zone 2 - Midway Bell"
                     },
                     {
-                        "ref": "mariozone2/Normal Exit/Take the Exit",
+                        "ref": "mariozone2-ne/Normal Exit/Take the Exit",
                         "name": "Mario Zone 2 - Normal Exit"
                     }
                 ],
@@ -56,11 +56,11 @@
                 "name": "Mario Zone 3",
                 "sections": [
                     {
-                        "ref": "mariozone3/Midway Bell/Get it!",
+                        "ref": "mariozone3-mb/Midway Bell/Get it!",
                         "name": "Mario Zone 3 - Midway Bell"
                     },
                     {
-                        "ref": "mariozone3/Normal Exit/Take the Exit",
+                        "ref": "mariozone3-ne/Normal Exit/Take the Exit",
                         "name": "Mario Zone 3 - Normal Exit"
                     }
                 ],
@@ -81,12 +81,12 @@
                 "name": "Mario Zone 4",
                 "sections": [
                     {
-                        "ref": "mariozone4/Midway Bell/Get it!",
-                        "name": "Mario Zone 4 - Normal Exit"
+                        "ref": "mariozone4-mb/Midway Bell/Get it!",
+                        "name": "Mario Zone 4 - Midway Bell"
                     },
                     {
-                        "ref": "mariozone4/Boss/Beat the Boss",
-                        "name": "Mario Zone 4 - Normal Exit"
+                        "ref": "mariozone4-boss/Boss/Beat the Boss",
+                        "name": "Mario Zone 4 - Beat the Boss"
                     }
                 ],
                 "map_locations": [

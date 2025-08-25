@@ -13,6 +13,18 @@
                     {
                         "type": "layout",
                         "key": "shared_item_grid"
+                    },
+                    {
+                        "type": "layout",
+                        "key": "pipetrav"
+                    },
+                    {
+                        "type": "layout",
+                        "key": "midwaybells"
+                    },
+                    {
+                        "type": "layout",
+                        "key": "secret"
                     }
                 ]
             }

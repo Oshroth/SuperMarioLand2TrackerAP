@@ -6,11 +6,11 @@
                 "name": "Turtle Zone 1",
                 "sections": [
                     {
-                        "ref": "turtlezone1/Midway Bell/Get it!",
+                        "ref": "turtlezone1-mb/Midway Bell/Get it!",
                         "name": "Turtle Zone 1 - Midway Bell"
                     },
                     {
-                        "ref": "turtlezone1/Normal Exit/Take the Exit",
+                        "ref": "turtlezone1-ne/Normal Exit/Take the Exit",
                         "name": "Turtle Zone 1 - Normal Exit"
                     }
                 ],
@@ -31,15 +31,15 @@
                 "name": "Turtle Zone 2",
                 "sections": [
                     {
-                        "ref": "turtlezone2/Midway Bell/Get it!",
+                        "ref": "turtlezone2-mb/Midway Bell/Get it!",
                         "name": "Turtle Zone 2 - Midway Bell"
                     },
                     {
-                        "ref": "turtlezone2/Normal Exit/Take the Exit",
+                        "ref": "turtlezone2-ne/Normal Exit/Take the Exit",
                         "name": "Turtle Zone 2 - Normal Exit"
                     },
                     {
-                        "ref": "turtlezone2/Secret Exit/Take the Exit",
+                        "ref": "turtlezone2-se/Secret Exit/Take the Exit",
                         "name": "Turtle Zone 2 - Secret Exit"
                     }
                 ],
@@ -60,11 +60,11 @@
                 "name": "Turtle Zone 3",
                 "sections": [
                     {
-                        "ref": "turtlezone3/Midway Bell/Get it!",
+                        "ref": "turtlezone3-mb/Midway Bell/Get it!",
                         "name": "Turtle Zone 3 - Midway Bell"
                     },
                     {
-                        "ref": "turtlezone3/Boss/Beat the Boss",
+                        "ref": "turtlezone3-boss/Boss/Beat the Boss",
                         "name": "Turtle Zone 3 - Beat the Boss"
                     }
                 ],

@@ -6,15 +6,15 @@
                 "name": "Macro Zone 1",
                 "sections": [
                     {
-                        "ref": "macrozone1/Midway Bell/Get it!",
+                        "ref": "macrozone1-mb/Midway Bell/Get it!",
                         "name": "Midway Bell"
                     },
                     {
-                        "ref": "macrozone1/Normal Exit/Take the Exit",
+                        "ref": "macrozone1-ne/Normal Exit/Take the Exit",
                         "name": "Normal Exit"
                     },
                     {
-                        "ref": "macrozone1/Secret Exit/Take the Exit",
+                        "ref": "macrozone1-se/Secret Exit/Take the Exit",
                         "name": "Secret Exit"
                     }
                 ],
@@ -29,17 +29,17 @@
         ]
     },
     {
-        "name": "MacroZone1",
+        "name": "MacroZone2",
         "children": [
             {
                 "name": "Macro Zone 2",
                 "sections": [
                     {
-                        "ref": "macrozone2/Midway Bell/Get it!",
+                        "ref": "macrozone2-mb/Midway Bell/Get it!",
                         "name": "Midway Bell"
                     },
                     {
-                        "ref": "macrozone2/Normal Exit/Take the Exit",
+                        "ref": "macrozone2-ne/Normal Exit/Take the Exit",
                         "name": "Normal Exit"
                     }
                 ],
@@ -54,17 +54,17 @@
         ]
     },
     {
-        "name": "MacroZone1",
+        "name": "MacroZone3",
         "children": [
             {
                 "name": "Macro Zone 3",
                 "sections": [
                     {
-                        "ref": "macrozone3/Midway Bell/Get it!",
+                        "ref": "macrozone3-mb/Midway Bell/Get it!",
                         "name": "Midway Bell"
                     },
                     {
-                        "ref": "macrozone3/Normal Exit/Take the Exit",
+                        "ref": "macrozone3-ne/Normal Exit/Take the Exit",
                         "name": "Normal Exit"
                     }
                 ],
@@ -79,17 +79,17 @@
         ]
     },
     {
-        "name": "MacroZone1",
+        "name": "MacroZone4",
         "children": [
             {
                 "name": "Macro Zone 4",
                 "sections": [
                     {
-                        "ref": "macrozone4/Midway Bell/Get it!",
+                        "ref": "macrozone4-mb/Midway Bell/Get it!",
                         "name": "Midway Bell"
                     },
                     {
-                        "ref": "macrozone4/Boss/Beat the Boss",
+                        "ref": "macrozone4-boss/Boss/Beat the Boss",
                         "name": "Beat the Boss"
                     }
                 ],
@@ -104,7 +104,7 @@
         ]
     },
     {
-        "name": "MacroZone1",
+        "name": "MacroZoneSC1",
         "children": [
             {
                 "name": "Macro Zone Secret Course 1",
