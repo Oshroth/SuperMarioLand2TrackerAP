@@ -1,7 +1,6 @@
 {
     "settings_popup": {
         "type": "dock",
-        "orientation": "horizontal",
         "margin": "0,0",
         "content": [
             {
@@ -11,9 +10,7 @@
                 "item_h_alignment": "center",
                 "rows": [
                     [
-                        "mariocoinshuffle",
-                        "mariocoinvanilla",
-                        "mariocoinfragmenthunt"
+                        "mariocoinshuffle"
                     ]
                 ]
             }

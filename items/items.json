@@ -1,4 +1,3 @@
-//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
 [
     {
         "name": "Carrot",
@@ -431,33 +430,25 @@
     {
         "name": "Mario Coin Settings",
         "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
         "stages": [
             {
-        "img": "path/to/img.png",
-        "disabled_img": "path/to/disabled.png", // optional, grey img if missing
-        "codes": "check_identifier",
-        "secondary_codes": "state_identifier", // unused at the moment
-        "inherit_codes": false,
-        "img_mods": "@disabled",
-        "disabled_img_mods": "...",
-        "name": "optional name override" // since 0.21.1
+                "name": "Mario Coin Shuffle",
+                "img": "images/items/settings/mariocoinshuffle.png",
+                "codes": "mariocoinshuffle"
+            },
+            {
+                "name": "Mario Coins Vanilla",
+                "img": "images/items/settings/mariocoinvanilla.png",
+                "codes": "mariocoinvanilla"
+            },
+            {
+                "name": "Mario Coins Fragment Hunt",
+                "img": "images/items/settings/mariocoinfragmenthunt.png",
+                "codes": "mariocoinfragmenthunt"
+
             }
         ]
-    },
-    {
-        "img": "images/items/settings/mariocoinshuffle.png",
-        "codes": "mariocoinshuffle"
-    },
-    {
-        "name": "Mario Coin Vanilla",
-        "type": "toggle",
-        "img": "images/items/settings/mariocoinvanilla.png",
-        "codes": "mariocoinvanilla"
-    },
-    {
-        "name": "Mario Coin Fragment Hunt",
-        "type": "toggle",
-        "img": "images/items/settings/mariocoinfragmenthunt.png",
-        "codes": "mariocoinfragmenthunt"
     }
 ]
