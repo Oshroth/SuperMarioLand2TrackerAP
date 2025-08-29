@@ -64,7 +64,7 @@
         "name": "Macro Zone Progression",
         "type": "consumable",
         "min_quantity": 0,
-        "max_quantity": 2,
+        "max_quantity": 3,
         "img": "images/items/progzones/macrozoneprog.png",
         "codes": "macrozoneprog"
     },
@@ -72,7 +72,7 @@
         "name": "Tree Zone Progression",
         "type": "consumable",
         "min_quantity": 0,
-        "max_quantity": 2,
+        "max_quantity": 3,
         "img": "images/items/progzones/treezoneprog.png",
         "codes": "treezoneprog"
     },
@@ -80,7 +80,7 @@
         "name": "Mario Zone Progression",
         "type": "consumable",
         "min_quantity": 0,
-        "max_quantity": 2,
+        "max_quantity": 3,
         "img": "images/items/progzones/mariozoneprog.png",
         "codes": "mariozoneprog"
     },
@@ -96,7 +96,7 @@
         "name": "Space Zone Progression",
         "type": "consumable",
         "min_quantity": 0,
-        "max_quantity": 2,
+        "max_quantity": 1,
         "img": "images/items/progzones/spacezoneprog.png",
         "codes": "spacezoneprog"
     },
@@ -104,7 +104,7 @@
         "name": "Pumpkin Zone Progression",
         "type": "consumable",
         "min_quantity": 0,
-        "max_quantity": 2,
+        "max_quantity": 3,
         "img": "images/items/progzones/pumpkinzoneprog.png",
         "codes": "pumpkinzoneprog"
     },
@@ -263,181 +263,201 @@
     {
         "name": "Cancel Auto Scroll Mario Zone 1",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollmariozone1.png",
+        "img": "images/items/autoscroll/mariozone/cancelautoscrollmariozone1.png",
         "codes": "scrollmariozone1"
     },
     {
         "name": "Cancel Auto Scroll Mario Zone 3",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollmariozone3.png",
+        "img": "images/items/autoscroll/mariozone/cancelautoscrollmariozone3.png",
         "codes": "scrollmariozone3"
     },
     {
         "name": "Cancel Auto Scroll Mario Zone 4",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollmariozone4.png",
+        "img": "images/items/autoscroll/mariozone/cancelautoscrollmariozone4.png",
         "codes": "scrollmariozone4"
     },
     {
         "name": "Cancel Auto Scroll Tree Zone 1",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrolltreezone1.png",
+        "img": "images/items/autoscroll/treezone/cancelautoscrolltreezone1.png",
         "codes": "scrolltreezone1"
     },
     {
         "name": "Cancel Auto Scroll Tree Zone 2",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrolltreezone2.png",
+        "img": "images/items/autoscroll/treezone/cancelautoscrolltreezone2.png",
         "codes": "scrolltreezone2"
     },
     {
         "name": "Cancel Auto Scroll Tree Zone 3",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrolltreezone3.png",
+        "img": "images/items/autoscroll/treezone/cancelautoscrolltreezone3.png",
         "codes": "scrolltreezone3"
     },
     {
         "name": "Cancel Auto Scroll Tree Zone 4",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrolltreezone4.png",
+        "img": "images/items/autoscroll/treezone/cancelautoscrolltreezone4.png",
         "codes": "scrolltreezone4"
     },
     {
         "name": "Cancel Auto Scroll Tree Zone 5",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrolltreezone5.png",
+        "img": "images/items/autoscroll/treezone/cancelautoscrolltreezone5.png",
         "codes": "scrolltreezone5"
     },
     {
         "name": "Cancel Auto Scroll Tree Zone Secret Course",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrolltreezonesp.png",
+        "img": "images/items/autoscroll/treezone/cancelautoscrolltreezonesp.png",
         "codes": "scrolltreezonesp"
     },
     {
         "name": "Cancel Auto Scroll Macro Zone 1",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollmacrozone1.png",
+        "img": "images/items/autoscroll/macrozone/cancelautoscrollmacrozone1.png",
         "codes": "scrollmacrozone1"
     },
     {
         "name": "Cancel Auto Scroll Macro Zone 2",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollmacrozone2.png",
+        "img": "images/items/autoscroll/macrozone/cancelautoscrollmacrozone2.png",
         "codes": "scrollmacrozone2"
     },
     {
         "name": "Cancel Auto Scroll Macro Zone 3",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollmacrozone3.png",
+        "img": "images/items/autoscroll/macrozone/cancelautoscrollmacrozone3.png",
         "codes": "scrollmacrozone3"
     },
     {
         "name": "Cancel Auto Scroll Macro Zone 4",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollmacrozone4.png",
+        "img": "images/items/autoscroll/macrozone/cancelautoscrollmacrozone4.png",
         "codes": "scrollmacrozone4"
     },
     {
         "name": "Cancel Auto Scroll Space Zone 1",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollspacezone1.png",
+        "img": "images/items/autoscroll/spacezone/cancelautoscrollspacezone1.png",
         "codes": "scrollspacezone1"
     },
     {
         "name": "Cancel Auto Scroll Space Zone 2",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollspacezone2.png",
+        "img": "images/items/autoscroll/spacezone/cancelautoscrollspacezone2.png",
         "codes": "scrollspacezone2"
     },
     {
         "name": "Cancel Auto Scroll Space Zone Secret Course",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollspacezonesp.png",
+        "img": "images/items/autoscroll/spacezone/cancelautoscrollspacezonesp.png",
         "codes": "scrollspacezonesp"
     },
     {
         "name": "Cancel Auto Scroll Pumpkin Zone 1",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollpumpkinzone1.png",
+        "img": "images/items/autoscroll/pumpkinzone/cancelautoscrollpumpkinzone1.png",
         "codes": "scrollpumpkinzone1"
     },
     {
         "name": "Cancel Auto Scroll Pumpkin Zone 2",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollpumpkinzone2.png",
+        "img": "images/items/autoscroll/pumpkinzone/cancelautoscrollpumpkinzone2.png",
         "codes": "scrollpumpkinzone2"
     },
     {
         "name": "Cancel Auto Scroll Pumpkin Zone 3",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollpumpkinzone3.png",
+        "img": "images/items/autoscroll/pumpkinzone/cancelautoscrollpumpkinzone3.png",
         "codes": "scrollpumpkinzone3"
     },
     {
         "name": "Cancel Auto Scroll Pumpkin Zone 4",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollpumpkinzone4.png",
+        "img": "images/items/autoscroll/pumpkinzone/cancelautoscrollpumpkinzone4.png",
         "codes": "scrollpumpkinzone4"
     },
     {
         "name": "Cancel Auto Scroll Pumpkin Zone Secret Course 1",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollpumpkinzonesp1.png",
+        "img": "images/items/autoscroll/pumpkinzone/cancelautoscrollpumpkinzonesp1.png",
         "codes": "scrollpumpkinzonesp1"
     },
     {
         "name": "Cancel Auto Scroll Pumpkin Zone Secret Course 2",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollpumpkinzonesp2.png",
-        "codes": "scrollpumpkinzonesp2"
-    },
-        {
-        "name": "Cancel Auto Scroll Pumpkin Zone Secret Course 1",
-        "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollpumpkinzonesp1.png",
-        "codes": "scrollpumpkinzonesp1"
-    },
-    {
-        "name": "Cancel Auto Scroll Pumpkin Zone Secret Course 2",
-        "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollpumpkinzonesp2.png",
+        "img": "images/items/autoscroll/pumpkinzone/cancelautoscrollpumpkinzonesp2.png",
         "codes": "scrollpumpkinzonesp2"
     },
     {
         "name": "Cancel Auto Scroll Turtle Zone 1",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollturtlezone1.png",
+        "img": "images/items/autoscroll/turtlezone/cancelautoscrollturtlezone1.png",
         "codes": "scrollturtlezone1"
     },
     {
         "name": "Cancel Auto Scroll Turtle Zone 2",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollturtlezone2.png",
+        "img": "images/items/autoscroll/turtlezone/cancelautoscrollturtlezone2.png",
         "codes": "scrollturtlezone2"
     },
     {
         "name": "Cancel Auto Scroll Hippo Zone",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollhippo.png",
+        "img": "images/items/autoscroll/other/cancelautoscrollhippo.png",
         "codes": "scrollhippozone"
     },
     {
         "name": "Cancel Auto Scroll Mushroom House",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollmushhouse.png",
+        "img": "images/items/autoscroll/other/cancelautoscrollmushhouse.png",
         "codes": "scrollmushhouse"
     },
     {
         "name": "Cancel Auto Scroll Mario Castle",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollmariocastle.png",
+        "img": "images/items/autoscroll/other/cancelautoscrollmariocastle.png",
         "codes": "scrollmariocastle"
     },
     {
         "name": "Cancel Auto Scroll All",
         "type": "toggle",
-        "img": "images/items/autoscroll/cancelautoscrollall.png",
+        "img": "images/items/autoscroll/other/cancelautoscrollall.png",
         "codes": "scrollall"
+    },
+    {
+        "name": "Mario Coin Settings",
+        "type": "progressive",
+        "stages": [
+            {
+        "img": "path/to/img.png",
+        "disabled_img": "path/to/disabled.png", // optional, grey img if missing
+        "codes": "check_identifier",
+        "secondary_codes": "state_identifier", // unused at the moment
+        "inherit_codes": false,
+        "img_mods": "@disabled",
+        "disabled_img_mods": "...",
+        "name": "optional name override" // since 0.21.1
+            }
+        ]
+    },
+    {
+        "img": "images/items/settings/mariocoinshuffle.png",
+        "codes": "mariocoinshuffle"
+    },
+    {
+        "name": "Mario Coin Vanilla",
+        "type": "toggle",
+        "img": "images/items/settings/mariocoinvanilla.png",
+        "codes": "mariocoinvanilla"
+    },
+    {
+        "name": "Mario Coin Fragment Hunt",
+        "type": "toggle",
+        "img": "images/items/settings/mariocoinfragmenthunt.png",
+        "codes": "mariocoinfragmenthunt"
     }
 ]

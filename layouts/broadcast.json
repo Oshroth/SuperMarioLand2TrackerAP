@@ -25,6 +25,10 @@
                     {
                         "type": "layout",
                         "key": "secret"
+                    },
+                    {
+                        "type": "layout",
+                        "key": "scroll"
                     }
                 ]
             }

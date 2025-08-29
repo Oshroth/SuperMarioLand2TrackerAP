@@ -6,3 +6,5 @@ Tracker:AddLayouts("layouts/midwaybells.json")
 Tracker:AddLayouts("layouts/secret.json")
 -- Cancel Auto Scroll
 Tracker:AddLayouts("layouts/scroll.json")
+-- Settings
+Tracker:AddLayouts("layouts/settings_popup.json")

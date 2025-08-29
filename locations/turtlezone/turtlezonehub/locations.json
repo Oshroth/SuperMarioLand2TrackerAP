@@ -17,8 +17,8 @@
                 "map_locations": [
                     {
                         "map": "turtlezonehub",
-                        "x": 91,
-                        "y": 113
+                        "x": 75,
+                        "y": 33
                     }
                 ]
             }
@@ -71,8 +71,8 @@
                 "map_locations": [
                     {
                         "map": "turtlezonehub",
-                        "x": 75,
-                        "y": 33
+                        "x": 92,
+                        "y": 113
                     }
                 ]
             }
