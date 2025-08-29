@@ -4,11 +4,11 @@
         "background": "#000000",
         "content": [
             {
-                "type": "dock",
+                "type": "array",
                 "dropshadow": true,
                 "content": [
                     {
-                        "type": "dock",
+                        "type": "array",
                         "dock": "bottom",
                         "v_alignment": "stretch",
                         "content": [
