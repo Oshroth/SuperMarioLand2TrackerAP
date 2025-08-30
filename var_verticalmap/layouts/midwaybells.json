@@ -1,0 +1,40 @@
+{
+    "midwaybells": {
+        "type": "dock",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "5, 5",
+                "h_alignment": "left",
+                "item_h_alignment": "center",
+                "rows": [
+                    [
+                        "mariozone1mb"
+                    ],
+                    [
+                        "treezone2mb",
+                        "treezone4mb"
+                    ],
+                    [
+                        "macrozone1mb",
+                        "macrozone2mb",
+                        "macrozone3mb"
+                    ],
+                    [
+                        "spacezone2mb"
+                    ],
+                    [
+                        "pumpkinzone1mb"
+                    ],
+                    [
+                        "turtlezone2mb"
+                    ],
+                    [
+                        "mariocastlemb"
+                    ]
+                ]
+            }
+        ]
+    }
+}

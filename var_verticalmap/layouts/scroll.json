@@ -1,0 +1,60 @@
+{
+    "scroll": {
+        "type": "dock",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "5, 5",
+                "h_alignment": "left",
+                "item_h_alignment": "center",
+                "item_size": "3,3",
+                "rows": [
+                    [
+                        "scrollmariozone1",
+                        "scrollmariozone3",
+                        "scrollmariozone4"
+                    ],
+                    [
+                        "scrolltreezone1",
+                        "scrolltreezone2",
+                        "scrolltreezone3",
+                        "scrolltreezone4",
+                        "scrolltreezone5",
+                        "scrolltreezonesp"
+                    ],
+                    [
+                        "scrollmacrozone1",
+                        "scrollmacrozone2",
+                        "scrollmacrozone3",
+                        "scrollmacrozone4"
+                    ],
+                    [
+                        "scrollspacezone1",
+                        "scrollspacezone2",
+                        "scrollspacezonesp"
+                    ],
+                    [
+                        "scrollpumpkinzone1",
+                        "scrollpumpkinzone2",
+                        "scrollpumpkinzone3",
+                        "scrollpumpkinzone4",
+                        "scrollpumpkinzonesp1",
+                        "scrollpumpkinzonesp2"
+                    ],
+                    [
+                        "scrollturtlezone1",
+                        "scrollturtlezone2"
+                    ],
+                    [
+                        "scrollhippozone",
+                        "scrollmushhouse",
+                        "scrollmariocastle",
+                        "scrollall"
+                    ]
+                ]
+            }
+        ]
+    }
+}

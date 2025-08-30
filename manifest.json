@@ -4,12 +4,18 @@
 {
     "name": "Super Mario Land 2 AP Tracker",
     "game_name": "Super Mario Land 2",
-    "package_version": "1.0.0.0",
-    "package_uid": "template_pack",
+    "package_version": "1.0",
+    "package_uid": "sml2_ap",
     "author": "mobby45",
     "variants": {
         "standard": {
-            "display_name": "Map Tracker",
+            "display_name": "Horizontal Map Tracker",
+            "flags": [
+                "ap" //enables AP autotracking interface - remove if not needed
+	  ]
+	},
+        "var_verticalmap": {
+            "display_name": "Vertical Map Tracker",
             "flags": [
                 "ap" //enables AP autotracking interface - remove if not needed
 	  ]
