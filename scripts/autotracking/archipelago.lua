@@ -68,6 +68,7 @@ end
 
 -- called when an item gets collected
 function onItem(index, item_id, item_name, player_number)
+    if item_id > 128 then return end
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onItem: %s, %s, %s, %s, %s", index, item_id, item_name, player_number, CUR_INDEX))
     end
@@ -92,6 +93,28 @@ function onItem(index, item_id, item_name, player_number)
     if not v[1] then
         return
     end
+    -- Handle Autoscroll items
+    if string.sub(v[1], 1, 10) == "autoscroll" then
+        local obj = Tracker:FindObjectForCode("cancel"..v[1])
+        if obj then
+            obj.Active = false
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onItem: could not find object for code %s", v[1]))
+        end
+        return
+    end
+
+    -- Handle x2 Progression items
+    if string.sub(v[1], -2, -1) == "x2" then
+        local obj = Tracker:FindObjectForCode(string.sub(v[1], 1, -3))
+        if obj then
+            obj.AcquiredCount = obj.AcquiredCount + 2
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onItem: could not find object for code %s", v[1]))
+        end
+        return
+    end
+
     local obj = Tracker:FindObjectForCode(v[1])
     if obj then
         if v[2] == "toggle" then
@@ -124,10 +147,10 @@ function onItem(index, item_id, item_name, player_number)
             GLOBAL_ITEMS[v[1]] = 1
         end
     end
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
-        print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
-    end
+    -- if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+    --     print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
+    --     print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
+    -- end
     if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
         -- add snes interface functions here for local item tracking
     end
@@ -135,6 +158,7 @@ end
 
 -- called when a location gets cleared
 function onLocation(location_id, location_name)
+    if location_id > 60 then return end
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onLocation: %s, %s", location_id, location_name))
     end

@@ -18,7 +18,7 @@
                                 "mushroom",
                                 "fireflower",
                                 "carrot",
-                                "hippo",
+                                "hippobubble",
                                 "spacephysics",
                                 "waterphysics"
                             ],
@@ -31,15 +31,15 @@
                                 "turtlecoin"
                             ],
                             [
-                                "mariozoneprog",
-                                "treezoneprog",
-                                "macrozoneprog",
-                                "spacezoneprog",
-                                "pumpkinzoneprog",
-                                "turtlezoneprog"
+                                "mariozoneprogression",
+                                "treezoneprogression",
+                                "macrozoneprogression",
+                                "spacezoneprogression",
+                                "pumpkinzoneprogression",
+                                "turtlezoneprogression"
                             ],
                             [
-                                "mariocoinfrag"
+                                "mariocoinfragment"
                             ]
                         ]
                     }

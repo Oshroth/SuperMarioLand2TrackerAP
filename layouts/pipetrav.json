@@ -11,11 +11,11 @@
                 "item_h_alignment": "center",
                 "rows": [
                     [
-                        "pipetravup",
-                        "pipetravdown",
-                        "pipetravleft",
-                        "pipetravright",
-                        "pipetravall"
+                        "pipetraversal-up",
+                        "pipetraversal-down",
+                        "pipetraversal-left",
+                        "pipetraversal-right",
+                        "pipetraversal"
                     ]
                 ]
             }
