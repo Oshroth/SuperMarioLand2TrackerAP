@@ -16,6 +16,7 @@
                         "item_margin": "5, 5",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
+                        "item_size": "4,4",
                         "rows": [
                             [
                                 "mushroom",
