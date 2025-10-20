@@ -1,16 +1,16 @@
 [
     {
-        "name": "TreeZoneHub-1",
+        "name": "Tree Zone",
         "children": [
             {
                 "name": "Tree Zone 1",
                 "sections": [
                     {
-                        "ref": "treezone1/Midway Bell/Get it!",
+                        "ref": "Tree Zone 1/Midway Bell/Midway Bell",
                         "name": "Tree Zone 1 - Midway Bell"
                     },
                     {
-                        "ref": "treezone1/Normal Exit/Take the Exit",
+                        "ref": "Tree Zone 1/Normal Exit/Normal Exit",
                         "name": "Tree Zone 1 - Normal Exit"
                     }
                 ],
@@ -21,25 +21,20 @@
                         "y": 110
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "TreeZoneHub-2",
-        "children": [
+            },
             {
                 "name": "Tree Zone 2",
                 "sections": [
                     {
-                        "ref": "treezone2-mb/Midway Bell/Get it!",
+                        "ref": "Tree Zone 2/Midway Bell/Midway Bell",
                         "name": "Midway Bell"
                     },
                     {
-                        "ref": "treezone2-ne/Normal Exit/Take the Exit",
+                        "ref": "Tree Zone 2/Normal Exit/Normal Exit",
                         "name": "Normal Exit"
                     },
                     {
-                        "ref": "treezone2-se/Secret Exit/Take the Exit",
+                        "ref": "Tree Zone 2/Secret Exit/Secret Exit",
                         "name": "Secret Exit"
                     }
                 ],
@@ -50,17 +45,12 @@
                         "y": 110
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "TreeZoneHub-3",
-        "children": [
+            },
             {
                 "name": "Tree Zone 3",
                 "sections": [
                     {
-                        "ref": "treezone3/Normal Exit/Take the Exit",
+                        "ref": "Tree Zone 3/Normal Exit/Normal Exit",
                         "name": "Normal Exit"
                     }
                 ],
@@ -71,21 +61,16 @@
                         "y": 66
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "TreeZoneHub-4",
-        "children": [
+            },
             {
                 "name": "Tree Zone 4",
                 "sections": [
                     {
-                        "ref": "treezone4-mb/Midway Bell/Get it!",
+                        "ref": "Tree Zone 4/Midway Bell/Midway Bell",
                         "name": "Tree Zone 4 - Midway Bell"
                     },
                     {
-                        "ref": "treezone4-ne/Normal Exit/Take the Exit",
+                        "ref": "Tree Zone 4/Normal Exit/Normal Exit",
                         "name": "Tree Zone 4 - Normal Exit"
                     }
                 ],
@@ -96,21 +81,16 @@
                         "y": 66
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "TreeZoneHub-5",
-        "children": [
+            },
             {
                 "name": "Tree Zone 5",
                 "sections": [
                     {
-                        "ref": "treezone5-mb/Midway Bell/Get it!",
+                        "ref": "Tree Zone 5/Midway Bell/Midway Bell",
                         "name": "Tree Zone 5 - Midway Bell"
                     },
                     {
-                        "ref": "treezone5-boss/Boss/Beat the Boss",
+                        "ref": "Tree Zone 5/Boss/Boss",
                         "name": "Tree Zone 5 - Boss"
                     }
                 ],
@@ -121,17 +101,12 @@
                         "y": 34
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "TreeZoneHub-Sp",
-        "children": [
+            },
             {
                 "name": "Tree Zone Secret Course",
                 "sections": [
                     {
-                        "ref": "treezonesp/Normal Exit/Take the Exit",
+                        "ref": "Tree Zone Secret Course/Normal Exit/Normal Exit",
                         "name": "Tree Zone Secret Course - Normal Exit"
                     }
                 ],

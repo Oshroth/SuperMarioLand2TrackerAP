@@ -1,12 +1,12 @@
 [    
     {
-        "name": "treezone2-mb",
+        "name": "Tree Zone 2",
         "children": [
             {
                 "name": "Midway Bell",
                 "sections": [
                     {
-                        "name": "Get it!",
+                        "name": "Midway Bell",
                         "chest_unopened_img": "images/items/levels/midwaybell.png",
                         "chest_opened_img": "images/items/levels/midwaybell_off.png",
                         "item_count": 1
@@ -24,17 +24,12 @@
                         "y": 111
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "treezone2-ne",
-        "children": [
+            },
             {
                 "name": "Normal Exit",
                 "sections": [
                     {
-                        "name": "Take the Exit",
+                        "name": "Normal Exit",
                         "chest_unopened_img": "images/items/levels/normalexit.png",
                         "chest_opened_img": "images/items/levels/normalexit_off.png",
                         "item_count": 1
@@ -47,17 +42,12 @@
                         "y": 490
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "treezone2-se",
-        "children": [
+            },
             {
                 "name": "Secret Exit",
                 "sections": [
                     {
-                        "name": "Take the Exit",
+                        "name": "Secret Exit",
                         "chest_unopened_img": "images/items/levels/secretexit.png",
                         "chest_opened_img": "images/items/levels/secretexit_off.png",
                         "item_count": 1

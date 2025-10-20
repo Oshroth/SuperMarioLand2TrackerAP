@@ -1,12 +1,12 @@
 [
     {
-        "name": "pumpkinzone4-mb",
+        "name": "Pumpkin Zone 4",
         "children": [
             {
                 "name": "Midway Bell",
                 "sections": [
                     {
-                        "name": "Get it!",
+                        "name": "Midway Bell",
                         "chest_unopened_img": "images/items/levels/midwaybell.png",
                         "chest_opened_img": "images/items/levels/midwaybell_off.png",
                         "item_count": 1
@@ -24,17 +24,12 @@
                         "y": 182
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "pumpkinzone4-boss",
-        "children": [
+            },
             {
                 "name": "Boss",
                 "sections": [
                     {
-                        "name": "Beat the Boss",
+                        "name": "Boss",
                         "chest_unopened_img": "images/items/boss/witch.png",
                         "chest_opened_img": "images/items/boss/witch_beaten.png",
                         "item_count": 1
