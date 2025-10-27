@@ -1,0 +1,89 @@
+{
+    "components": {
+        "1": {
+            "name": "1",
+            "img": "1.png",
+            "alignment": "topLeft",
+            "offset": 2
+        },
+        "2": {
+            "name": "2",
+            "img": "2.png",
+            "alignment": "top",
+            "offset": {
+                "x": 0,
+                "y": 2
+            }
+        },
+        "3": {
+            "name": "3",
+            "img": "3.png",
+            "alignment": "topRight",
+            "offset": 2
+        },
+        "4": {
+            "name": "4",
+            "img": "4.png",
+            "alignment": "left",
+            "offset": {
+                "x": 2,
+                "y": 0
+            }
+        },
+        "5": {
+            "name": "5",
+            "img": "5.png",
+            "alignment": "center"
+        },
+        "6": {
+            "name": "6",
+            "img": "6.png",
+            "alignment": "right",
+            "offset": {
+                "x": 2,
+                "y": 0
+            }
+        },
+        "7": {
+            "name": "7",
+            "img": "7.png",
+            "alignment": "bottomLeft",
+            "offset": 2
+        },
+        "8": {
+            "name": "8",
+            "img": "8.png",
+            "alignment": "bottom",
+            "offset": {
+                "x": 0,
+                "y": 2
+            }
+        },
+        "9": {
+            "name": "9",
+            "img": "9.png",
+            "alignment": "bottomRight",
+            "offset": 2
+        },
+        "base": {
+            "name": "base",
+            "img": "base.png",
+            "alignment": "center"
+        }
+    },
+    "worlds": {
+        "test": {
+            "name": "test",
+            "base_image": "base",
+            "path_override": "test.png",
+            "images": [
+                ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+            ]
+        }
+    },
+    "minimum_size": {
+        "x": 40,
+        "y": 40
+    },
+    "output_path": "."
+}
