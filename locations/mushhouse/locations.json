@@ -25,8 +25,8 @@
                 "sections": [
                     {
                         "name": "Midway Bell",
-                        "chest_unopened_img": "images/items/levels/midwaybell.png",
-                        "chest_opened_img": "images/items/levels/midwaybell_off.png",
+                        "chest_unopened_img": "images/items/levels/midway.png",
+                        "chest_opened_img": "images/items/levels/midway_off.png",
                         "item_count": 1
                     }
                 ],
