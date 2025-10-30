@@ -6,7 +6,7 @@
     "game_name": "Super Mario Land 2",
     "package_version": "1.0",
     "package_uid": "sml2_ap",
-    "author": "mobby45",
+    "author": "mobby45, Oshroth",
     "variants": {
         "standard": {
             "display_name": "Horizontal Map Tracker",
