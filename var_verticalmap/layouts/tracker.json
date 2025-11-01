@@ -45,7 +45,7 @@
                                 "dock": "top",
                                 "content": {
                                     "type": "layout",
-                                    "key": "secret_vertical"
+                                    "key": "secret"
                                 }
                             },
                             {
