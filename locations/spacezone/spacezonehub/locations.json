@@ -1,20 +1,20 @@
 [
     {
-        "name": "spacezonehub",
+        "name": "Space Zone",
         "children": [
             {
                 "name": "Space Zone 1",
                 "sections": [
                     {
-                        "ref": "spacezone1/Midway Bell/Get it!",
+                        "ref": "Space Zone 1/Midway Bell/Midway Bell",
                         "name": "Space Zone 1 - Midway Bell"
                     },
                     {
-                        "ref": "spacezone1/Normal Exit/Take the Exit",
+                        "ref": "Space Zone 1/Normal Exit/Normal Exit",
                         "name": "Space Zone 1 - Normal Exit"
                     },
                     {
-                        "ref": "spacezone1/Secret Exit/Take the Exit",
+                        "ref": "Space Zone 1/Secret Exit/Secret Exit",
                         "name": "Space Zone 1 - Secret Exit"
                     }
                 ],
@@ -30,12 +30,12 @@
                 "name": "Space Zone 2",
                 "sections": [
                     {
-                        "ref": "spacezone2/Midway Bell/Get it!",
+                        "ref": "Space Zone 2/Midway Bell/Midway Bell",
                         "name": "Space Zone 2 - Midway Bell"
                     },
                     {
-                        "ref": "spacezone2/Boss/Beat the Boss",
-                        "name": "Space Zone 2 - Beat the Boss"
+                        "ref": "Space Zone 2/Boss/Boss",
+                        "name": "Space Zone 2 - Boss"
                     }
                 ],
                 "map_locations": [
@@ -50,7 +50,7 @@
                 "name": "Space Zone Secret Course",
                 "sections": [
                     {
-                        "ref": "spacezonesp/Normal Exit/Take the Exit",
+                        "ref": "Space Zone Secret Course/Normal Exit/Normal Exit",
                         "name": "Space Zone Secret Course - Normal Exit"
                     }
                 ],

@@ -1,14 +1,14 @@
 [
     {
-        "name": "treezone1",
+        "name": "Tree Zone 1",
         "children": [
             {
                 "name": "Midway Bell",
                 "sections": [
                     {
-                        "name": "Get it!",
-                        "chest_unopened_img": "images/items/levels/midwaybell.png",
-                        "chest_opened_img": "images/items/levels/midwaybell_off.png",
+                        "name": "Midway Bell",
+                        "chest_unopened_img": "images/items/levels/midway.png",
+                        "chest_opened_img": "images/items/levels/midway_off.png",
                         "item_count": 1
                     }
                 ],
@@ -29,7 +29,7 @@
                 "name": "Normal Exit",
                 "sections": [
                     {
-                        "name": "Take the Exit",
+                        "name": "Normal Exit",
                         "chest_unopened_img": "images/items/levels/normalexit.png",
                         "chest_opened_img": "images/items/levels/normalexit_off.png",
                         "item_count": 1

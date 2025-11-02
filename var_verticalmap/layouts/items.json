@@ -16,12 +16,13 @@
                         "item_margin": "5, 5",
                         "h_alignment": "left",
                         "item_h_alignment": "center",
+                        "item_size": "40,40",
                         "rows": [
                             [
                                 "mushroom",
                                 "fireflower",
                                 "carrot",
-                                "hippo",
+                                "hippobubble",
                                 "spacephysics",
                                 "waterphysics"
                             ],
@@ -34,15 +35,15 @@
                                 "turtlecoin"
                             ],
                             [
-                                "mariozoneprog",
-                                "treezoneprog",
-                                "macrozoneprog",
-                                "spacezoneprog",
-                                "pumpkinzoneprog",
-                                "turtlezoneprog"
+                                "mariozoneprogression",
+                                "treezoneprogression",
+                                "macrozoneprogression",
+                                "spacezoneprogression",
+                                "pumpkinzoneprogression",
+                                "turtlezoneprogression"
                             ],
                             [
-                                "mariocoinfrag"
+                                "mariocoinfragment"
                             ]
                         ]
                     }

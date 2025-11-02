@@ -9,49 +9,53 @@
                 "item_margin": "5, 5",
                 "h_alignment": "left",
                 "item_h_alignment": "center",
-                "item_size": "3,3",
+                "item_size": "40,40",
                 "rows": [
                     [
-                        "scrollmariozone1",
-                        "scrollmariozone3",
-                        "scrollmariozone4"
+                        "cancelautoscroll-mariozone1",
+                        "cancelautoscroll-mariozone2",
+                        "cancelautoscroll-mariozone3",
+                        "cancelautoscroll-mariozone4"
                     ],
                     [
-                        "scrolltreezone1",
-                        "scrolltreezone2",
-                        "scrolltreezone3",
-                        "scrolltreezone4",
-                        "scrolltreezone5",
-                        "scrolltreezonesp"
+                        "cancelautoscroll-treezone1",
+                        "cancelautoscroll-treezone2",
+                        "cancelautoscroll-treezone3",
+                        "cancelautoscroll-treezone4",
+                        "cancelautoscroll-treezone5",
+                        "cancelautoscroll-treezonesecretcourse"
                     ],
                     [
-                        "scrollmacrozone1",
-                        "scrollmacrozone2",
-                        "scrollmacrozone3",
-                        "scrollmacrozone4"
+                        "cancelautoscroll-macrozone1",
+                        "cancelautoscroll-macrozone2",
+                        "cancelautoscroll-macrozone3",
+                        "cancelautoscroll-macrozone4",
+                        "cancelautoscroll-macrozonesecretcourse"
                     ],
                     [
-                        "scrollspacezone1",
-                        "scrollspacezone2",
-                        "scrollspacezonesp"
+                        "cancelautoscroll-spacezone1",
+                        "cancelautoscroll-spacezone2",
+                        "cancelautoscroll-spacezonesecretcourse"
                     ],
                     [
-                        "scrollpumpkinzone1",
-                        "scrollpumpkinzone2",
-                        "scrollpumpkinzone3",
-                        "scrollpumpkinzone4",
-                        "scrollpumpkinzonesp1",
-                        "scrollpumpkinzonesp2"
+                        "cancelautoscroll-pumpkinzone1",
+                        "cancelautoscroll-pumpkinzone2",
+                        "cancelautoscroll-pumpkinzone3",
+                        "cancelautoscroll-pumpkinzone4",
+                        "cancelautoscroll-pumpkinzonesecretcourse1",
+                        "cancelautoscroll-pumpkinzonesecretcourse2"
                     ],
                     [
-                        "scrollturtlezone1",
-                        "scrollturtlezone2"
+                        "cancelautoscroll-turtlezone1",
+                        "cancelautoscroll-turtlezone2",
+                        "cancelautoscroll-turtlezone3",
+                        "cancelautoscroll-turtlezonesecretcourse"
                     ],
                     [
-                        "scrollhippozone",
-                        "scrollmushhouse",
-                        "scrollmariocastle",
-                        "scrollall"
+                        "cancelautoscroll-sceniccourse",
+                        "cancelautoscroll-mushroomzone",
+                        "cancelautoscroll-hippozone",
+                        "cancelautoscroll"
                     ]
                 ]
             }
