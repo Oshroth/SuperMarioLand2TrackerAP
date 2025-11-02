@@ -26,3 +26,11 @@ function has_value (t, val)
     end
     return 0
 end
+
+function toggle_settings()
+    if Tracker:FindObjectForCode("set-gc-goal").CurrentStage == 2 then
+        Tracker:AddLayouts("layouts/settings_popup_fragments.json")
+    else
+        Tracker:AddLayouts("layouts/settings_popup_coins.json")
+    end
+end

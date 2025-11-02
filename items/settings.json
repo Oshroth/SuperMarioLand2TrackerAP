@@ -1,0 +1,157 @@
+[
+    {
+        "name": "Golden Coins Settings",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Golden Coins Vanilla",
+                "img": "images/items/settings/goldencoins.png",
+                "codes": "set-gc-goal, set-gc-goal-vanilla",
+                "img_mods": "@disabled"
+            },
+            {
+                "name": "Golden Coins Shuffle",
+                "img": "images/items/settings/goldencoins.png",
+                "codes": "set-gc-goal, set-gc-goal-shuffle",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mario Coin Fragment Hunt",
+                "img": "images/items/coins/mariocoinfragment.png",
+                "codes": "set-gc-goal, set-gc-goal-fragmenthunt",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Golden Coins Required",
+        "type": "consumable",
+        "img": "images/items/settings/goldencoins.png",
+        "min_quantity": 0,
+        "initial_quantity": 6,
+        "max_quantity": 6,
+        "codes": "set-gc-required"
+    },
+    {
+        "name": "Maro Coin Fragments Required",
+        "type": "consumable",
+        "img": "images/items/coins/mariocoinfragment.png",
+        "min_quantity": 0,
+        "max_quantity": -1,
+        "codes": "set-mc-frag-required"
+    },
+    {
+        "name": "Shuffle Midway Bells",
+        "type": "toggle",
+        "img": "images/items/levels/midway.png",
+        "codes": "set-shuffle-midways"
+    },
+    {
+        "name": "Mario Castle Midway Bell",
+        "type": "toggle",
+        "img": "images/items/midway/mariocastle.png",
+        "codes": "set-mario-castle-midway"
+    },
+    {
+        "name": "Auto Scroll Mode",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Auto Scroll Mode - Always",
+                "img": "images/items/settings/autoscroll.png",
+                "codes": "set-scroll-mode, set-scroll-mode-off"
+            },
+            {
+                "name": "Auto Scroll Mode - Global Trap",
+                "img": "images/items/autoscroll/global.png",
+                "codes": "set-scroll-mode, set-scroll-mode-global-trap",
+                "inherit_codes": false
+            },
+            {
+                "name": "Auto Scroll Mode - Level Traps",
+                "img": "images/items/settings/level-autoscroll.png",
+                "codes": "set-scroll-mode, set-scroll-mode-level-cancel",
+                "inherit_codes": false
+            },
+            {
+                "name": "Auto Scroll Mode - Global Cancel",
+                "img": "images/items/cancel-autoscroll/global.png",
+                "codes": "set-scroll-mode, set-scroll-mode-global-cancel",
+                "inherit_codes": false
+            },
+            {
+                "name": "Auto Scroll Mode - Level Cancel",
+                "img": "images/items/settings/level-cancel-autoscroll.png",
+                "codes": "set-scroll-mode, set-scroll-mode-level-cancel",
+                "inherit_codes": false
+            },
+            {
+                "name": "Auto Scroll Mode - Chaos",
+                "img": "images/items/settings/chaos.png",
+                "codes": "set-scroll-mode, set-scroll-mode-chaos",
+                "inherit_codes": false
+            },
+            {
+                "name": "Auto Scroll Mode - Never",
+                "img": "images/items/settings/cancel-autoscroll.png",
+                "codes": "set-scroll-mode, set-scroll-mode-never",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Shuffle Pipe Traversal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Shuffle Pipe Traversal - Off",
+                "img": "images/items/pipetraversal/all.png",
+                "codes": "set-pipe-traversal, set-pipe-traversal-off",
+                "img_mods": "@disabled"
+            },
+            {
+                "name": "Shuffle Pipe Traversal - Single",
+                "img": "images/items/pipetraversal/all.png",
+                "codes": "set-pipe-traversal, set-pipe-traversal-single",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shuffle Pipe Traversal - Split",
+                "img": "images/items/settings/splitpipes.png",
+                "codes": "set-pipe-traversal, set-pipe-traversal-split",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mario Zone 3 Claws",
+        "type": "consumable",
+        "img": "images/items/settings/mariozone3cranes.png",
+        "disabled_img_mods": "none",
+        "min_quantity": 0,
+        "initial_quantity": 3,
+        "max_quantity": 3,
+        "codes": "set-mz3-claws"
+    },
+    {
+        "name": "Turtle Zone 1 Sharks",
+        "type": "consumable",
+        "img": "images/items/settings/turtlezone1sharks.png",
+        "disabled_img_mods": "none",
+        "min_quantity": 0,
+        "max_quantity": 2,
+        "codes": "set-tz1-sharks"
+    },
+    {
+        "name": "Coinsanity",
+        "type": "toggle",
+        "img": "images/items/settings/coinsanity.png",
+        "codes": "set-coinsanity"
+    },
+]

@@ -1,0 +1,30 @@
+{
+    "settings_popup": {
+        "type": "dock",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "5, 5",
+                "h_alignment": "left",
+                "item_h_alignment": "center",
+                "item_size": "40,40",
+                "rows": [
+                    [
+                        "set-gc-goal",
+                        "set-mc-frag-required"
+                    ],
+                    [
+                        "set-shuffle-midways",
+                        "set-mario-castle-midway",
+                        "set-scroll-mode",
+                        "set-pipe-traversal",
+                        "set-mz3-claws",
+                        "set-tz1-sharks",
+                        "set-coinsanity"
+                    ]
+                ]
+            }
+        ]
+    }
+}

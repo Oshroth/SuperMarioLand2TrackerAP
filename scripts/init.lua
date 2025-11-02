@@ -21,6 +21,7 @@ ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 -- Items
 Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/settings.json")
 
 if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     -- Maps
@@ -39,6 +40,9 @@ ScriptHost:LoadScript("scripts/locations.lua")
 
 -- Layout
 ScriptHost:LoadScript("scripts/layouts_import.lua")
+
+-- Adds Watches for Item Grid Toggles
+ScriptHost:AddWatchForCode("set-gc-goal", "set-gc-goal", toggle_settings)
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.26.0" then
