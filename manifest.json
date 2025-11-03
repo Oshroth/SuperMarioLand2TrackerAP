@@ -1,6 +1,3 @@
-﻿// this the manifest for you pack
-// it contains basic information about your pack
-// for more info on the manifest check: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#manifest
 {
 	"name": "Super Mario Land 2 AP Tracker",
 	"game_name": "Super Mario Land 2",
@@ -11,13 +8,13 @@
 		"standard": {
 			"display_name": "Horizontal Map Tracker",
 			"flags": [
-				"ap" //enables AP autotracking interface - remove if not needed
+				"ap"
 			]
 		},
 		"var_verticalmap": {
 			"display_name": "Vertical Map Tracker",
 			"flags": [
-				"ap" //enables AP autotracking interface - remove if not needed
+				"ap"
 			]
 		},
         "var_itemsonly": {

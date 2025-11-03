@@ -24,12 +24,7 @@
                                 "waterphysics"
                             ],
                             [
-                                "mariocoin",
-                                "treecoin",
-                                "macrocoin",
-                                "spacecoin",
-                                "pumpkincoin",
-                                "turtlecoin"
+                                "mariocoinfragment"
                             ],
                             [
                                 "mariozoneprogression",
@@ -40,7 +35,7 @@
                                 "turtlezoneprogression"
                             ],
                             [
-                                "mariocoinfragment"
+                                "cancelautoscroll"
                             ]
                         ]
                     }

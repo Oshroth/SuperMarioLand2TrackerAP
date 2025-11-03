@@ -1,7 +1,6 @@
 {
     "shared_item_grid": {
         "type": "array",
-        "orientation": "vertical",
         "margin": "0,0",
         "content": [
             {
@@ -25,12 +24,7 @@
                                 "waterphysics"
                             ],
                             [
-                                "mariocoin",
-                                "treecoin",
-                                "macrocoin",
-                                "spacecoin",
-                                "pumpkincoin",
-                                "turtlecoin"
+                                "mariocoinfragment"
                             ],
                             [
                                 "mariozoneprogression",
@@ -41,7 +35,13 @@
                                 "turtlezoneprogression"
                             ],
                             [
-                                "mariocoinfragment"
+                                "pipetraversal-up",
+                                "pipetraversal-down",
+                                "pipetraversal-left",
+                                "pipetraversal-right"
+                            ],
+                            [
+                                "cancelautoscroll"
                             ]
                         ]
                     }

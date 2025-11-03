@@ -1,7 +1,6 @@
 {
     "shared_item_grid": {
         "type": "array",
-        "orientation": "vertical",
         "margin": "0,0",
         "content": [
             {
@@ -41,7 +40,10 @@
                                 "turtlezoneprogression"
                             ],
                             [
-                                "mariocoinfragment"
+                                "pipetraversal"
+                            ],
+                            [
+                                "cancelautoscroll"
                             ]
                         ]
                     }

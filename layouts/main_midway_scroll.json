@@ -1,0 +1,45 @@
+{
+	"main_grid": {
+		"type": "dock",
+		"dock": "bottom",
+		"v_alignment": "stretch",
+		"content": [
+			{
+				"type": "group",
+				"header": "Items",
+				"dock": "left",
+				"content": {
+					"type": "layout",
+					"key": "shared_item_grid"
+				}
+			},
+			{
+				"type": "group",
+				"header": "Midway Bells",
+				"dock": "left",
+				"content": {
+					"type": "layout",
+					"key": "midwaybells"
+				}
+			},
+			{
+				"type": "group",
+				"header": "Secrets",
+				"dock": "left",
+				"content": {
+					"type": "layout",
+					"key": "secret"
+				}
+			},
+			{
+				"type": "group",
+				"header": "Cancel Auto Scrolls",
+				"dock": "left",
+				"content": {
+					"type": "layout",
+					"key": "scroll"
+				}
+			}
+		]
+	}
+}

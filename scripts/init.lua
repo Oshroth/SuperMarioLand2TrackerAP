@@ -30,11 +30,6 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     Tracker:AddLocations("locations/locations.json")
 end
 
--- Layout
-Tracker:AddLayouts("layouts/items.json")
-Tracker:AddLayouts("layouts/tracker.json")
-Tracker:AddLayouts("layouts/broadcast.json")
-
 -- Locations
 ScriptHost:LoadScript("scripts/locations.lua")
 
@@ -42,7 +37,13 @@ ScriptHost:LoadScript("scripts/locations.lua")
 ScriptHost:LoadScript("scripts/layouts_import.lua")
 
 -- Adds Watches for Item Grid Toggles
-ScriptHost:AddWatchForCode("set-gc-goal", "set-gc-goal", toggle_settings)
+ScriptHost:AddWatchForCode("goal-settings", "set-gc-goal", toggle_settings)
+ScriptHost:AddWatchForCode("goal-items", "set-gc-goal", toggle_itemgrid)
+ScriptHost:AddWatchForCode("pipe-items", "set-pipe-traversal", toggle_itemgrid)
+ScriptHost:AddWatchForCode("scroll-items", "set-scroll-mode", toggle_itemgrid)
+ScriptHost:AddWatchForCode("scroll-main", "set-scroll-mode", toggle_maingrid)
+ScriptHost:AddWatchForCode("midway-main", "set-shuffle-midways", toggle_maingrid)
+ScriptHost:AddWatchForCode("midway-mario", "set-mario-castle-midway", toggle_midways)
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.26.0" then
