@@ -1,0 +1,49 @@
+{
+    "shared_item_grid": {
+        "type": "array",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "dock",
+                "dock": "bottom",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "5, 5",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_size": "40,40",
+                        "rows": [
+                            [
+                                "mushroom",
+                                "fireflower",
+                                "carrot",
+                                "hippobubble",
+                                "spacephysics",
+                                "waterphysics"
+                            ],
+                            [
+                                "mariocoinfragment"
+                            ],
+                            [
+                                "mariozoneprogression",
+                                "treezoneprogression",
+                                "macrozoneprogression",
+                                "spacezoneprogression",
+                                "pumpkinzoneprogression",
+                                "turtlezoneprogression"
+                            ],
+                            [
+                                "pipetraversal"
+                            ],
+                            [
+                                "cancelautoscroll"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

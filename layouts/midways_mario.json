@@ -1,6 +1,7 @@
 {
     "midwaybells": {
         "type": "dock",
+        "dock": "horizontal",
         "margin": "0,0",
         "content": [
             {

@@ -1,0 +1,35 @@
+{
+	"main_grid": {
+		"type": "dock",
+		"v_alignment": "stretch",
+		"content": [
+			{
+				"type": "group",
+				"header": "Items",
+				"dock": "top",
+				"content": {
+					"type": "layout",
+					"key": "shared_item_grid"
+				}
+			},
+			{
+				"type": "group",
+				"header": "Midway Bells",
+				"dock": "top",
+				"content": {
+					"type": "layout",
+					"key": "midwaybells"
+				}
+			},
+			{
+				"type": "group",
+				"header": "Secrets",
+				"dock": "top",
+				"content": {
+					"type": "layout",
+					"key": "secret"
+				}
+			}
+		]
+	}
+}

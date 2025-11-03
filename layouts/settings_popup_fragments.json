@@ -1,5 +1,5 @@
 {
-    "secret": {
+    "settings_popup": {
         "type": "dock",
         "margin": "0,0",
         "content": [
@@ -11,17 +11,17 @@
                 "item_size": "40,40",
                 "rows": [
                     [
-                        "treezonesecret",
-                        "macrozonesecret1",
-                        "spacezonesecret",
-                        "pumpkinzonesecret1",
-                        "turtlezonesecret"
+                        "set-gc-goal",
+                        "set-mc-frag-required"
                     ],
                     [
-                        "",
-                        "macrozonesecret2",
-                        "",
-                        "pumpkinzonesecret2"
+                        "set-shuffle-midways",
+                        "set-mario-castle-midway",
+                        "set-scroll-mode",
+                        "set-pipe-traversal",
+                        "set-mz3-claws",
+                        "set-tz1-sharks",
+                        "set-coinsanity"
                     ]
                 ]
             }
