@@ -1,7 +1,6 @@
 {
 	"main_grid": {
 		"type": "dock",
-		"dock": "bottom",
 		"v_alignment": "stretch",
 		"content": [
 			{

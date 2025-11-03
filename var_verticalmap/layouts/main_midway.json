@@ -6,7 +6,7 @@
 			{
 				"type": "group",
 				"header": "Items",
-				"dock": "left",
+				"dock": "top",
 				"content": {
 					"type": "layout",
 					"key": "shared_item_grid"
@@ -15,7 +15,7 @@
 			{
 				"type": "group",
 				"header": "Midway Bells",
-				"dock": "left",
+				"dock": "top",
 				"content": {
 					"type": "layout",
 					"key": "midwaybells"
@@ -24,19 +24,10 @@
 			{
 				"type": "group",
 				"header": "Secrets",
-				"dock": "left",
+				"dock": "top",
 				"content": {
 					"type": "layout",
 					"key": "secret"
-				}
-			},
-			{
-				"type": "group",
-				"header": "Cancel Auto Scrolls",
-				"dock": "left",
-				"content": {
-					"type": "layout",
-					"key": "scroll"
 				}
 			}
 		]

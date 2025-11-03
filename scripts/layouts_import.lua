@@ -14,3 +14,5 @@ Tracker:AddLayouts("layouts/midways.json")
 Tracker:AddLayouts("layouts/tracker.json")
 -- Broadcast
 Tracker:AddLayouts("layouts/broadcast.json")
+-- Map
+Tracker:AddLayouts("layouts/map.json")
