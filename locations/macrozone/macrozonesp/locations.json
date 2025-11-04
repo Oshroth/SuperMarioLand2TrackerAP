@@ -1,6 +1,8 @@
 [
     {
         "name": "Macro Zone Secret Course",
+        "access_rules": ["macrozonesecret1", "macrozonesecret2, @Macro Zone 4"],
+        "parent": "Macro Zone 1",
         "children": [
             {
                 "name": "Normal Exit",

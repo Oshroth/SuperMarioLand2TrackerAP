@@ -1,9 +1,11 @@
 [
     {
         "name": "Space Zone 1",
+        "access_rules": ["hippobubble", "carrot, $no_scroll|hippozone"],
         "children": [
             {
                 "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
                 "sections": [
                     {
                         "name": "Midway Bell",
@@ -27,6 +29,7 @@
             },
             {
                 "name": "Normal Exit",
+                "access_rules": ["spacephysics", "carrot"],
                 "sections": [
                     {
                         "name": "Normal Exit",
@@ -45,6 +48,7 @@
             },
             {
                 "name": "Secret Exit",
+                "access_rules": ["spacephysics, $no_scroll|spacezone1", "carrot, $no_scroll|spacezone1"],
                 "sections": [
                     {
                         "name": "Secret Exit",

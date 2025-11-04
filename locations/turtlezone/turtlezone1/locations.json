@@ -4,6 +4,7 @@
         "children": [
             {
                 "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
                 "sections": [
                     {
                         "name": "Midway Bell",
@@ -27,6 +28,7 @@
             },
             {
                 "name": "Normal Exit",
+                "access_rules": ["$not_blocked_by_sharks"],
                 "sections": [
                     {
                         "name": "Normal Exit",

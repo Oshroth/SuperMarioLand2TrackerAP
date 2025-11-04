@@ -1,9 +1,11 @@
 [
     {
         "name": "Tree Zone 3",
+        "access_rules": ["$has|treezoneprogression|2"],
         "children": [
             {
                 "name": "Normal Exit",
+                "access_rules": ["$no_scroll|treezone3"],
                 "sections": [
                     {
                         "name": "Normal Exit",

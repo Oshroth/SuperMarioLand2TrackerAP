@@ -1,9 +1,12 @@
 [
     {
         "name": "Tree Zone 4",
+        "access_rules": ["$has|treezoneprogression|2"],
         "children": [
             {
                 "name": "Midway Bell",
+                "access_rules": ["$has_pipe_right, $has_pipe_up", "$has_midway|treezone4"],
+                "visibility_rules": ["set-shuffle-midways"],
                 "sections": [
                     {
                         "name": "Midway Bell",
@@ -27,6 +30,7 @@
             },
             {
                 "name": "Normal Exit",
+                "access_rules": ["$has_pipe_down, @Tree Zone 4/Midway Bell"],
                 "sections": [
                     {
                         "name": "Normal Exit",

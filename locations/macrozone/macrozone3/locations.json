@@ -1,9 +1,12 @@
 [
     {
         "name": "Macro Zone 3",
+        "access_rules": ["$has|macrozoneprogression|2"],
         "children": [
             {
                 "name": "Midway Bell",
+                "access_rules": ["@Macro Zone 3/Normal Exit"],
+                "visibility_rules": ["set-shuffle-midways"],
                 "sections": [
                     {
                         "name": "Midway Bell",
@@ -22,6 +25,7 @@
             },
             {
                 "name": "Normal Exit",
+                "access_rules": ["$has_pipe_down, $has_pipe_up", "$has_midway|macrozone3"],
                 "sections": [
                     {
                         "name": "Normal Exit",

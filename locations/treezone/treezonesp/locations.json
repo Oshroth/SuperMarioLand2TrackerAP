@@ -1,6 +1,8 @@
 [
     {
         "name": "Tree Zone Secret Course",
+        "parent": "Tree Zone 2",
+        "access_rules": ["treezonesecret"],
         "children": [
             {
                 "name": "Normal Exit",

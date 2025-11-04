@@ -1,9 +1,11 @@
 [
     {
         "name": "Pumpkin Zone 2",
+        "access_rules": ["$has|pumpkinzoneprogression"],
         "children": [
             {
                 "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
                 "sections": [
                     {
                         "name": "Midway Bell",
@@ -22,6 +24,7 @@
             },
             {
                 "name": "Normal Exit",
+                "access_rules": ["$has_pipe_down, $has_pipe_up, $has_pipe_right, waterphysics, $no_scroll|pumpkinzone2"],
                 "sections": [
                     {
                         "name": "Normal Exit",
@@ -40,6 +43,7 @@
             },
             {
                 "name": "Secret Exit",
+                "access_rules": ["@Pumpkin Zone 2/Normal Exit, $can_spin"],
                 "sections": [
                     {
                         "name": "Secret Exit",

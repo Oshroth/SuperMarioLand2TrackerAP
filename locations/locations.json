@@ -234,8 +234,8 @@
                         "name": "Mario's Castle - Midway Bell"
                     },
                     {
-                        "ref": "Mario's Castle/Goal/Boss",
-                        "name": "Mario's Castle - Boss"
+                        "ref": "Mario's Castle/Goal/Wario",
+                        "name": "Mario's Castle - Wario"
                     }
                 ],
                 "map_locations": [

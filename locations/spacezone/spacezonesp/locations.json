@@ -1,6 +1,8 @@
 [
     {
         "name": "Space Zone Secret Course",
+        "access_rules": ["spacezonesecret"],
+        "parent": "Space Zone 1",
         "children": [
             {
                 "name": "Normal Exit",

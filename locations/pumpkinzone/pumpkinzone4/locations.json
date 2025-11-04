@@ -1,9 +1,11 @@
 [
     {
         "name": "Pumpkin Zone 4",
+        "access_rules": ["$has|pumpkinzoneprogression|3"],
         "children": [
             {
                 "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
                 "sections": [
                     {
                         "name": "Midway Bell",
@@ -27,6 +29,7 @@
             },
             {
                 "name": "Boss",
+                "access_rules": ["$has_pipe_right"],
                 "sections": [
                     {
                         "name": "Boss",

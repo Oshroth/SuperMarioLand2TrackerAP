@@ -1,9 +1,11 @@
 [
     {
         "name": "Mario Zone 2",
+        "access_rules": ["$has|mariozoneprogression"],
         "children": [
             {
                 "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
                 "sections": [
                     {
                         "name": "Midway Bell",

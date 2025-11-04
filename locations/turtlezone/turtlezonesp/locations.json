@@ -1,9 +1,12 @@
 [
     {
         "name": "Turtle Zone Secret Course",
+        "access_rules": ["turtlezonesecret"],
+        "parent": "Turtle Zone 2",
         "children": [
             {
                 "name": "Normal Exit",
+                "access_rules": [" fireflower", "carrot"],
                 "sections": [
                     {
                         "name": "Normal Exit",

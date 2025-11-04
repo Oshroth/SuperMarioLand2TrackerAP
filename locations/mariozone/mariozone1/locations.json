@@ -4,6 +4,8 @@
         "children": [
             {
                 "name": "Midway Bell",
+                "access_rules": ["[$can_take_hit], $has_pipe_right", "$has_midway|mariozone1"],
+                "visibility_rules": ["set-shuffle-midways"],
                 "sections": [
                     {
                         "name": "Midway Bell",
@@ -22,6 +24,7 @@
             },
             {
                 "name": "Normal Exit",
+                "access_rules": ["$has_pipe_right, $no_scroll|mariozone1", "$has_pipe_right, $can_take_hit", "$has_pipe_right, $has_midway|mariozone1"],
                 "sections": [
                     {
                         "name": "Normal Exit",
