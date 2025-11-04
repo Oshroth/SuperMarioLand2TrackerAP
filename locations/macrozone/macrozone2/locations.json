@@ -1,9 +1,12 @@
 [
     {
         "name": "Macro Zone 2",
+        "access_rules": ["$has|macrozoneprogression"],
         "children": [
             {
                 "name": "Midway Bell",
+                "access_rules": ["$has_pipe_down, waterphysics", "$has_midway|macrozone2"],
+                "visibility_rules": ["set-shuffle-midways"],
                 "sections": [
                     {
                         "name": "Midway Bell",
@@ -22,6 +25,7 @@
             },
             {
                 "name": "Normal Exit",
+                "access_rules": ["$has_pipe_down, waterphysics, $has_pipe_up, $no_scroll|macrozone2", "$has_midway|macrozone2, waterphysics, $has_pipe_up, $no_scroll|macrozone2"],
                 "sections": [
                     {
                         "name": "Normal Exit",

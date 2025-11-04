@@ -247,8 +247,8 @@ function autoFill(slot_data)
             -- auto_scroll_levels values
             -- 0 - no scroll
             -- 1 - auto scroll
-            -- 2 - auto scroll with cancel item
-            -- 3 - no scroll with scroll trap
+            -- 2 - auto scroll with cancel global/level item
+            -- 3 - no scroll with scroll global/level trap
             local scrollLevels = slot_data["auto_scroll_levels"]
 
             for index, code in pairs(levelCodes) do

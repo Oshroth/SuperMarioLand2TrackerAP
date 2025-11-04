@@ -1,9 +1,11 @@
 [
     {
         "name": "Macro Zone 4",
+        "access_rules": ["$has|macrozoneprogression|3", "@Macro Zone Secret Course, macrozonesecret2"],
         "children": [
             {
                 "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
                 "sections": [
                     {
                         "name": "Midway Bell",
@@ -27,6 +29,7 @@
             },
             {
                 "name": "Boss",
+                "access_rules": ["$has_pipe_right"],
                 "sections": [
                     {
                         "name": "Boss",

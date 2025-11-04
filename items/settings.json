@@ -63,7 +63,7 @@
             {
                 "name": "Auto Scroll Mode - Always",
                 "img": "images/items/settings/autoscroll.png",
-                "codes": "set-scroll-mode, set-scroll-mode-off"
+                "codes": "set-scroll-mode, set-scroll-mode-always"
             },
             {
                 "name": "Auto Scroll Mode - Global Trap",
@@ -153,5 +153,5 @@
         "type": "toggle",
         "img": "images/items/settings/coinsanity.png",
         "codes": "set-coinsanity"
-    },
+    }
 ]

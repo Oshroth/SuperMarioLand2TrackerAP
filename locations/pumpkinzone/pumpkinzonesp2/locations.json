@@ -1,6 +1,8 @@
 [
     {
         "name": "Pumpkin Zone Secret Course 2",
+        "access_rules": ["pumpkinzonesecret2"],
+        "parent": "Pumpkin Zone 3",
         "children": [
             {
                 "name": "Normal Exit",

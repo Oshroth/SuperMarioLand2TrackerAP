@@ -44,12 +44,8 @@ function any(...)
 end
 
 function has(item, amount, amountInLogic)
--- function has(item, noKDS_amount, noKDS_amountInLogic, KDS_amount, KDS_amountInLogic)
     local count
-    local amount
-    local amountInLogic
 
-    -- print(item, count, amount, amountInLogic)
     count = Tracker:ProviderCountForCode(item)
     if amountInLogic then
         if count >= amountInLogic then
