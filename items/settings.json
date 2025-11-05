@@ -35,7 +35,7 @@
         "codes": "set-gc-required"
     },
     {
-        "name": "Maro Coin Fragments Required",
+        "name": "Mario Coin Fragments Required",
         "type": "consumable",
         "img": "images/items/coins/mariocoinfragment.png",
         "min_quantity": 0,
