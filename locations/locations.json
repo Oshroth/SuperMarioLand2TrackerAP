@@ -107,7 +107,7 @@
                     },
                     {
                         "ref": "Mario Zone 4/Midway Bell/Midway Bell",
-                        "name": "Mario Zone 4 - Normal Exit"
+                        "name": "Mario Zone 4 - Midway Bell"
                     },
                     {
                         "ref": "Mario Zone 4/Boss/Boss",
@@ -234,8 +234,8 @@
                         "name": "Mario's Castle - Midway Bell"
                     },
                     {
-                        "ref": "Mario's Castle/Goal/Boss",
-                        "name": "Mario's Castle - Boss"
+                        "ref": "Mario's Castle/Goal/Wario",
+                        "name": "Mario's Castle - Wario"
                     }
                 ],
                 "map_locations": [

@@ -1,9 +1,11 @@
 [
     {
         "name": "Turtle Zone 3",
+        "access_rules": ["$has|turtlezoneprogression|2"],
         "children": [
             {
                 "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
                 "sections": [
                     {
                         "name": "Midway Bell",
@@ -27,6 +29,7 @@
             },
             {
                 "name": "Boss",
+                "access_rules": ["$has_pipe_right"],
                 "sections": [
                     {
                         "name": "Boss",

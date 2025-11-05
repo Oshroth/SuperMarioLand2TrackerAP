@@ -22,6 +22,7 @@
             },
             {
                 "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
                 "sections": [
                     {
                         "name": "Midway Bell",

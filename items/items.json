@@ -27,37 +27,37 @@
         "name": "Tree Coin",
         "type": "toggle",
         "img": "images/items/coins/treecoin.png",
-        "codes": "treecoin"
+        "codes": "treecoin, goalcoin"
     },
     {
         "name": "Space Coin",
         "type": "toggle",
         "img": "images/items/coins/spacecoin.png",
-        "codes": "spacecoin"
+        "codes": "spacecoin, goalcoin"
     },
     {
         "name": "Macro Coin",
         "type": "toggle",
         "img": "images/items/coins/macrocoin.png",
-        "codes": "macrocoin"
+        "codes": "macrocoin, goalcoin"
     },
     {
         "name": "Mario Coin",
         "type": "toggle",
         "img": "images/items/coins/mariocoin.png",
-        "codes": "mariocoin"
+        "codes": "mariocoin, goalcoin"
     },
     {
         "name": "Pumpkin Coin",
         "type": "toggle",
         "img": "images/items/coins/pumpkincoin.png",
-        "codes": "pumpkincoin"
+        "codes": "pumpkincoin, goalcoin"
     },
     {
         "name": "Turtle Coin",
         "type": "toggle",
         "img": "images/items/coins/turtlecoin.png",
-        "codes": "turtlecoin"
+        "codes": "turtlecoin, goalcoin"
     },
     {
         "name": "Macro Zone Progression",
@@ -135,7 +135,7 @@
         "name": "Pipe Traversal All",
         "type": "toggle",
         "img": "images/items/pipetraversal/all.png",
-        "codes": "pipetraversal,pipetraversal-right,pipetraversal-down,pipetraversal-up,pipetraversal-left"
+        "codes": "pipetraversal"
     },
     {
         "name": "Space Physics",

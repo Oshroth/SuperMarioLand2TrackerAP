@@ -1,9 +1,12 @@
 [
     {
         "name": "Turtle Zone 2",
+        "access_rules": ["$has|turtlezoneprogression"],
         "children": [
             {
                 "name": "Midway Bell",
+                "access_rules": ["waterphysics, $no_scroll|turtlezone2", "$has_midway|turtlezone2"],
+                "visibility_rules": ["set-shuffle-midways"],
                 "sections": [
                     {
                         "name": "Midway Bell",
@@ -22,6 +25,7 @@
             },
             {
                 "name": "Normal Exit",
+                "access_rules": ["$has_pipe_up, $has_pipe_down, $has_pipe_right, $has_pipe_left, waterphysics, $no_scroll|turtlezone2"],
                 "sections": [
                     {
                         "name": "Normal Exit",
@@ -40,6 +44,7 @@
             },
             {
                 "name": "Secret Exit",
+                "access_rules": ["$has_pipe_up, waterphysics, $no_scroll|turtlezone2"],
                 "sections": [
                     {
                         "name": "Secret Exit",

@@ -1,9 +1,12 @@
 [
     {
         "name": "Mario's Castle",
+        "access_rules": ["$has_goal"],
         "children": [
             {
                 "name": "Midway Bell",
+                "access_rules": ["$has_pipe_right, $has_pipe_left", "$has_castle_midway"],
+                "visibility_rules": ["set-shuffle-midways, set-mario-castle-midway"],
                 "sections": [
                     {
                         "name": "Midway Bell",
@@ -22,6 +25,7 @@
             },
             {
                 "name": "Goal",
+                "access_rules": ["$has_pipe_right, $has_pipe_left", "$has_castle_midway"],
                 "sections": [
                     {
                         "name": "Wario",

@@ -1,9 +1,11 @@
 [
 {
         "name": "Tree Zone 5",
+        "access_rules": ["$has|treezoneprogression|3"],
         "children": [
             {
                 "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
                 "sections": [
                     {
                         "name": "Midway Bell",
@@ -27,6 +29,7 @@
             },
             {
                 "name": "Boss",
+                "access_rules": ["$has_pipe_right, $has_pipe_up", "$has_pipe_right, carrot"],
                 "sections": [
                     {
                         "name": "Boss",

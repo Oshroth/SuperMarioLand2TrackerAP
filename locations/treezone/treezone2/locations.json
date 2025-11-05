@@ -1,9 +1,12 @@
 [    
     {
         "name": "Tree Zone 2",
+        "access_rules": ["$has|treezoneprogression"],
         "children": [
             {
                 "name": "Midway Bell",
+                "access_rules": ["$has_pipe_right", "$has_midway|treezone2"],
+                "visibility_rules": ["set-shuffle-midways"],
                 "sections": [
                     {
                         "name": "Midway Bell",
@@ -27,6 +30,7 @@
             },
             {
                 "name": "Normal Exit",
+                "access_rules": ["$has_pipe_right", "$has_midway|treezone2"],
                 "sections": [
                     {
                         "name": "Normal Exit",
@@ -45,6 +49,7 @@
             },
             {
                 "name": "Secret Exit",
+                "access_rules": ["$has_pipe_right, carrot"],
                 "sections": [
                     {
                         "name": "Secret Exit",

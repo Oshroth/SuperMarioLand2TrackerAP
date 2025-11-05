@@ -1,9 +1,13 @@
 [
     {
         "name": "Space Zone 2",
+        "access_rules": ["$has|spacezoneprogression"],
+        "parent": "Space Zone 1",
         "children": [
             {
                 "name": "Midway Bell",
+                "access_rules": ["spacephysics", "$has_midway|spacezone2", "$can_take_hit"],
+                "visibility_rules": ["set-shuffle-midways"],
                 "sections": [
                     {
                         "name": "Midway Bell",
@@ -27,6 +31,7 @@
             },
             {
                 "name": "Boss",
+                "access_rules": ["$has_pipe_right, spacephysics", "$has_pipe_right, $has_midway|spacezone2, $can_take_hit", "$has_pipe_right, $not_shuffle_midways, $can_take_hit", "$has_pipe_right, $can_take_hit|2"],
                 "sections": [
               {
                         "name": "Boss",

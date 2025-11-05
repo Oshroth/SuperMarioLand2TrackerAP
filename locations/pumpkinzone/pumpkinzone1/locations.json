@@ -4,6 +4,8 @@
         "children": [
             {
                 "name": "Midway Bell",
+                "access_rules": ["$has_pipe_down, $no_scroll|pumpkinzone1", "$has_midway|pumpkinzone1"],
+                "visibility_rules": ["set-shuffle-midways"],
                 "sections": [
                     {
                         "name": "Midway Bell",
@@ -22,6 +24,7 @@
             },
             {
                 "name": "Normal Exit",
+                "access_rules": ["@Pumpkin Zone 1/Midway Bell"],
                 "sections": [
                     {
                         "name": "Normal Exit",
