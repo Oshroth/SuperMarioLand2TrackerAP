@@ -1,12 +1,12 @@
 [
     {
-        "name": "hippozone",
+        "name": "Hippo Zone",
         "children": [
             {
                 "name": "Exit",
                 "sections": [
                     {
-                        "name": "Take the Exit",
+                        "name": "Normal or Secret Exit",
                         "chest_unopened_img": "images/items/levels/normalexit.png",
                         "chest_opened_img": "images/items/levels/normalexit_off.png",
                         "item_count": 1

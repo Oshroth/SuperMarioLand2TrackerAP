@@ -1,16 +1,16 @@
 [
     {
-        "name": "TurtleZone1",
+        "name": "Turtle Zone",
         "children": [
             {
                 "name": "Turtle Zone 1",
                 "sections": [
                     {
-                        "ref": "turtlezone1-mb/Midway Bell/Get it!",
+                        "ref": "Turtle Zone 1/Midway Bell/Midway Bell",
                         "name": "Turtle Zone 1 - Midway Bell"
                     },
                     {
-                        "ref": "turtlezone1-ne/Normal Exit/Take the Exit",
+                        "ref": "Turtle Zone 1/Normal Exit/Normal Exit",
                         "name": "Turtle Zone 1 - Normal Exit"
                     }
                 ],
@@ -21,25 +21,20 @@
                         "y": 33
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "TurtleZone2",
-        "children": [
+            },
             {
                 "name": "Turtle Zone 2",
                 "sections": [
                     {
-                        "ref": "turtlezone2-mb/Midway Bell/Get it!",
+                        "ref": "Turtle Zone 2/Midway Bell/Midway Bell",
                         "name": "Turtle Zone 2 - Midway Bell"
                     },
                     {
-                        "ref": "turtlezone2-ne/Normal Exit/Take the Exit",
+                        "ref": "Turtle Zone 2/Normal Exit/Normal Exit",
                         "name": "Turtle Zone 2 - Normal Exit"
                     },
                     {
-                        "ref": "turtlezone2-se/Secret Exit/Take the Exit",
+                        "ref": "Turtle Zone 2/Secret Exit/Secret Exit",
                         "name": "Turtle Zone 2 - Secret Exit"
                     }
                 ],
@@ -50,22 +45,17 @@
                         "y": 89
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "TurtleZone3",
-        "children": [
+            },
             {
                 "name": "Turtle Zone 3",
                 "sections": [
                     {
-                        "ref": "turtlezone3-mb/Midway Bell/Get it!",
+                        "ref": "Turtle Zone 3/Midway Bell/Midway Bell",
                         "name": "Turtle Zone 3 - Midway Bell"
                     },
                     {
-                        "ref": "turtlezone3-boss/Boss/Beat the Boss",
-                        "name": "Turtle Zone 3 - Beat the Boss"
+                        "ref": "Turtle Zone 3/Boss/Boss",
+                        "name": "Turtle Zone 3 - Boss"
                     }
                 ],
                 "map_locations": [
@@ -75,18 +65,13 @@
                         "y": 113
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "TurtleZoneSp",
-        "children": [
+            },
             {
-                "name": "Turtle Zone Secret Course 1",
+                "name": "Turtle Zone Secret Course",
                 "sections": [
                     {
-                        "ref": "turtlezonesp/Normal Exit/Take the Exit",
-                        "name": "Turtle Zone Secret Course 1 - Normal Exit"
+                        "ref": "Turtle Zone Secret Course/Normal Exit/Normal Exit",
+                        "name": "Turtle Zone Secret Course - Normal Exit"
                     }
                 ],
                 "map_locations": [

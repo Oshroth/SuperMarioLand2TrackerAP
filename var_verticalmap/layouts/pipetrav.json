@@ -8,13 +8,14 @@
                 "item_margin": "5, 5",
                 "h_alignment": "left",
                 "item_h_alignment": "center",
+                "item_size": "40,40",
                 "rows": [
                     [
-                        "pipetravup",
-                        "pipetravdown",
-                        "pipetravleft",
-                        "pipetravright",
-                        "pipetravall"
+                        "pipetraversal-up",
+                        "pipetraversal-down",
+                        "pipetraversal-left",
+                        "pipetraversal-right",
+                        "pipetraversal"
                     ]
                 ]
             }

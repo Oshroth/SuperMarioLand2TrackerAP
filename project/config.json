@@ -1,0 +1,346 @@
+{
+    "components": {
+        "1": {
+            "name": "1",
+            "img": "images/1.png",
+            "alignment": "topRight",
+            "offset": 2
+        },
+        "2": {
+            "name": "2",
+            "img": "images/2.png",
+            "alignment": "topRight",
+            "offset": 2
+        },
+        "3": {
+            "name": "3",
+            "img": "images/3.png",
+            "alignment": "topRight",
+            "offset": 2
+        },
+        "4": {
+            "name": "4",
+            "img": "images/4.png",
+            "alignment": "topRight",
+            "offset": 2
+        },
+        "5": {
+            "name": "5",
+            "img": "images/5.png",
+            "alignment": "topRight",
+            "offset": 2
+        },
+        "s": {
+            "name": "s",
+            "img": "images/secret.png",
+            "alignment": "topRight",
+            "offset": 2
+        },
+        "s1": {
+            "name": "s1",
+            "img": "images/s1.png",
+            "alignment": "topRight",
+            "offset": {
+                "x": 2,
+                "y": 1
+            }
+        },
+        "s2": {
+            "name": "s2",
+            "img": "images/s2.png",
+            "alignment": "topRight",
+            "offset": {
+                "x": 1,
+                "y": 1
+            }
+        },
+        "autoscroll": {
+            "name": "autoscroll",
+            "img": "images/autoscroll.png",
+            "alignment": "topLeft",
+            "offset": 2
+        },
+        "cancel-autoscroll": {
+            "name": "cancel-autoscroll",
+            "img": "images/cancel-autoscroll.png",
+            "alignment": "topLeft",
+            "offset": {
+                "x": 2,
+                "y": 1
+            }
+        },
+        "autoscroll-top": {
+            "name": "autoscroll",
+            "img": "images/autoscroll.png",
+            "alignment": "top",
+            "offset": {
+                "x": 0,
+                "y": 2
+            }
+        },
+        "cancel-autoscroll-top": {
+            "name": "cancel-autoscroll",
+            "img": "images/cancel-autoscroll.png",
+            "alignment": "top",
+            "offset": {
+                "x": 0,
+                "y": 1
+            }
+        },
+        "midway": {
+            "name": "midway",
+            "img": "images/midway.png",
+            "alignment": "topLeft",
+            "offset": 2
+        },
+        "midway-top": {
+            "name": "midway",
+            "img": "images/midway.png",
+            "alignment": "top",
+            "offset": {
+                "x": 0,
+                "y": 2
+            }
+        },
+        "secret": {
+            "name": "secret",
+            "img": "images/secret.png",
+            "alignment": "topLeft",
+            "offset": 2
+        },
+        "progression": {
+            "name": "progression",
+            "img": "images/progression.png",
+            "alignment": "topRight",
+            "offset": 2
+        },
+        "macrozone": {
+            "name": "macrozone",
+            "img": "images/macro-zone.png",
+            "alignment": "bottom"
+        },
+        "mariozone": {
+            "name": "mariozone",
+            "img": "images/mario-zone.png",
+            "alignment": "bottom"
+        },
+        "pumpkinzone": {
+            "name": "pumpkinzone",
+            "img": "images/pumpkin-zone.png",
+            "alignment": "bottom"
+        },
+        "spacezone": {
+            "name": "spacezone",
+            "img": "images/space-zone.png",
+            "alignment": "bottom"
+        },
+        "treezone": {
+            "name": "treezone",
+            "img": "images/tree-zone.png",
+            "alignment": "bottom"
+        },
+        "turtlezone": {
+            "name": "turtlezone",
+            "img": "images/turtle-zone.png",
+            "alignment": "bottom"
+        },
+        "mushroomzone": {
+            "name": "mushroomzone",
+            "img": "images/mushroom-zone.png",
+            "alignment": "bottom"
+        },
+        "hippozone": {
+            "name": "hippozone",
+            "img": "images/hippo-zone.png",
+            "alignment": "bottom"
+        },
+        "mariocastle": {
+            "name": "mariocastle",
+            "img": "images/mario-castle.png",
+            "alignment": "bottom"
+        },
+        "sceniccourse": {
+            "name": "sceniccourse",
+            "img": "images/scenic-course.png",
+            "alignment": "bottom"
+        },
+        "global": {
+            "name": "global",
+            "img": "images/global.png",
+            "alignment": "bottom"
+        }
+    },
+    "worlds": {
+        "macrozone": {
+            "name": "macrozone",
+            "base_image": "macrozone",
+            "images": [
+                ["secret", "1"],
+                ["secret", "2"],
+                ["autoscroll", "1"],
+                ["autoscroll", "2"],
+                ["autoscroll", "3"],
+                ["autoscroll", "4"],
+                ["autoscroll", "s"],
+                ["cancel-autoscroll", "1"],
+                ["cancel-autoscroll", "2"],
+                ["cancel-autoscroll", "3"],
+                ["cancel-autoscroll", "4"],
+                ["cancel-autoscroll", "s"],
+                ["midway", "1"],
+                ["midway", "2"],
+                ["midway", "3"],
+                ["midway", "4"],
+                ["progression"]
+            ]
+        },
+        "spacezone": {
+            "name": "spacezone",
+            "base_image": "spacezone",
+            "images": [
+                ["secret"],
+                ["autoscroll", "1"],
+                ["autoscroll", "2"],
+                ["autoscroll", "s"],
+                ["cancel-autoscroll", "1"],
+                ["cancel-autoscroll", "2"],
+                ["cancel-autoscroll", "s"],
+                ["midway", "1"],
+                ["midway", "2"],
+                ["progression"]
+            ]
+        },
+        "treezone": {
+            "name": "treezone",
+            "base_image": "treezone",
+            "images": [
+                ["secret"],
+                ["autoscroll", "1"],
+                ["autoscroll", "2"],
+                ["autoscroll", "3"],
+                ["autoscroll", "4"],
+                ["autoscroll", "5"],
+                ["autoscroll", "s"],
+                ["cancel-autoscroll", "1"],
+                ["cancel-autoscroll", "2"],
+                ["cancel-autoscroll", "3"],
+                ["cancel-autoscroll", "4"],
+                ["cancel-autoscroll", "5"],
+                ["cancel-autoscroll", "s"],
+                ["midway", "1"],
+                ["midway", "2"],
+                ["midway", "4"],
+                ["midway", "5"],
+                ["progression"]
+            ]
+        },
+        "pumpkinzone": {
+            "name": "pumpkinzone",
+            "base_image": "pumpkinzone",
+            "images": [
+                ["secret", "1"],
+                ["secret", "2"],
+                ["autoscroll", "1"],
+                ["autoscroll", "2"],
+                ["autoscroll", "3"],
+                ["autoscroll", "4"],
+                ["autoscroll", "s1"],
+                ["autoscroll", "s2"],
+                ["cancel-autoscroll", "1"],
+                ["cancel-autoscroll", "2"],
+                ["cancel-autoscroll", "3"],
+                ["cancel-autoscroll", "4"],
+                ["cancel-autoscroll", "s1"],
+                ["cancel-autoscroll", "s2"],
+                ["midway", "1"],
+                ["midway", "2"],
+                ["midway", "3"],
+                ["midway", "4"],
+                ["progression"]
+            ]
+        },
+        "turtlezone": {
+            "name": "turtlezone",
+            "base_image": "turtlezone",
+            "images": [
+                ["secret"],
+                ["autoscroll", "1"],
+                ["autoscroll", "2"],
+                ["autoscroll", "3"],
+                ["autoscroll", "s"],
+                ["cancel-autoscroll", "1"],
+                ["cancel-autoscroll", "2"],
+                ["cancel-autoscroll", "3"],
+                ["cancel-autoscroll", "s"],
+                ["midway", "1"],
+                ["midway", "2"],
+                ["midway", "3"],
+                ["progression"]
+            ]
+        },
+        "mariozone": {
+            "name": "mariozone",
+            "base_image": "mariozone",
+            "images": [
+                ["autoscroll", "1"],
+                ["autoscroll", "2"],
+                ["autoscroll", "3"],
+                ["autoscroll", "4"],
+                ["cancel-autoscroll", "1"],
+                ["cancel-autoscroll", "2"],
+                ["cancel-autoscroll", "3"],
+                ["cancel-autoscroll", "4"],
+                ["midway", "1"],
+                ["midway", "2"],
+                ["midway", "3"],
+                ["midway", "4"],
+                ["progression"]
+            ]
+        },
+        "global": {
+            "name": "global",
+            "base_image": "global",
+            "images": [
+                ["autoscroll-top"],
+                ["cancel-autoscroll-top"]
+            ]
+        },
+        "mushroomzone": {
+            "name": "mushroomzone",
+            "base_image": "mushroomzone",
+            "images": [
+                ["autoscroll-top"],
+                ["cancel-autoscroll-top"],
+                ["midway-top"]
+            ]
+        },
+        "sceniccourse": {
+            "name": "sceniccourse",
+            "base_image": "sceniccourse",
+            "images": [
+                ["autoscroll-top"],
+                ["cancel-autoscroll-top"]
+            ]
+        },
+        "hippozone": {
+            "name": "hippozone",
+            "base_image": "hippozone",
+            "images": [
+                ["autoscroll-top"],
+                ["cancel-autoscroll-top"]
+            ]
+        },
+        "mariocastle": {
+            "name": "mariocastle",
+            "base_image": "mariocastle",
+            "images": [
+                ["midway-top"]
+            ]
+        }
+    },
+    "minimum_size": {
+        "x": 40,
+        "y": 40
+    },
+    "output_path": "../images/items"
+}

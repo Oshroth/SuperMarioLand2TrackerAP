@@ -19,3 +19,10 @@ function dump_table(o, depth)
         return tostring(o)
     end
 end
+
+function has_value (t, val)
+    for i, v in ipairs(t) do
+        if v == val then return 1 end
+    end
+    return 0
+end

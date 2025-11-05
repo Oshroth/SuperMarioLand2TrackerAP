@@ -9,30 +9,44 @@
                 "item_margin": "5, 5",
                 "h_alignment": "left",
                 "item_h_alignment": "center",
+                "item_size": "40,40",
                 "rows": [
                     [
-                        "mariozone1mb"
+                        "mariozone1midwaybell",
+                        "mariozone2midwaybell",
+                        "mariozone3midwaybell",
+                        "mariozone4midwaybell"
                     ],
                     [
-                        "treezone2mb",
-                        "treezone4mb"
+                        "treezone1midwaybell",
+                        "treezone2midwaybell",
+                        "treezone4midwaybell",
+                        "treezone5midwaybell"
                     ],
                     [
-                        "macrozone1mb",
-                        "macrozone2mb",
-                        "macrozone3mb"
+                        "macrozone1midwaybell",
+                        "macrozone2midwaybell",
+                        "macrozone3midwaybell",
+                        "macrozone4midwaybell"
                     ],
                     [
-                        "spacezone2mb"
+                        "spacezone1midwaybell",
+                        "spacezone2midwaybell"
                     ],
                     [
-                        "pumpkinzone1mb"
+                        "pumpkinzone1midwaybell",
+                        "pumpkinzone2midwaybell",
+                        "pumpkinzone3midwaybell",
+                        "pumpkinzone4midwaybell"
                     ],
                     [
-                        "turtlezone2mb"
+                        "turtlezone1midwaybell",
+                        "turtlezone2midwaybell",
+                        "turtlezone3midwaybell"
                     ],
                     [
-                        "mariocastlemb"
+                        "mushroomzonemidwaybell",
+                        "mariocastlemidwaybell"
                     ]
                 ]
             }

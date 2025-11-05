@@ -45,7 +45,7 @@
                                 "dock": "top",
                                 "content": {
                                     "type": "layout",
-                                    "key": "secret_vertical"
+                                    "key": "secret"
                                 }
                             },
                             {
@@ -261,7 +261,7 @@
                                             }
                                         },
                                         {
-                                            "title": "Macro Zone Secret Course 1",
+                                            "title": "Macro Zone Secret Course",
                                             "content": {
                                                 "type": "tabbed",
                                                 "tabs": [
@@ -846,7 +846,7 @@
                                             }
                                         },
                                         {
-                                            "title": "Space Zone Secret Course 1",
+                                            "title": "Space Zone Secret Course",
                                             "content": {
                                                 "type": "tabbed",
                                                 "tabs": [
@@ -1037,7 +1037,7 @@
                                             }
                                         },
                                         {
-                                            "title": "Tree Zone Secret Course 1",
+                                            "title": "Tree Zone Secret Course",
                                             "content": {
                                                 "type": "tabbed",
                                                 "tabs": [
@@ -1185,7 +1185,7 @@
                                             }
                                         },
                                         {
-                                            "title": "Turtle Zone Secret Course 1",
+                                            "title": "Turtle Zone Secret Course",
                                             "content": {
                                                 "type": "tabbed",
                                                 "tabs": [

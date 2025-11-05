@@ -1,16 +1,16 @@
 [
     {
-        "name": "mushzoneoverworld",
-        "children": [
+        "name": "Map",
+        "children":[
             {
                 "name": "Mushroom Zone",
                 "sections": [
                     {
-                        "ref": "mushroomzone/Midway Bell/Get it!",
+                        "ref": "Mushroom Zone/Midway Bell/Midway Bell",
                         "name": "Mushroom Zone - Midway Bell"
                     },
                     {
-                        "ref": "mushroomzone/Normal Exit/Take the Exit",
+                        "ref": "Mushroom Zone/Normal Exit/Normal Exit",
                         "name": "Mushroom Zone - Normal Exit"
                     }
                 ],
@@ -21,58 +21,53 @@
                         "y": 385
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "treezoneoverworld",
-        "children": [
+            },
             {
                 "name": "Tree Zone",
                 "sections": [
                     {
-                        "ref": "treezone1/Midway Bell/Get it!",
+                        "ref": "Tree Zone 1/Midway Bell/Midway Bell",
                         "name": "Tree Zone 1 - Midway Bell"
                     },
                     {
-                        "ref": "treezone1/Normal Exit/Take the Exit",
+                        "ref": "Tree Zone 1/Normal Exit/Normal Exit",
                         "name": "Tree Zone 1 - Normal Exit"
                     },
                     {
-                        "ref": "treezone2-mb/Midway Bell/Get it!",
+                        "ref": "Tree Zone 2/Midway Bell/Midway Bell",
                         "name": "Tree Zone 2 - Midway Bell"
                     },
                     {
-                        "ref": "treezone2-se/Secret Exit/Take the Exit",
+                        "ref": "Tree Zone 2/Secret Exit/Secret Exit",
                         "name": "Tree Zone 2 - Secret Exit"
                     },
                     {
-                        "ref": "treezone2-ne/Normal Exit/Take the Exit",
+                        "ref": "Tree Zone 2/Normal Exit/Normal Exit",
                         "name": "Tree Zone 2 - Normal Exit"
                     },
                     {
-                        "ref": "treezone3/Normal Exit/Take the Exit",
+                        "ref": "Tree Zone 3/Normal Exit/Normal Exit",
                         "name": "Tree Zone 3 - Normal Exit"
                     },
                     {
-                        "ref": "treezone4-mb/Midway Bell/Get it!",
+                        "ref": "Tree Zone 4/Midway Bell/Midway Bell",
                         "name": "Tree Zone 4 - Midway Bell"
                     },
                     {
-                        "ref": "treezone4-ne/Normal Exit/Take the Exit",
+                        "ref": "Tree Zone 4/Normal Exit/Normal Exit",
                         "name": "Tree Zone 4 - Normal Exit"
                     },
                     {
-                        "ref": "treezone5/Midway Bell/Get it!",
+                        "ref": "Tree Zone 5/Midway Bell/Midway Bell",
                         "name": "Tree Zone 5 - Midway Bell"
                     },
                     {
-                        "ref": "treezone5/Boss/Beat the Boss",
+                        "ref": "Tree Zone 5/Boss/Boss",
                         "name": "Tree Zone 5 - Boss"
                     },
                     {
-                        "ref": "treezonesp/Normal Exit/Take the Exit",
-                        "name": "Tree Zone Secret Course 1 - Normal Exit"
+                        "ref": "Tree Zone Secret Course/Normal Exit/Normal Exit",
+                        "name": "Tree Zone Secret Course - Normal Exit"
                     }
                 ],
                 "map_locations": [
@@ -82,46 +77,41 @@
                         "y": 303
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "mariozoneoverworld",
-        "children": [
+            },
             {
                 "name": "Mario Zone",
                 "sections": [
                     {
-                        "ref": "mariozone1-mb/Midway Bell/Get it!",
+                        "ref": "Mario Zone 1/Midway Bell/Midway Bell",
                         "name": "Mario Zone 1 - Midway Bell"
                     },
                     {
-                        "ref": "mariozone1-ne/Normal Exit/Take the Exit",
+                        "ref": "Mario Zone 1/Normal Exit/Normal Exit",
                         "name": "Mario Zone 1 - Normal Exit"
                     },
                     {
-                        "ref": "mariozone2-mb/Midway Bell/Get it!",
+                        "ref": "Mario Zone 2/Midway Bell/Midway Bell",
                         "name": "Mario Zone 2 - Midway Bell"
                     },
                     {
-                        "ref": "mariozone2-ne/Normal Exit/Take the Exit",
+                        "ref": "Mario Zone 2/Normal Exit/Normal Exit",
                         "name": "Mario Zone 2 - Normal Exit"
                     },
                     {
-                        "ref": "mariozone3-mb/Midway Bell/Get it!",
+                        "ref": "Mario Zone 3/Midway Bell/Midway Bell",
                         "name": "Mario Zone 3 - Midway Bell"
                     },
                     {
-                        "ref": "mariozone3-ne/Normal Exit/Take the Exit",
+                        "ref": "Mario Zone 3/Normal Exit/Normal Exit",
                         "name": "Mario Zone 3 - Normal Exit"
                     },
                     {
-                        "ref": "mariozone4-mb/Midway Bell/Get it!",
+                        "ref": "Mario Zone 4/Midway Bell/Midway Bell",
                         "name": "Mario Zone 4 - Normal Exit"
                     },
                     {
-                        "ref": "mariozone4-boss/Boss/Beat the Boss",
-                        "name": "Mario Zone 4 - Beat the Boss"
+                        "ref": "Mario Zone 4/Boss/Boss",
+                        "name": "Mario Zone 4 - Boss"
                     }
                 ],
                 "map_locations": [
@@ -131,38 +121,33 @@
                         "y": 267
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "spacezoneoverworld",
-        "children": [
+            },
             {
                 "name": "Space Zone",
                 "sections": [
                     {
-                        "ref": "spacezone1/Midway Bell/Get it!",
+                        "ref": "Space Zone 1/Midway Bell/Midway Bell",
                         "name": "Space Zone 1 - Midway Bell"
                     },
                     {
-                        "ref": "spacezone1/Normal Exit/Take the Exit",
+                        "ref": "Space Zone 1/Normal Exit/Normal Exit",
                         "name": "Space Zone 1 - Normal Exit"
                     },
                     {
-                        "ref": "spacezone1/Secret Exit/Take the Exit",
+                        "ref": "Space Zone 1/Secret Exit/Secret Exit",
                         "name": "Space Zone 1 - Secret Exit"
                     },
                     {
-                        "ref": "spacezone2/Midway Bell/Get it!",
+                        "ref": "Space Zone 2/Midway Bell/Midway Bell",
                         "name": "Space Zone 2 - Midway Bell"
                     },
                     {
-                        "ref": "spacezone2/Boss/Beat the Boss",
-                        "name": "Space Zone 2 - Beat the Boss"
+                        "ref": "Space Zone 2/Boss/Boss",
+                        "name": "Space Zone 2 - Boss"
                     },
                     {
-                        "ref": "spacezonesp/Normal Exit/Take the Exit",
-                        "name": "Space Zone Secret Course 1 - Normal Exit"
+                        "ref": "Space Zone Secret Course/Normal Exit/Normal Exit",
+                        "name": "Space Zone Secret Course - Normal Exit"
                     }
                 ],
                 "map_locations": [
@@ -172,54 +157,49 @@
                         "y": 135
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "macrozoneoverworld",
-        "children": [
+            },
             {
                 "name": "Macro Zone",
                 "sections": [
                     {
-                        "ref": "macrozone1-mb/Midway Bell/Get it!",
+                        "ref": "Macro Zone 1/Midway Bell/Midway Bell",
                         "name": "Macro Zone 1 - Midway Bell"
                     },
                     {
-                        "ref": "macrozone1-ne/Normal Exit/Take the Exit",
+                        "ref": "Macro Zone 1/Normal Exit/Normal Exit",
                         "name": "Macro Zone 1 - Normal Exit"
                     },
                     {
-                        "ref": "macrozone1-se/Secret Exit/Take the Exit",
+                        "ref": "Macro Zone 1/Secret Exit/Secret Exit",
                         "name": "Macro Zone 1 - Secret Exit"
                     },
                     {
-                        "ref": "macrozone2-mb/Midway Bell/Get it!",
+                        "ref": "Macro Zone 2/Midway Bell/Midway Bell",
                         "name": "Macro Zone 2 - Midway Bell"
                     },
                     {
-                        "ref": "macrozone2-ne/Normal Exit/Take the Exit",
+                        "ref": "Macro Zone 2/Normal Exit/Normal Exit",
                         "name": "Macro Zone 2 - Normal Exit"
                     },
                     {
-                        "ref": "macrozone3-mb/Midway Bell/Get it!",
+                        "ref": "Macro Zone 3/Midway Bell/Midway Bell",
                         "name": "Macro Zone 3 - Midway Bell"
                     },
                     {
-                        "ref": "macrozone3-ne/Normal Exit/Take the Exit",
+                        "ref": "Macro Zone 3/Normal Exit/Normal Exit",
                         "name": "Macro Zone 3 - Normal Exit"
                     },
                     {
-                        "ref": "macrozone4-mb/Midway Bell/Get it!",
+                        "ref": "Macro Zone 4/Midway Bell/Midway Bell",
                         "name": "Macro Zone 4 - Midway Bell"
                     },
                     {
-                        "ref": "macrozone4-boss/Boss/Beat the Boss",
-                        "name": "Macro Zone 4 - Beat the Boss"
+                        "ref": "Macro Zone 4/Boss/Boss",
+                        "name": "Macro Zone 4 - Boss"
                     },
                     {
-                        "ref": "macrozonesp/Normal Exit/Take the Exit",
-                        "name": "Macro Zone Secret Course 1 - Normal Exit"
+                        "ref": "Macro Zone Secret Course/Normal Exit/Normal Exit",
+                        "name": "Macro Zone Secret Course - Normal Exit"
                     }
                 ],
                 "map_locations": [
@@ -229,17 +209,12 @@
                         "y": 137
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "sceniccourseoverworld",
-        "children": [
+            },
             {
                 "name": "Scenic Course",
                 "sections": [
                     {
-                        "ref": "sceniccourse/Normal Exit/Take the Exit",
+                        "ref": "Scenic Course/Normal Exit/Normal Exit",
                         "name": "Scenic Course - Normal Exit"
                     }
                 ],
@@ -250,22 +225,17 @@
                         "y": 260
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "mariocastleoverworld",
-        "children": [
+            },
             {
-                "name": "Mario Castle",
+                "name": "Mario's Castle",
                 "sections": [
                     {
-                        "ref": "mariocastle-mb/Midway Bell/Get it!",
-                        "name": "Mario Castle - Midway Bell"
+                        "ref": "Mario's Castle/Midway Bell/Midway Bell",
+                        "name": "Mario's Castle - Midway Bell"
                     },
                     {
-                        "ref": "mariocastle-boss/Goal/Beat the Boss",
-                        "name": "Mario Castle - Beat the Boss"
+                        "ref": "Mario's Castle/Goal/Boss",
+                        "name": "Mario's Castle - Boss"
                     }
                 ],
                 "map_locations": [
@@ -275,18 +245,13 @@
                         "y": 213
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "hippozoneoverworld",
-        "children": [
+            },
             {
                 "name": "Hippo Zone",
                 "sections": [
                     {
-                        "ref": "hippozone/Exit/Take the Exit",
-                        "name": "Hippo Zone - Exit"
+                        "ref": "Hippo Zone/Exit/Normal or Secret Exit",
+                        "name": "Hippo Zone - Normal or Secret Exit"
                     }
                 ],
                 "map_locations": [
@@ -296,46 +261,41 @@
                         "y": 124
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "turtlezoneoverworld",
-        "children": [
+            },
             {
                 "name": "Turtle Zone",
                 "sections": [
                     {
-                        "ref": "turtlezone1-mb/Midway Bell/Get it!",
+                        "ref": "Turtle Zone 1/Midway Bell/Midway Bell",
                         "name": "Turtle Zone 1 - Midway Bell"
                     },
                     {
-                        "ref": "turtlezone1-ne/Normal Exit/Take the Exit",
+                        "ref": "Turtle Zone 1/Normal Exit/Normal Exit",
                         "name": "Turtle Zone 1 - Normal Exit"
                     },
                     {
-                        "ref": "turtlezone2-mb/Midway Bell/Get it!",
+                        "ref": "Turtle Zone 2/Midway Bell/Midway Bell",
                         "name": "Turtle Zone 2 - Midway Bell"
                     },
                     {
-                        "ref": "turtlezone2-ne/Normal Exit/Take the Exit",
+                        "ref": "Turtle Zone 2/Normal Exit/Normal Exit",
                         "name": "Turtle Zone 2 - Normal Exit"
                     },
                     {
-                        "ref": "turtlezone2-se/Secret Exit/Take the Exit",
+                        "ref": "Turtle Zone 2/Secret Exit/Secret Exit",
                         "name": "Turtle Zone 2 - Secret Exit"
                     },
                     {
-                        "ref": "turtlezone3-mb/Midway Bell/Get it!",
+                        "ref": "Turtle Zone 3/Midway Bell/Midway Bell",
                         "name": "Turtle Zone 3 - Midway Bell"
                     },
                     {
-                        "ref": "turtlezone3-boss/Boss/Beat the Boss",
-                        "name": "Turtle Zone 3 - Beat the Boss"
+                        "ref": "Turtle Zone 3/Boss/Boss",
+                        "name": "Turtle Zone 3 - Boss"
                     },
                     {
-                        "ref": "turtlezonesp/Normal Exit/Take the Exit",
-                        "name": "Turtle Zone Secret Course 1 - Normal Exit"
+                        "ref": "Turtle Zone Secret Course/Normal Exit/Normal Exit",
+                        "name": "Turtle Zone Secret Course - Normal Exit"
                     }
                 ],
                 "map_locations": [
@@ -345,61 +305,56 @@
                         "y": 388
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "pumpkinzoneoverworld",
-        "children": [
+            },
             {
                 "name": "Pumpkin Zone",
                 "sections": [
                     {
-                        "ref": "pumpkinzone1-mb/Midway Bell/Get it!",
+                        "ref": "Pumpkin Zone 1/Midway Bell/Midway Bell",
                         "name": "Pumpkin Zone 1 - Midway Bell"
                     },
                     {
-                        "ref": "pumpkinzone1-ne/Normal Exit/Take the Exit",
+                        "ref": "Pumpkin Zone 1/Normal Exit/Normal Exit",
                         "name": "Pumpkin Zone 1 - Normal Exit"
                     },
                     {
-                        "ref": "pumpkinzone2-mb/Midway Bell/Get it!",
+                        "ref": "Pumpkin Zone 2/Midway Bell/Midway Bell",
                         "name": "Pumpkin Zone 2 - Midway Bell"
                     },
                     {
-                        "ref": "pumpkinzone2-ne/Normal Exit/Take the Exit",
+                        "ref": "Pumpkin Zone 2/Normal Exit/Normal Exit",
                         "name": "Pumpkin Zone 2 - Normal Exit"
                     },
                     {
-                        "ref": "pumpkinzone2-se/Secret Exit/Take the Exit",
+                        "ref": "Pumpkin Zone 2/Secret Exit/Secret Exit",
                         "name": "Pumpkin Zone 2 - Secret Exit"
                     },
                     {
-                        "ref": "pumpkinzone3-mb/Midway Bell/Get it!",
+                        "ref": "Pumpkin Zone 3/Midway Bell/Midway Bell",
                         "name": "Pumpkin Zone 3 - Midway Bell"
                     },
                     {
-                        "ref": "pumpkinzone3-ne/Normal Exit/Take the Exit",
+                        "ref": "Pumpkin Zone 3/Normal Exit/Normal Exit",
                         "name": "Pumpkin Zone 3 - Normal Exit"
                     },
                     {
-                        "ref": "pumpkinzone3-se/Secret Exit/Take the Exit",
+                        "ref": "Pumpkin Zone 3/Secret Exit/Secret Exit",
                         "name": "Pumpkin Zone 3 - Secret Exit"
                     },
                     {
-                        "ref": "pumpkinzone4-mb/Midway Bell/Get it!",
+                        "ref": "Pumpkin Zone 4/Midway Bell/Midway Bell",
                         "name": "Pumpkin Zone 4 - Midway Bell"
                     },
                     {
-                        "ref": "pumpkinzone4-boss/Boss/Beat the Boss",
-                        "name": "Pumpkin Zone 4 - Beat the Boss"
+                        "ref": "Pumpkin Zone 4/Boss/Boss",
+                        "name": "Pumpkin Zone 4 - Boss"
                     },
                     {
-                        "ref": "pumpkinzonesp1/Normal Exit/Take the Exit",
+                        "ref": "Pumpkin Zone Secret Course 1/Normal Exit/Normal Exit",
                         "name": "Pumpkin Zone Secret Course 1 - Normal Exit"
                     },
                     {
-                        "ref": "pumpkinzonesp2/Normal Exit/Take the Exit",
+                        "ref": "Pumpkin Zone Secret Course 2/Normal Exit/Normal Exit",
                         "name": "Pumpkin Zone Secret Course 2 - Normal Exit"
                     }
                     

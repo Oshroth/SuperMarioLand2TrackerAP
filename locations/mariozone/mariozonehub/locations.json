@@ -1,16 +1,16 @@
 [
     {
-        "name": "MarioZone1",
+        "name": "Mario Zone",
         "children": [
             {
                 "name": "Mario Zone 1",
                 "sections": [
                     {
-                        "ref": "mariozone1-mb/Midway Bell/Get it!",
+                        "ref": "Mario Zone 1/Midway Bell/Midway Bell",
                         "name": "Mario Zone 1 - Midway Bell"
                     },
                     {
-                        "ref": "mariozone1-ne/Normal Exit/Take the Exit",
+                        "ref": "Mario Zone 1/Normal Exit/Normal Exit",
                         "name": "Mario Zone 1 - Normal Exit"
                     }
                 ],
@@ -21,21 +21,16 @@
                         "y": 111
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "MarioZone2",
-        "children": [
+            },
             {
                 "name": "Mario Zone 2",
                 "sections": [
                     {
-                        "ref": "mariozone2-mb/Midway Bell/Get it!",
+                        "ref": "Mario Zone 2/Midway Bell/Midway Bell",
                         "name": "Mario Zone 2 - Midway Bell"
                     },
                     {
-                        "ref": "mariozone2-ne/Normal Exit/Take the Exit",
+                        "ref": "Mario Zone 2/Normal Exit/Normal Exit",
                         "name": "Mario Zone 2 - Normal Exit"
                     }
                 ],
@@ -46,21 +41,16 @@
                         "y": 89
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "MarioZone3",
-        "children": [
+            },
             {
                 "name": "Mario Zone 3",
                 "sections": [
                     {
-                        "ref": "mariozone3-mb/Midway Bell/Get it!",
+                        "ref": "Mario Zone 3/Midway Bell/Midway Bell",
                         "name": "Mario Zone 3 - Midway Bell"
                     },
                     {
-                        "ref": "mariozone3-ne/Normal Exit/Take the Exit",
+                        "ref": "Mario Zone 3/Normal Exit/Normal Exit",
                         "name": "Mario Zone 3 - Normal Exit"
                     }
                 ],
@@ -71,22 +61,17 @@
                         "y": 70
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "MarioZone4",
-        "children": [
+            },
             {
                 "name": "Mario Zone 4",
                 "sections": [
                     {
-                        "ref": "mariozone4-mb/Midway Bell/Get it!",
+                        "ref": "Mario Zone 4/Midway Bell/Midway Bell",
                         "name": "Mario Zone 4 - Midway Bell"
                     },
                     {
-                        "ref": "mariozone4-boss/Boss/Beat the Boss",
-                        "name": "Mario Zone 4 - Beat the Boss"
+                        "ref": "Mario Zone 4/Boss/Boss",
+                        "name": "Mario Zone 4 - Boss"
                     }
                 ],
                 "map_locations": [
