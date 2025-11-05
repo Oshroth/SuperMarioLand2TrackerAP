@@ -40,7 +40,10 @@
                                 "turtlezoneprogression"
                             ],
                             [
-                                "mariocoinfragment"
+                                "pipetraversal"
+                            ],
+                            [
+                                "cancelautoscroll"
                             ]
                         ]
                     }

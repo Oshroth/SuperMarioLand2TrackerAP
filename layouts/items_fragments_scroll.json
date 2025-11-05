@@ -1,9 +1,6 @@
-// sets layouts for shared items grids
-// bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
 {
     "shared_item_grid": {
         "type": "array",
-        "orientation": "vertical",
         "margin": "0,0",
         "content": [
             {
@@ -27,12 +24,7 @@
                                 "waterphysics"
                             ],
                             [
-                                "mariocoin",
-                                "treecoin",
-                                "macrocoin",
-                                "spacecoin",
-                                "pumpkincoin",
-                                "turtlecoin"
+                                "mariocoinfragment"
                             ],
                             [
                                 "mariozoneprogression",
@@ -43,7 +35,7 @@
                                 "turtlezoneprogression"
                             ],
                             [
-                                "mariocoinfragment"
+                                "cancelautoscroll"
                             ]
                         ]
                     }

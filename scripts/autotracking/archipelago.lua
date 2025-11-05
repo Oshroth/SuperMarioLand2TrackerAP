@@ -99,7 +99,7 @@ function onClear(slot_data)
 			end
 		end
 	end
-    autoFill()
+    autoFill(slot_data)
 end
 
 function onItem(index, item_id, item_name, player_number)
@@ -169,35 +169,98 @@ function onLocation(location_id, location_name)
         end
     end
 end
-
--- this Autofill function is meant as an example on how to do the reading from slotdata and mapping the values to
--- your own settings
-function autoFill()
-    if SLOT_DATA == nil then
+            
+function autoFill(slot_data)
+    if slot_data == nil then
         print("No slot data")
         return
     end
-    print(dump_table(SLOT_DATA))
 
-    -- mapToggle={[0]=0,[1]=1,[2]=1,[3]=1,[4]=1}
-    -- mapToggleReverse={[0]=1,[1]=0,[2]=0,[3]=0,[4]=0}
-    -- mapTripleReverse={[0]=2,[1]=1,[2]=0}
+    local levelCodes = {
+        [1] = "cancelautoscroll-mushroomzone",
+        [2] = "cancelautoscroll-treezone1",
+        [3] = "cancelautoscroll-treezone2",
+        [4] = "cancelautoscroll-treezone4",
+        [5] = "cancelautoscroll-treezone3",
+        [6] = "cancelautoscroll-treezone5",
+        [7] = "cancelautoscroll-pumpkinzone1",
+        [8] = "cancelautoscroll-pumpkinzone2",
+        [9] = "cancelautoscroll-pumpkinzone3",
+        [10] = "cancelautoscroll-pumpkinzone4",
+        [11] = "cancelautoscroll-mariozone1",
+        [12] = "cancelautoscroll-mariozone2",
+        [13] = "cancelautoscroll-mariozone3",
+        [14] = "cancelautoscroll-mariozone4",
+        [15] = "cancelautoscroll-turtlezone1",
+        [16] = "cancelautoscroll-turtlezone2",
+        [17] = "cancelautoscroll-turtlezone3",
+        [18] = "cancelautoscroll-hippozone",
+        [19] = "cancelautoscroll-spacezone1",
+        [20] = "cancelautoscroll-spacezone2",
+        [21] = "cancelautoscroll-macrozone1",
+        [22] = "cancelautoscroll-macrozone2",
+        [23] = "cancelautoscroll-macrozone3",
+        [24] = "cancelautoscroll-macrozone4",
+        -- Skip [25] = Mario's Castle
+        [26] = "cancelautoscroll-sceniccourse",
+        [27] = "cancelautoscroll-turtlezonesecretcourse",
+        [28] = "cancelautoscroll-pumpkinzonesecretcourse1",
+        [29] = "cancelautoscroll-spacezonesecretcourse",
+        [30] = "cancelautoscroll-treezonesecretcourse",
+        [31] = "cancelautoscroll-macrozonesecretcourse",
+        [32] = "cancelautoscroll-pumpkinzonesecretcourse2"
+    }
 
-    -- slotCodes = {
-    --     map_name = {code="", mapping=mapToggle...}
-    -- }
-    -- for settings_name, settings_value in pairs(SLOT_DATA) do
-    --     print(settings_name, settings_value)
-    --     if slotCodes[settings_name] then
-    --         item = Tracker:FindObjectForCode(slotCodes[settings_name].code)
-    --         if item.Type == "toggle" then
-    --             item.Active = slotCodes[settings_name].mapping[settings_value]
-    --         else
-    --             -- print(k,v,Tracker:FindObjectForCode(slotCodes[k].code).CurrentStage, slotCodes[k].mapping[v])
-    --             item.CurrentStage = slotCodes[settings_name].mapping[settings_value]
-    --         end
-    --     end
-    -- end
+    if slot_data["shuffle_golden_coins"] then
+        Tracker:FindObjectForCode("set-gc-goal").CurrentStage = slot_data["shuffle_golden_coins"]
+    end
+    if slot_data["required_golden_coins"] then
+        Tracker:FindObjectForCode("set-gc-required").AcquiredCount = slot_data["required_golden_coins"]
+    end
+    if slot_data["shuffle_midway_bells"] then
+        Tracker:FindObjectForCode("set-shuffle-midways").Active = slot_data["shuffle_midway_bells"]
+    end
+    if slot_data["marios_castle_midway_bell"] then
+        Tracker:FindObjectForCode("set-mario-castle-midway").Active = slot_data["marios_castle_midway_bell"]
+    end
+    if slot_data["shuffle_pipe_traversal"] then
+        Tracker:FindObjectForCode("set-pipe-traversal").CurrentStage = slot_data["shuffle_pipe_traversal"]
+    end
+    if slot_data["coinsanity"] then
+        Tracker:FindObjectForCode("set-coinsanity").Active = slot_data["coinsanity"]
+    end
+    if slot_data["turtle_zone_1_shark_count"] then
+        Tracker:FindObjectForCode("set-tz1-sharks").AcquiredCount = slot_data["turtle_zone_1_shark_count"]
+    end
+    if slot_data["mario_zone_3_crane_count"] then
+        Tracker:FindObjectForCode("set-mz3-claws").AcquiredCount = slot_data["mario_zone_3_crane_count"]
+    end
+    if slot_data["coin_fragments_required"] then
+        Tracker:FindObjectForCode("set-mc-frag-required").AcquiredCount = slot_data["coin_fragments_required"]
+    end
+    if slot_data["auto_scroll_chances"] and slot_data["auto_scroll_chances"] == 0 then
+        Tracker:FindObjectForCode("set-scroll-mode").CurrentStage = 6
+    elseif slot_data["auto_scroll_mode"] then
+        Tracker:FindObjectForCode("set-scroll-mode").CurrentStage = slot_data["auto_scroll_mode"]
+
+        if slot_data["auto_scroll_levels"] then
+            -- auto_scroll_levels values
+            -- 0 - no scroll
+            -- 1 - auto scroll
+            -- 2 - auto scroll with cancel item
+            -- 3 - no scroll with scroll trap
+            local scrollLevels = slot_data["auto_scroll_levels"]
+
+            for index, code in pairs(levelCodes) do
+                if scrollLevels and (scrollLevels[index] == 0 or scrollLevels[index] == 3) then
+                    Tracker:FindObjectForCode(code).Active = true
+                else
+                    Tracker:FindObjectForCode(code).Active = false
+                end
+            end
+
+        end
+    end
 end
 
 -- add AP callbacks

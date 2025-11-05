@@ -1,7 +1,7 @@
 {
     "midwaybells": {
         "type": "dock",
-        "orientation": "horizontal",
+        "dock": "horizontal",
         "margin": "0,0",
         "content": [
             {
@@ -45,8 +45,7 @@
                         "turtlezone3midwaybell"
                     ],
                     [
-                        "mushroomzonemidwaybell",
-                        "mariocastlemidwaybell"
+                        "mushroomzonemidwaybell"
                     ]
                 ]
             }

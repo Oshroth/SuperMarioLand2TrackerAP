@@ -592,30 +592,5 @@
         "disabled_img": "images/items/autoscroll/global.png",
         "disabled_img_mods": "none",
         "codes": "cancelautoscroll"
-    },
-    {
-        "name": "Golden Coins Settings",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "name": "Golden Coins Vanilla",
-                "img": "images/items/settings/goldencoins.png",
-                "codes": "goldencoins-vanilla",
-                "img_mods": "@disabled"
-            },
-            {
-                "name": "Golden Coins Shuffle",
-                "img": "images/items/settings/goldencoins.png",
-                "codes": "goldencoins-shuffle"
-            },
-            {
-                "name": "Mario Coin Fragment Hunt",
-                "img": "images/items/coins/mariocoinfragment.png",
-                "codes": "goldencoins-fragmenthunt"
-
-            }
-        ]
     }
 ]
