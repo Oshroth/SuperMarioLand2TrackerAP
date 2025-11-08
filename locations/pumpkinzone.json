@@ -1,0 +1,490 @@
+[
+    {
+        "name": "Pumpkin Zone 1",
+        "children": [
+            {
+                "name": "Midway Bell",
+                "access_rules": ["$has_pipe_down, $no_scroll|pumpkinzone1", "$has_midway|pumpkinzone1"],
+                "visibility_rules": ["set-shuffle-midways"],
+                "sections": [
+                    {
+                        "name": "Midway Bell",
+                        "chest_unopened_img": "images/items/levels/midway.png",
+                        "chest_opened_img": "images/items/levels/midway_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzone1-2",
+                        "x": 786,
+                        "y": 422
+                    }
+                ]
+            },
+            {
+                "name": "Normal Exit",
+                "access_rules": ["@Pumpkin Zone 1/Midway Bell"],
+                "sections": [
+                    {
+                        "name": "Normal Exit",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzone1-3",
+                        "x": 1192,
+                        "y": 483
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "sections": [
+                    {
+                        "name": "Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 40
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzone1-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "pumpkinzone1-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "pumpkinzone1-3",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pumpkin Zone 2",
+        "access_rules": ["$has|pumpkinzoneprogression"],
+        "children": [
+            {
+                "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
+                "sections": [
+                    {
+                        "name": "Midway Bell",
+                        "chest_unopened_img": "images/items/levels/midway.png",
+                        "chest_opened_img": "images/items/levels/midway_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzone2-2",
+                        "x": 394,
+                        "y": 118
+                    }
+                ]
+            },
+            {
+                "name": "Normal Exit",
+                "access_rules": ["$has_pipe_down, $has_pipe_up, $has_pipe_right, waterphysics, $no_scroll|pumpkinzone2"],
+                "sections": [
+                    {
+                        "name": "Normal Exit",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzone2-4",
+                        "x": 231,
+                        "y": 226
+                    }
+                ]
+            },
+            {
+                "name": "Secret Exit",
+                "access_rules": ["@Pumpkin Zone 2/Normal Exit, $can_spin"],
+                "sections": [
+                    {
+                        "name": "Secret Exit",
+                        "chest_unopened_img": "images/items/levels/secretexit.png",
+                        "chest_opened_img": "images/items/levels/secretexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzone2-3",
+                        "x": 1049,
+                        "y": 705
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "sections": [
+                    {
+                        "name": "Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 36
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzone2-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "pumpkinzone2-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "pumpkinzone2-3",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "pumpkinzone2-4",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pumpkin Zone 3",
+        "access_rules": ["$has|pumpkinzoneprogression|2"],
+        "children": [
+            {
+                "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
+                "sections": [
+                    {
+                        "name": "Midway Bell",
+                        "chest_unopened_img": "images/items/levels/midway.png",
+                        "chest_opened_img": "images/items/levels/midway_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzone3-2",
+                        "x": 1091,
+                        "y": 166
+                    },
+                    {
+                        "map": "pumpkinzone3-3",
+                        "x": 20,
+                        "y": 166
+                    }
+                ]
+            },
+            {
+                "name": "Normal Exit",
+                "sections": [
+                    {
+                        "name": "Normal Exit",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzone3-4",
+                        "x": 675,
+                        "y": 341
+                    }
+                ]
+            },
+            {
+                "name": "Secret Exit",
+                "access_rules": ["carrot"],
+                "sections": [
+                    {
+                        "name": "Secret Exit",
+                        "chest_unopened_img": "images/items/levels/secretexit.png",
+                        "chest_opened_img": "images/items/levels/secretexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzone3-4",
+                        "x": 675,
+                        "y": 87
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "sections": [
+                    {
+                        "name": "Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 61
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzone3-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "pumpkinzone3-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "pumpkinzone3-3",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "pumpkinzone3-4",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pumpkin Zone 4",
+        "access_rules": ["$has|pumpkinzoneprogression|3"],
+        "children": [
+            {
+                "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
+                "sections": [
+                    {
+                        "name": "Midway Bell",
+                        "chest_unopened_img": "images/items/levels/midway.png",
+                        "chest_opened_img": "images/items/levels/midway_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzone4-2",
+                        "x": 1185,
+                        "y": 182
+                    },
+                    {
+                        "map": "pumpkinzone4-3",
+                        "x": 18,
+                        "y": 182
+                    }
+                ]
+            },
+            {
+                "name": "Boss",
+                "access_rules": ["$has_pipe_right"],
+                "sections": [
+                    {
+                        "name": "Boss",
+                        "chest_unopened_img": "images/items/boss/witch.png",
+                        "chest_opened_img": "images/items/boss/witch_beaten.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzone4-5",
+                        "x": 18,
+                        "y": 87
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "sections": [
+                    {
+                        "name": "Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 73
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzone4-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "pumpkinzone4-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "pumpkinzone4-3",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "pumpkinzone4-4",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pumpkin Zone Secret Course 1",
+        "access_rules": ["pumpkinzonesecret1"],
+        "parent": "Pumpkin Zone 2",
+        "children": [
+            {
+                "name": "Normal Exit",
+                "sections": [
+                    {
+                        "name": "Normal Exit",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzonesecret1-1",
+                        "x": 1255,
+                        "y": 478
+                    },
+                    {
+                        "map": "pumpkinzonesecret1-2",
+                        "x": 19,
+                        "y": 478
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "sections": [
+                    {
+                        "name": "Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 409
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzonesecret1-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "pumpkinzonesecret1-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pumpkin Zone Secret Course 2",
+        "access_rules": ["pumpkinzonesecret2"],
+        "parent": "Pumpkin Zone 3",
+        "children": [
+            {
+                "name": "Normal Exit",
+                "sections": [
+                    {
+                        "name": "Normal Exit",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzonesecret2-4",
+                        "x": 436,
+                        "y": 142
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "sections": [
+                    {
+                        "name": "Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 12
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pumpkinzonesecret2-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "pumpkinzonesecret2-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "pumpkinzonesecret2-3",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "pumpkinzonesecret2-4",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    }
+]

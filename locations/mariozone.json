@@ -1,0 +1,307 @@
+[
+    {
+        "name": "Mario Zone 1",
+        "children": [
+            {
+                "name": "Midway Bell",
+                "access_rules": ["[$can_take_hit], $has_pipe_right", "$has_midway|mariozone1"],
+                "visibility_rules": ["set-shuffle-midways"],
+                "sections": [
+                    {
+                        "name": "Midway Bell",
+                        "chest_unopened_img": "images/items/levels/midway.png",
+                        "chest_opened_img": "images/items/levels/midway_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariozone1-3",
+                        "x": 129,
+                        "y": 86
+                    }
+                ]
+            },
+            {
+                "name": "Normal Exit",
+                "access_rules": ["$has_pipe_right, $no_scroll|mariozone1", "$has_pipe_right, $can_take_hit", "$has_pipe_right, $has_midway|mariozone1"],
+                "sections": [
+                    {
+                        "name": "Normal Exit",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariozone1-4",
+                        "x": 998,
+                        "y": 482
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "sections": [
+                    {
+                        "name": "Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 114
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariozone1-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "mariozone1-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "mariozone1-3",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "mariozone1-4",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Mario Zone 2",
+        "access_rules": ["$has|mariozoneprogression"],
+        "children": [
+            {
+                "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
+                "sections": [
+                    {
+                        "name": "Midway Bell",
+                        "chest_unopened_img": "images/items/levels/midway.png",
+                        "chest_opened_img": "images/items/levels/midway_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariozone2-1",
+                        "x": 2088,
+                        "y": 134
+                    },
+                    {
+                        "map": "mariozone2-2",
+                        "x": 39,
+                        "y": 134
+                    }
+                ]
+            },
+            {
+                "name": "Normal Exit",
+                "sections": [
+                    {
+                        "name": "Normal Exit",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariozone2-2",
+                        "x": 1767,
+                        "y": 211
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "sections": [
+                    {
+                        "name": "Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 46
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariozone2-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "mariozone2-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Mario Zone 3",
+        "access_rules": ["$has|mariozoneprogression|2"],
+        "children": [
+            {
+                "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
+                "sections": [
+                    {
+                        "name": "Midway Bell",
+                        "chest_unopened_img": "images/items/levels/midway.png",
+                        "chest_opened_img": "images/items/levels/midway_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariozone3-1",
+                        "x": 2008,
+                        "y": 158
+                    },
+                    {
+                        "map": "mariozone3-2",
+                        "x": 48,
+                        "y": 152
+                    }
+                ]
+            },
+            {
+                "name": "Normal Exit",
+                "sections": [
+                    {
+                        "name": "Normal Exit",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariozone3-2",
+                        "x": 2112,
+                        "y": 214
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "sections": [
+                    {
+                        "name": "Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 57
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariozone3-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "mariozone3-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Mario Zone 4",
+        "access_rules": ["$has|mariozoneprogression|3"],
+        "children": [
+            {
+                "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
+                "sections": [
+                    {
+                        "name": "Midway Bell",
+                        "chest_unopened_img": "images/items/levels/midway.png",
+                        "chest_opened_img": "images/items/levels/midway_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariozone4-1",
+                        "x": 2432,
+                        "y": 136
+                    },
+                    {
+                        "map": "mariozone4-2",
+                        "x": 53,
+                        "y": 136
+                    }
+                ]
+            },
+            {
+                "name": "Boss",
+                "access_rules": ["$has_pipe_right"],
+                "sections": [
+                    {
+                        "name": "Boss",
+                        "chest_unopened_img": "images/items/boss/threelittlepigs.png",
+                        "chest_opened_img": "images/items/boss/threelittlepigs_beaten.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariozone4-2",
+                        "x": 1541,
+                        "y": 115
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "sections": [
+                    {
+                        "name": "Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 63
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariozone4-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "mariozone4-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    }
+]

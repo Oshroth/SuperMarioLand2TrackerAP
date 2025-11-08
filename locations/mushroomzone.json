@@ -1,0 +1,82 @@
+[
+  {
+        "name": "Mushroom Zone",
+        "children": [
+            {
+                "name": "Normal Exit",
+                "sections": [
+                    {
+                        "name": "Normal Exit",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mushroomzone4",
+                        "x": 1019,
+                        "y": 223
+                    }
+                ]
+            },
+            {
+                "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
+                "sections": [
+                    {
+                        "name": "Midway Bell",
+                        "chest_unopened_img": "images/items/levels/midway.png",
+                        "chest_opened_img": "images/items/levels/midway_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mushroomzone3",
+                        "x": 763,
+                        "y": 150
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "sections": [
+                    {
+                        "name": "Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 88
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mushroomzone1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "mushroomzone2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "mushroomzone3",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "mushroomzone4",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    }
+]

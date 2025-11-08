@@ -20,7 +20,7 @@ function dump_table(o, depth)
     end
 end
 
-function has_value (t, val)
+function has_value(t, val)
     for i, v in ipairs(t) do
         if v == val then return 1 end
     end
@@ -111,5 +111,20 @@ function toggle_midways()
         Tracker:AddLayouts("layouts/midways_mario.json")
     else
         Tracker:AddLayouts("layouts/midways.json")
+    end
+end
+
+function TableLength(T)
+    local count = 0
+    for _ in pairs(T) do count = count + 1 end
+    return count
+end
+
+function RemoveValue(T, val)
+    for k, v in pairs(T) do
+        if v == val then
+            table.remove(T, k)
+            return
+        end
     end
 end

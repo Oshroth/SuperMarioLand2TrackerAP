@@ -6,28 +6,28 @@
         "img": "images/maps/overworld.png"
     },
     {
-        "name": "mushhouse1",
+        "name": "mushroomzone1",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/mushhouse/mushhouse1.png"
+        "img": "images/maps/mushroomzone/mushroomzone1.png"
     },
     {
-        "name": "mushhouse2",
+        "name": "mushroomzone2",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/mushhouse/mushhouse2.png"
+        "img": "images/maps/mushroomzone/mushroomzone2.png"
     },
     {
-        "name": "mushhouse3",
+        "name": "mushroomzone3",
         "location_size": 8,
         "location_border_thickness": 2,
-        "img": "images/maps/mushhouse/mushhouse3.png"
+        "img": "images/maps/mushroomzone/mushroomzone3.png"
     },
     {
-        "name": "mushhouse4",
+        "name": "mushroomzone4",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/mushhouse/mushhouse4.png"
+        "img": "images/maps/mushroomzone/mushroomzone4.png"
     },
     {
         "name": "treezone",
@@ -108,16 +108,16 @@
         "img": "images/maps/treezone/treezone5-2.png"
     },
     {
-        "name": "treezonesp-1",
+        "name": "treezonesecret-1",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/treezone/treezonesp-1.png"
+        "img": "images/maps/treezone/treezonesecret-1.png"
     },
     {
-        "name": "treezonesp-2",
+        "name": "treezonesecret-2",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/treezone/treezonesp-2.png"
+        "img": "images/maps/treezone/treezonesecret-2.png"
     },
     {
         "name": "coinszone",
@@ -210,16 +210,16 @@
         "img": "images/maps/turtlezone/turtlezone3-3.png"
     },
     {
-        "name": "turtlezonesp-1",
+        "name": "turtlezonesecret-1",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/turtlezone/turtlezonesp-1.png"
+        "img": "images/maps/turtlezone/turtlezonesecret-1.png"
     },
     {
-        "name": "turtlezonesp-2",
+        "name": "turtlezonesecret-2",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/turtlezone/turtlezonesp-2.png"
+        "img": "images/maps/turtlezone/turtlezonesecret-2.png"
     },
     {
         "name": "mariozonehub",
@@ -288,16 +288,16 @@
         "img": "images/maps/mariozone/mariozone4-2.png"
     },
     {
-        "name": "hippo-1",
+        "name": "hippozone-1",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/hippo/hippo-1.png"
+        "img": "images/maps/hippozone/hippozone-1.png"
     },
     {
-        "name": "hippo-2",
+        "name": "hippozone-2",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/hippo/hippo-2.png"
+        "img": "images/maps/hippozone/hippozone-2.png"
     },
     {
         "name": "macrozonehub",
@@ -384,16 +384,16 @@
         "img": "images/maps/macrozone/macrozone4-2.png"
     },
        {
-        "name": "macrozonesp-1",
+        "name": "macrozonesecret-1",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/macrozone/macrozonesp-1.png"
+        "img": "images/maps/macrozone/macrozonesecret-1.png"
     },
     {
-        "name": "macrozonesp-2",
+        "name": "macrozonesecret-2",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/macrozone/macrozonesp-2.png"
+        "img": "images/maps/macrozone/macrozonesecret-2.png"
     },
     {
         "name": "spacezonehub",
@@ -438,16 +438,16 @@
         "img": "images/maps/spacezone/spacezone2-4.png"
     },
     {
-        "name": "spacezonesp-1",
+        "name": "spacezonesecret-1",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/spacezone/spacezonesp-1.png"
+        "img": "images/maps/spacezone/spacezonesecret-1.png"
     },
     {
-        "name": "spacezonesp-2",
+        "name": "spacezonesecret-2",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/spacezone/spacezonesp-2.png"
+        "img": "images/maps/spacezone/spacezonesecret-2.png"
     },
     {
         "name": "pumpkinzonehub",
@@ -552,40 +552,40 @@
         "img": "images/maps/pumpkinzone/pumpkinzone4-5.png"
     },
     {
-        "name": "pumpkinzonesp1-1",
+        "name": "pumpkinzonesecret1-1",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/pumpkinzone/pumpkinzonesp1-1.png"
+        "img": "images/maps/pumpkinzone/pumpkinzonesecret1-1.png"
     },
     {
-        "name": "pumpkinzonesp1-2",
+        "name": "pumpkinzonesecret1-2",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/pumpkinzone/pumpkinzonesp1-2.png"
+        "img": "images/maps/pumpkinzone/pumpkinzonesecret1-2.png"
     },
         {
-        "name": "pumpkinzonesp2-1",
+        "name": "pumpkinzonesecret2-1",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/pumpkinzone/pumpkinzonesp2-1.png"
+        "img": "images/maps/pumpkinzone/pumpkinzonesecret2-1.png"
     },
     {
-        "name": "pumpkinzonesp2-2",
+        "name": "pumpkinzonesecret2-2",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/pumpkinzone/pumpkinzonesp2-2.png"
+        "img": "images/maps/pumpkinzone/pumpkinzonesecret2-2.png"
     },
         {
-        "name": "pumpkinzonesp2-3",
+        "name": "pumpkinzonesecret2-3",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/pumpkinzone/pumpkinzonesp2-3.png"
+        "img": "images/maps/pumpkinzone/pumpkinzonesecret2-3.png"
     },
     {
-        "name": "pumpkinzonesp2-4",
+        "name": "pumpkinzonesecret2-4",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/pumpkinzone/pumpkinzonesp2-4.png"
+        "img": "images/maps/pumpkinzone/pumpkinzonesecret2-4.png"
     },
     {
         "name": "sceniccourse-1",

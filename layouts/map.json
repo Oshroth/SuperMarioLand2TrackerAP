@@ -21,7 +21,7 @@
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "hippo-1"
+                                    "hippozone-1"
                                 ]
                             }
                         },
@@ -30,7 +30,7 @@
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "hippo-2"
+                                    "hippozone-2"
                                 ]
                             }
                         }
@@ -210,7 +210,7 @@
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "macrozonesp-1"
+                                                "macrozonesecret-1"
                                             ]
                                         }
                                     },
@@ -219,7 +219,7 @@
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "macrozonesp-2"
+                                                "macrozonesecret-2"
                                             ]
                                         }
                                     }
@@ -378,7 +378,7 @@
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "mushhouse1"
+                                    "mushroomzone1"
                                 ]
                             }
                         },
@@ -387,7 +387,7 @@
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "mushhouse2"
+                                    "mushroomzone2"
                                 ]
                             }
                         },
@@ -396,7 +396,7 @@
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "mushhouse3"
+                                    "mushroomzone3"
                                 ]
                             }
                         },
@@ -405,7 +405,7 @@
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "mushhouse4"
+                                    "mushroomzone4"
                                 ]
                             }
                         }
@@ -612,7 +612,7 @@
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "pumpkinzonesp1-1"
+                                                "pumpkinzonesecret1-1"
                                             ]
                                         }
                                     },
@@ -621,7 +621,7 @@
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "pumpkinzonesp1-2"
+                                                "pumpkinzonesecret1-2"
                                             ]
                                         }
                                     }
@@ -638,7 +638,7 @@
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "pumpkinzonesp2-1"
+                                                "pumpkinzonesecret2-1"
                                             ]
                                         }
                                     },
@@ -647,7 +647,7 @@
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "pumpkinzonesp2-2"
+                                                "pumpkinzonesecret2-2"
                                             ]
                                         }
                                     },
@@ -656,7 +656,7 @@
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "pumpkinzonesp2-3"
+                                                "pumpkinzonesecret2-3"
                                             ]
                                         }
                                     },
@@ -665,7 +665,7 @@
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "pumpkinzonesp2-4"
+                                                "pumpkinzonesecret2-4"
                                             ]
                                         }
                                     }
@@ -795,7 +795,7 @@
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "spacezonesp-1"
+                                                "spacezonesecret-1"
                                             ]
                                         }
                                     },
@@ -804,7 +804,7 @@
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "spacezonesp-2"
+                                                "spacezonesecret-2"
                                             ]
                                         }
                                     }
@@ -986,7 +986,7 @@
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "treezonesp-1"
+                                                "treezonesecret-1"
                                             ]
                                         }
                                     },
@@ -995,7 +995,7 @@
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "treezonesp-2"
+                                                "treezonesecret-2"
                                             ]
                                         }
                                     }
@@ -1134,7 +1134,7 @@
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "turtlezonesp-1"
+                                                "turtlezonesecret-1"
                                             ]
                                         }
                                     },
@@ -1143,7 +1143,7 @@
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "turtlezonesp-2"
+                                                "turtlezonesecret-2"
                                             ]
                                         }
                                     }

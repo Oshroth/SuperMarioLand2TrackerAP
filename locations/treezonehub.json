@@ -1,0 +1,147 @@
+[
+    {
+        "name": "Tree Zone",
+        "children": [
+            {
+                "name": "Tree Zone 1",
+                "sections": [
+                    {
+                        "ref": "Tree Zone 1/Midway Bell/Midway Bell",
+                        "name": "Midway Bell"
+                    },
+                    {
+                        "ref": "Tree Zone 1/Normal Exit/Normal Exit",
+                        "name": "Normal Exit"
+                    },
+                    {
+                        "ref": "Tree Zone 1/Coinsanity/Coins",
+                        "name": "Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone",
+                        "x": 48,
+                        "y": 110
+                    }
+                ]
+            },
+            {
+                "name": "Tree Zone 2",
+                "sections": [
+                    {
+                        "ref": "Tree Zone 2/Midway Bell/Midway Bell",
+                        "name": "Midway Bell"
+                    },
+                    {
+                        "ref": "Tree Zone 2/Normal Exit/Normal Exit",
+                        "name": "Normal Exit"
+                    },
+                    {
+                        "ref": "Tree Zone 2/Secret Exit/Secret Exit",
+                        "name": "Secret Exit"
+                    },
+                    {
+                        "ref": "Tree Zone 2/Coinsanity/Coins",
+                        "name": "Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone",
+                        "x": 88,
+                        "y": 110
+                    }
+                ]
+            },
+            {
+                "name": "Tree Zone 3",
+                "sections": [
+                    {
+                        "ref": "Tree Zone 3/Normal Exit/Normal Exit",
+                        "name": "Normal Exit"
+                    },
+                    {
+                        "ref": "Tree Zone 3/Coinsanity/Coins",
+                        "name": "Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone",
+                        "x": 44,
+                        "y": 66
+                    }
+                ]
+            },
+            {
+                "name": "Tree Zone 4",
+                "sections": [
+                    {
+                        "ref": "Tree Zone 4/Midway Bell/Midway Bell",
+                        "name": "Midway Bell"
+                    },
+                    {
+                        "ref": "Tree Zone 4/Normal Exit/Normal Exit",
+                        "name": "Normal Exit"
+                    },
+                    {
+                        "ref": "Tree Zone 4/Coinsanity/Coins",
+                        "name": "Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone",
+                        "x": 111,
+                        "y": 66
+                    }
+                ]
+            },
+            {
+                "name": "Tree Zone 5",
+                "sections": [
+                    {
+                        "ref": "Tree Zone 5/Midway Bell/Midway Bell",
+                        "name": "Midway Bell"
+                    },
+                    {
+                        "ref": "Tree Zone 5/Boss/Boss",
+                        "name": "Boss"
+                    },
+                    {
+                        "ref": "Tree Zone 5/Coinsanity/Coins",
+                        "name": "Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone",
+                        "x": 74,
+                        "y": 34
+                    }
+                ]
+            },
+            {
+                "name": "Tree Zone Secret Course",
+                "sections": [
+                    {
+                        "ref": "Tree Zone Secret Course/Normal Exit/Normal Exit",
+                        "name": "Normal Exit"
+                    },
+                    {
+                        "ref": "Tree Zone Secret Course/Coinsanity/Coins",
+                        "name": "Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone",
+                        "x": 149,
+                        "y": 121
+                    }
+                ]
+            }
+        ]
+    }
+]
