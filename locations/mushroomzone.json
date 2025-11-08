@@ -42,6 +42,7 @@
             {
                 "name": "Coinsanity",
                 "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$mushroomzone_coins"],
                 "sections": [
                     {
                         "name": "Coins",

@@ -51,7 +51,7 @@ function has_pipe_right()
 end
 
 function has_midway(code)
-    return has(code.."midwaybell") and has("set-shuffle-midways")
+    return has_all(code.."midwaybell", "set-shuffle-midways")
 end
 
 function has_castle_midway()
@@ -68,13 +68,13 @@ end
 
 function can_take_hit(count)
     if not count then
-        return has("mushroom") or has("carrot") or has("fireflower")
+        return has_any("mushroom", "carrot", "fireflower")
     end
     local powerups = 0
     if has("mushroom") then
         powerups = powerups + 1
     end
-    if has("carrot") or has("fireflower") then
+    if has_any("carrot", "fireflower") then
         powerups = powerups + 1
     end
     count = tonumber(count)
@@ -82,7 +82,7 @@ function can_take_hit(count)
 end
 
 function can_spin()
-    return has("mushroom") or has("fireflower")
+    return has_any("mushroom", "fireflower")
 end
 
 function not_shuffle_midways()
@@ -96,4 +96,500 @@ function not_blocked_by_sharks()
     else
         return can_take_hit(sharks)
     end
+end
+
+function AreCoinsAvailable(reachableCoins, location)
+    local coinLoc = COIN_LOCATIONS[location]
+    if coinLoc == nil then
+        return true
+    end
+    for _, v in ipairs(coinLoc) do
+        if v[2] <= reachableCoins then
+            return true
+        end
+    end
+    return false
+end
+
+function mushroomzone_coins()
+    local reachableCoins = 38
+    local noScroll = no_scroll("mushroomzone")
+    if has_any("mushroom", "fireflower") or noScroll then
+        reachableCoins = reachableCoins + 2
+    end
+    if has_pipe_down() then
+        reachableCoins = reachableCoins + 19
+        if has_pipe_up() or noScroll then
+            reachableCoins = reachableCoins + 5
+        end
+        if has_pipe_up() then
+            reachableCoins = reachableCoins + 20
+            if noScroll then
+                reachableCoins = reachableCoins + 4
+            end
+        end
+    end
+    return AreCoinsAvailable(reachableCoins, "@Mushroom Zone/Coinsanity/Coins")
+end
+
+function treezone1_coins()
+    local reachableCoins = 87
+    if no_scroll("treezone1") then
+        return true
+    end
+
+    return AreCoinsAvailable(reachableCoins, "@Tree Zone 1/Coinsanity/Coins")
+end
+
+function treezone2_coins()
+    local reachableCoins = 18
+    local autoScroll = not no_scroll("treezone2")
+
+    if has_pipe_right() then
+        reachableCoins = reachableCoins + 38
+        if has("carrot") then
+            reachableCoins = reachableCoins + 12
+            if not autoScroll then
+                reachableCoins = reachableCoins + 30
+            end
+        end
+    elseif has_midway("treezone2") then
+        reachableCoins = reachableCoins + 30
+        if not autoScroll then
+            reachableCoins = reachableCoins + 8
+        end
+    end
+
+    return AreCoinsAvailable(reachableCoins, "@Tree Zone 2/Coinsanity/Coins")
+end
+
+function treezone3_coins()
+    if not no_scroll("treezone3") then
+        return AreCoinsAvailable(4, "@Tree Zone 3/Coinsanity/Coins")
+    end
+    if AreCoinsAvailable(19, "@Tree Zone 3/Coinsanity/Coins") then
+        return true
+    elseif has_any("mushroom", "fireflower") and AreCoinsAvailable(21, "@Tree Zone 3/Coinsanity/Coins") then
+        return true
+    end
+    return has("carrot")
+end
+
+function treezone4_coins()
+    local autoScroll = not no_scroll("treezone4")
+    local entryway = 14
+    local hall = 4
+    local firstTripDownstairs = 31
+    local secondTripDownstairs = 15
+    local downstairsWithAutoScroll = 12
+    local finalRoom = 10
+
+    local reachableCoinsFromStart = 0
+    local reachableCoinsFromBell = 0
+
+    if has_pipe_up() then
+        reachableCoinsFromStart = reachableCoinsFromStart + entryway
+        if has_pipe_right() then
+            reachableCoinsFromStart = reachableCoinsFromStart + hall
+            if has_pipe_down() then
+                if autoScroll then
+                    reachableCoinsFromStart = reachableCoinsFromStart + downstairsWithAutoScroll
+                else
+                    reachableCoinsFromStart = reachableCoinsFromStart + finalRoom + firstTripDownstairs + secondTripDownstairs
+                end
+            end
+        end
+    end
+    if has_midway("treezone4") then
+        if has_pipe_down() and (autoScroll or not has_pipe_left()) then
+            reachableCoinsFromBell = reachableCoinsFromBell + finalRoom
+        elseif has_pipe_left() and not autoScroll then
+            if has_pipe_down() then
+                reachableCoinsFromBell = reachableCoinsFromBell + firstTripDownstairs
+                if has_pipe_right() then
+                    reachableCoinsFromBell = reachableCoinsFromBell + entryway + hall
+                    if has_pipe_up() then
+                        reachableCoinsFromBell = reachableCoinsFromBell + secondTripDownstairs + finalRoom
+                    end
+                end
+            else
+                reachableCoinsFromBell = reachableCoinsFromBell + entryway + hall
+            end
+        end
+    end
+
+    return AreCoinsAvailable(math.max(reachableCoinsFromBell, reachableCoinsFromStart), "@Tree Zone 4/Coinsanity/Coins")
+end
+
+function treezone5_coins()
+    local autoScroll = not no_scroll("treezone5")
+    local reachableCoins = 0
+
+    if has_any("mushroom", "fireflower") then
+        reachableCoins = reachableCoins + 2
+    end
+    if has("carrot") then
+        reachableCoins = reachableCoins + 18
+        if has_pipe_up() and not autoScroll then
+            reachableCoins = reachableCoins + 13
+        end
+    elseif has_pipe_up() then
+        reachableCoins = reachableCoins + 13
+    end
+
+    return AreCoinsAvailable(reachableCoins, "@Tree Zone 5/Coinsanity/Coins")
+end
+
+function pumpkinzone1_coins()
+    local autoScroll = not no_scroll("pumpkinzone1")
+    if autoScroll then
+        return AreCoinsAvailable(12, "@Pumpkin Zone 1/Coinsanity/Coins") and has_midway("pumpkinzone1")
+    end
+    local reachableCoins = 0
+    if has_midway("pumpkinzone1") or has_pipe_down() then
+        reachableCoins = reachableCoins + 38
+        if has_pipe_up() then
+            reachableCoins = reachableCoins + 2
+        end
+    end
+
+    return AreCoinsAvailable(reachableCoins, "@Pumpkin Zone 1/Coinsanity/Coins")
+end
+
+function pumpkinzone2_coins()
+    local autoScroll = not no_scroll("pumpkinzone2")
+    local reachableCoins =  17
+    if has_pipe_down() then
+        if not autoScroll then
+            reachableCoins = reachableCoins + 7
+        end
+        if (has_pipe_up() or autoScroll) and has("waterphysics") then
+            reachableCoins = reachableCoins + 6
+            if has_pipe_right() and not autoScroll then
+                reachableCoins = reachableCoins + 1
+                if has_any("mushroom", "fireflower") then
+                    reachableCoins = reachableCoins + 5
+                end
+            end
+        end
+    end
+
+    return AreCoinsAvailable(reachableCoins, "@Pumpkin Zone 2/Coinsanity/Coins")
+end
+
+function pumpkinzone3_coins()
+    local autoScroll = not no_scroll("pumpkinzone3")
+    local reachableCoins = 38
+    if has_pipe_up() and ((not autoScroll) or has_pipe_down()) then
+        reachableCoins = reachableCoins + 12
+    end
+    if has_pipe_down() and not autoScroll then
+        reachableCoins = reachableCoins + 11
+    end
+
+    return AreCoinsAvailable(reachableCoins, "@Pumpkin Zone 3/Coinsanity/Coins")
+end
+
+function pumpkinzone4_coins()
+    local reachableCoins = 29
+    if has_pipe_down() then
+        if not no_scroll("pumpkinzone4") then
+            if has_pipe_up() then
+                reachableCoins = reachableCoins + 16
+            else
+                reachableCoins = reachableCoins + 4
+            end
+        else
+            reachableCoins = reachableCoins + 28
+            if has_pipe_up() then
+                reachableCoins = reachableCoins + 16
+            end
+        end
+    end
+
+    return AreCoinsAvailable(reachableCoins, "@Pumpkin Zone 4/Coinsanity/Coins")
+end
+
+function pumpkinzonesecret1_coins()
+    if AreCoinsAvailable(40, "@Pumpkin Zone Secret Course 1/Coinsanity/Coins") then
+        return true
+    end
+    if has("carrot") then
+        if not no_scroll("pumpkinzonesecret1") then
+            return AreCoinsAvailable(172, "@Pumpkin Zone Secret Course 1/Coinsanity/Coins")
+        end
+        return true
+    end
+    return false
+end
+
+function mariozone1_coins()
+    local autoScroll = not no_scroll("mariozone1")
+    local reachableCoins = 0
+    if has_pipe_right() or (has_pipe_left() and has_midway("mariozone1") and not autoScroll) then
+        reachableCoins = reachableCoins + 32
+    end
+    if has_pipe_right() and (has_any("mushroom", "fireflower", "carrot") or not autoScroll) then
+        reachableCoins = reachableCoins + 8
+        if has("carrot") then
+            reachableCoins = reachableCoins + 28
+        else
+            reachableCoins = reachableCoins + 12
+        end
+        if has("fireflower") and not autoScroll then
+            reachableCoins = reachableCoins + 46
+        end
+    end
+
+    return AreCoinsAvailable(reachableCoins, "@Mario Zone 1/Coinsanity/Coins")
+end
+
+function mariozone3_coins()
+    local autoScroll = not no_scroll("mariozone3")
+    local reachableCoins = 10
+    local reachableSpikeCoins = 0
+    if has("carrot") then
+        reachableSpikeCoins = 15
+    else
+        reachableSpikeCoins = math.min(3, Tracker:ProviderCountForCode("set-mz3-claws") + has("mushroom") + has("fireflower")) * 5
+    end
+    reachableCoins = reachableCoins + reachableSpikeCoins
+    if not autoScroll then
+        reachableCoins = reachableCoins + 10
+    end
+    if has("fireflower") then
+        reachableCoins = reachableCoins + 22
+        if autoScroll then
+            reachableCoins = reachableCoins - (3 + reachableSpikeCoins)
+        end
+    end
+    return AreCoinsAvailable(reachableCoins, "@Mario Zone 3/Coinsanity/Coins")
+end
+
+function mariozone4_coins()
+    return AreCoinsAvailable(60, "@Mario Zone 4/Coinsanity/Coins") or no_scroll("mariozone4")
+end
+
+function turtlezone1_coins()
+    local autoScroll = not no_scroll("turtlezone1")
+    local reachableCoins = 30
+    if not_blocked_by_sharks() then
+        reachableCoins = reachableCoins + 13
+        if autoScroll then
+            reachableCoins = reachableCoins - 1
+        end
+    end
+    if has_any("waterphysics", "carrot") then
+        reachableCoins = reachableCoins + 10
+    end
+    if has("carrot") then
+        reachableCoins = reachableCoins + 24
+        if autoScroll then
+            reachableCoins = reachableCoins - 10
+        end
+    end
+
+    return AreCoinsAvailable(reachableCoins, "@Turtle Zone 1/Coinsanity/Coins")
+end
+
+function turtlezone2_coins()
+    local autoScroll = not no_scroll("turtlezone2")
+    local reachableCoins = 2
+    if autoScroll then
+        if has("waterphysics") then
+            reachableCoins = reachableCoins + 6
+        end
+    else
+        reachableCoins = reachableCoins + 2
+        if has("waterphysics") then
+            reachableCoins = reachableCoins + 20
+        elseif has_midway("turtlezone2") then
+            reachableCoins = reachableCoins + 4
+        end
+        if has_pipe_right() and has_pipe_down() and (has("waterphysics") or has_midway("turtlezone2")) then
+            reachableCoins = reachableCoins + 1
+            if has_pipe_left() and has_pipe_up() then
+                reachableCoins = reachableCoins + 1
+                if has("waterphysics") then
+                    reachableCoins = reachableCoins + 1
+                end
+            end
+        end
+    end
+    return AreCoinsAvailable(reachableCoins, "@Turtle Zone 2/Coinsanity/Coins")
+end
+
+function turtlezone3_coins()
+    return has_any("waterphysics", "mushroom", "fireflower", "carrot") or AreCoinsAvailable(51, "@Turtle Zone 3/Coinsanity/Coins")
+end
+
+function turtlezonesecret_coins()
+    local reachableCoins = 53
+    if has("carrot") then
+        reachableCoins = reachableCoins + 44
+    elseif has("fireflower") then
+        reachableCoins = reachableCoins + 36
+    end
+
+    return AreCoinsAvailable(reachableCoins, "@Turtle Zone Secret Course/Coinsanity/Coins")
+end
+
+function hippozone_coins()
+    local reachableCoins = 4
+    if not no_scroll("hippozone") then
+        if has("hippobubble") then
+            reachableCoins = 160
+        elseif has("carrot") then
+            reachableCoins = 90
+        elseif has("waterphysics") then
+            reachableCoins = 28
+        end
+    else
+        if has_any("waterphysics", "hippobubble", "carrot") then
+            reachableCoins = reachableCoins + 108
+            if has_any("mushroom", "fireflower", "hippobubble") then
+                reachableCoins = reachableCoins + 6
+            end
+        end
+        if has_all("fireflower", "waterphysics") then
+            reachableCoins = reachableCoins + 1
+        end
+        if has("hippobubble") then
+            reachableCoins = reachableCoins + 52
+        end
+    end
+
+    return AreCoinsAvailable(reachableCoins, "@Hippo Zone/Coinsanity/Coins")
+end
+
+function spacezone1_coins()
+    local autoScroll = not no_scroll("spacezone1")
+    if autoScroll then
+        local reachableCoins = 0
+        reachableCoins = reachableCoins + 12
+        if has_any("carrot", "spacephysics") then
+            reachableCoins = reachableCoins + 20
+        end
+        if has("spacephysics") then
+            reachableCoins = reachableCoins + 40
+        end
+        return AreCoinsAvailable(reachableCoins, "@Space Zone 1/Coinsanity/Coins")
+    end
+
+    return AreCoinsAvailable(21, "@Space Zone 1/Coinsanity/Coins") or (AreCoinsAvailable(50, "@Space Zone 1/Coinsanity/Coins") and has_any("mushroom", "fireflower")) or has_any("carrot", "spacephysics")
+end
+
+function spacezone2_coins()
+    local autoScroll = not no_scroll("spacezone2")
+    local reachableCoins = 12
+    if has_any("mushroom", "fireflower", "carrot", "spacephysics") then
+        reachableCoins = reachableCoins + 15
+        if has("spacephysics") or not autoScroll then
+            reachableCoins = reachableCoins + 4
+        end
+    end
+    if has("spacephysics") or (has("mushroom") and has_any("fireflower", "carrot")) then
+        reachableCoins = reachableCoins + 3
+    end
+    if has("spacephysics") then
+        reachableCoins = reachableCoins + 79
+        if not autoScroll then
+            reachableCoins = reachableCoins + 21
+        end
+    end
+    return AreCoinsAvailable(reachableCoins, "@Space Zone 2/Coinsanity/Coins")
+end
+
+function spacezonesecret_coins()
+    return AreCoinsAvailable(96, "@Space Zone Secret Course/Coinsanity/Coins") or no_scroll("spacezonesecret")
+end
+
+function macrozone1_coins()
+    local autoScroll = not no_scroll("macrozone1")
+    local reachableCoins = 0
+    if has_pipe_down() then
+        reachableCoins = reachableCoins + 69
+        if autoScroll then
+            if has_any("mushroom", "fireflower") then
+                reachableCoins = reachableCoins + 5
+            end
+        else
+            reachableCoins = reachableCoins + 9
+            if has("fireflower") then
+                reachableCoins = reachableCoins + 19
+            end
+        end
+    elseif has_midway("macrozone1") then
+        if autoScroll then
+            reachableCoins = reachableCoins + 16
+            if has_any("mushroom", "fireflower") then
+                reachableCoins = reachableCoins + 5
+            end
+        else
+            reachableCoins = reachableCoins + 67
+        end
+    end
+
+    return AreCoinsAvailable(reachableCoins, "@Macro Zone 1/Coinsanity/Coins")
+end
+
+function macrozone2_coins()
+    local autoScroll = no_scroll("macrozone2")
+
+    if AreCoinsAvailable(27, "@Macro Zone 2/Coinsanity/Coins") then
+        return true
+    end
+    if has_pipe_up() and has("waterphysics") and not autoScroll then
+        if has_pipe_down() then
+            return true
+        end
+        if has_midway("macrozone2") then
+            return AreCoinsAvailable(42, "@Macro Zone 2/Coinsanity/Coins")
+        end
+    end
+    return false
+end
+
+function macrozone3_coins()
+    local autoScroll = not no_scroll("macrozone3")
+    local reachableCoins = 7
+
+    if not autoScroll then
+        reachableCoins = reachableCoins + 17
+    end
+    if has_pipe_up() and has_pipe_down() then
+        if autoScroll then
+            reachableCoins = reachableCoins + 56
+        else
+            return true
+        end
+    elseif has_pipe_up() then
+        if autoScroll then
+            reachableCoins = reachableCoins + 12
+        else
+            reachableCoins = reachableCoins + 36
+        end
+    elseif has_pipe_down() then
+        reachableCoins = reachableCoins + 18
+    end
+    if has_midway("macrozone3") then
+        reachableCoins = math.max(reachableCoins, 30)
+    end
+    return AreCoinsAvailable(reachableCoins, "@Macro Zone 3/Coinsanity/Coins")
+end
+
+function macrozone4_coins()
+    local reachableCoins = 61
+    if not no_scroll("macrozone4") then
+        reachableCoins = reachableCoins - 8
+        if has("carrot") then
+            reachableCoins = reachableCoins + 6
+        end
+    end
+
+    return AreCoinsAvailable(reachableCoins, "@Macro Zone 4/Coinsanity/Coins")
+end
+
+function macrozonesecret_coins()
+    return has_any("mushroom", "fireflower")
 end

@@ -44,6 +44,7 @@
             {
                 "name": "Coinsanity",
                 "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$pumpkinzone1_coins"],
                 "sections": [
                     {
                         "name": "Coins",
@@ -139,6 +140,7 @@
             {
                 "name": "Coinsanity",
                 "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$pumpkinzone2_coins"],
                 "sections": [
                     {
                         "name": "Coins",
@@ -244,6 +246,7 @@
             {
                 "name": "Coinsanity",
                 "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$pumpkinzone3_coins"],
                 "sections": [
                     {
                         "name": "Coins",
@@ -331,6 +334,7 @@
             {
                 "name": "Coinsanity",
                 "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$pumpkinzone4_coins"],
                 "sections": [
                     {
                         "name": "Coins",
@@ -399,6 +403,7 @@
             {
                 "name": "Coinsanity",
                 "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$pumpkinzonesecret1_coins"],
                 "sections": [
                     {
                         "name": "Coins",

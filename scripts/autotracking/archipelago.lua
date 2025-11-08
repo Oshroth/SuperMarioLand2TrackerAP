@@ -38,6 +38,9 @@ function OnClearHandler(slot_data)
 end
 
 function ClearCoins()
+    for _, location in pairs(COIN_MAPPING_LOCATIONS) do
+        COIN_LOCATIONS[location] = {}
+    end
     for _, id in pairs(Archipelago.CheckedLocations) do
         local coin = COIN_MAPPING[id]
         if coin ~= nil then

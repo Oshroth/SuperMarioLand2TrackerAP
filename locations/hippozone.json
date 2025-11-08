@@ -29,6 +29,7 @@
             {
                 "name": "Coinsanity",
                 "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$hippozone_coins"],
                 "sections": [
                     {
                         "name": "Coins",
