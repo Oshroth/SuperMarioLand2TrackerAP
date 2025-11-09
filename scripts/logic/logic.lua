@@ -104,7 +104,7 @@ function AreCoinsAvailable(reachableCoins, location)
         return true
     end
     for _, v in ipairs(coinLoc) do
-        if v[2] <= reachableCoins then
+        if v <= reachableCoins then
             return true
         end
     end
