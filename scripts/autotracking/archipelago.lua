@@ -12,6 +12,14 @@ CUR_INDEX = -1
 SLOT_DATA = {}
 COIN_LOCATIONS = {}
 
+function ForceUpdate()
+    local update = Tracker:FindObjectForCode("update")
+    if update == nil then
+        return
+    end
+    update.Active = not update.Active
+end
+
 function OnClearHandler(slot_data)
     local clear_timer = os.clock()
 
@@ -27,6 +35,7 @@ function OnClearHandler(slot_data)
         local function frameCallback()
             ScriptHost:RemoveOnFrameHandler(handlerName)
             Tracker.BulkUpdate = false
+            ForceUpdate()
             print(string.format("Time taken total: %.2f", os.clock() - clear_timer))
         end
         ScriptHost:AddOnFrameHandler(handlerName, frameCallback)
@@ -66,6 +75,7 @@ end
 
 
 function OnClear(slot_data)
+    ScriptHost:RemoveOnLocationSectionHandler("location_section_change_handler")
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called OnClear, slot_data:\n%s", dump_table(slot_data)))
     end
@@ -143,6 +153,7 @@ function OnClear(slot_data)
 		end
 	end
     AutoFill(slot_data)
+    ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
 end
 
 function OnItem(index, item_id, item_name, player_number)
