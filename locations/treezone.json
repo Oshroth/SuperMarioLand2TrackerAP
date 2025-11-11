@@ -388,8 +388,7 @@
     },
     {
         "name": "Tree Zone Secret Course",
-        "parent": "Tree Zone 2",
-        "access_rules": ["treezonesecret"],
+        "access_rules": ["treezonesecret, @Tree Zone 2"],
         "children": [
             {
                 "name": "Normal Exit",

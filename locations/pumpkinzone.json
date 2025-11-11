@@ -374,8 +374,7 @@
     },
     {
         "name": "Pumpkin Zone Secret Course 1",
-        "access_rules": ["pumpkinzonesecret1"],
-        "parent": "Pumpkin Zone 2",
+        "access_rules": ["pumpkinzonesecret1, @Pumpkin Zone 2"],
         "children": [
             {
                 "name": "Normal Exit",
@@ -431,8 +430,7 @@
     },
     {
         "name": "Pumpkin Zone Secret Course 2",
-        "access_rules": ["pumpkinzonesecret2"],
-        "parent": "Pumpkin Zone 3",
+        "access_rules": ["pumpkinzonesecret2, @Pumpkin Zone 3"],
         "children": [
             {
                 "name": "Normal Exit",

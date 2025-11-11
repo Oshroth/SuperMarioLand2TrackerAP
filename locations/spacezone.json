@@ -96,8 +96,7 @@
     },
     {
         "name": "Space Zone 2",
-        "access_rules": ["$has|spacezoneprogression"],
-        "parent": "Space Zone 1",
+        "access_rules": ["$has|spacezoneprogression, @Space Zone 1"],
         "children": [
             {
                 "name": "Midway Bell",
@@ -186,8 +185,7 @@
     },
     {
         "name": "Space Zone Secret Course",
-        "access_rules": ["spacezonesecret"],
-        "parent": "Space Zone 1",
+        "access_rules": ["spacezonesecret, @Space Zone 1"],
         "children": [
             {
                 "name": "Normal Exit",

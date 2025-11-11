@@ -255,8 +255,7 @@
     },
     {
         "name": "Turtle Zone Secret Course",
-        "access_rules": ["turtlezonesecret"],
-        "parent": "Turtle Zone 2",
+        "access_rules": ["turtlezonesecret, @Turtle Zone 2"],
         "children": [
             {
                 "name": "Normal Exit",
