@@ -341,256 +341,192 @@
         "name": "Cancel Auto Scroll Mario Zone 1",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/mariozone1.png",
-        "disabled_img": "images/items/autoscroll/mariozone1.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-mariozone1"
     },
     {
         "name": "Cancel Auto Scroll Mario Zone 2",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/mariozone2.png",
-        "disabled_img": "images/items/autoscroll/mariozone2.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-mariozone2"
     },
     {
         "name": "Cancel Auto Scroll Mario Zone 3",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/mariozone3.png",
-        "disabled_img": "images/items/autoscroll/mariozone3.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-mariozone3"
     },
     {
         "name": "Cancel Auto Scroll Mario Zone 4",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/mariozone4.png",
-        "disabled_img": "images/items/autoscroll/mariozone4.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-mariozone4"
     },
     {
         "name": "Cancel Auto Scroll Tree Zone 1",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/treezone1.png",
-        "disabled_img": "images/items/autoscroll/treezone1.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-treezone1"
     },
     {
         "name": "Cancel Auto Scroll Tree Zone 2",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/treezone2.png",
-        "disabled_img": "images/items/autoscroll/treezone2.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-treezone2"
     },
     {
         "name": "Cancel Auto Scroll Tree Zone 3",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/treezone3.png",
-        "disabled_img": "images/items/autoscroll/treezone3.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-treezone3"
     },
     {
         "name": "Cancel Auto Scroll Tree Zone 4",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/treezone4.png",
-        "disabled_img": "images/items/autoscroll/treezone4.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-treezone4"
     },
     {
         "name": "Cancel Auto Scroll Tree Zone 5",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/treezone5.png",
-        "disabled_img": "images/items/autoscroll/treezone5.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-treezone5"
     },
     {
         "name": "Cancel Auto Scroll Tree Zone Secret Course",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/treezones.png",
-        "disabled_img": "images/items/autoscroll/treezones.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-treezonesecretcourse"
     },
     {
         "name": "Cancel Auto Scroll Macro Zone 1",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/macrozone1.png",
-        "disabled_img": "images/items/autoscroll/macrozone1.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-macrozone1"
     },
     {
         "name": "Cancel Auto Scroll Macro Zone 2",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/macrozone2.png",
-        "disabled_img": "images/items/autoscroll/macrozone2.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-macrozone2"
     },
     {
         "name": "Cancel Auto Scroll Macro Zone 3",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/macrozone3.png",
-        "disabled_img": "images/items/autoscroll/macrozone3.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-macrozone3"
     },
     {
         "name": "Cancel Auto Scroll Macro Zone 4",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/macrozone4.png",
-        "disabled_img": "images/items/autoscroll/macrozone4.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-macrozone4"
     },
     {
         "name": "Cancel Auto Scroll Macro Zone Secret Course",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/macrozones.png",
-        "disabled_img": "images/items/autoscroll/macrozones.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-macrozonesecretcourse"
     },
     {
         "name": "Cancel Auto Scroll Space Zone 1",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/spacezone1.png",
-        "disabled_img": "images/items/autoscroll/spacezone1.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-spacezone1"
     },
     {
         "name": "Cancel Auto Scroll Space Zone 2",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/spacezone2.png",
-        "disabled_img": "images/items/autoscroll/spacezone2.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-spacezone2"
     },
     {
         "name": "Cancel Auto Scroll Space Zone Secret Course",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/spacezones.png",
-        "disabled_img": "images/items/autoscroll/spacezones.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-spacezonesecretcourse"
     },
     {
         "name": "Cancel Auto Scroll Pumpkin Zone 1",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/pumpkinzone1.png",
-        "disabled_img": "images/items/autoscroll/pumpkinzone1.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-pumpkinzone1"
     },
     {
         "name": "Cancel Auto Scroll Pumpkin Zone 2",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/pumpkinzone2.png",
-        "disabled_img": "images/items/autoscroll/pumpkinzone2.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-pumpkinzone2"
     },
     {
         "name": "Cancel Auto Scroll Pumpkin Zone 3",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/pumpkinzone3.png",
-        "disabled_img": "images/items/autoscroll/pumpkinzone3.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-pumpkinzone3"
     },
     {
         "name": "Cancel Auto Scroll Pumpkin Zone 4",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/pumpkinzone4.png",
-        "disabled_img": "images/items/autoscroll/pumpkinzone4.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-pumpkinzone4"
     },
     {
         "name": "Cancel Auto Scroll Pumpkin Zone Secret Course 1",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/pumpkinzones1.png",
-        "disabled_img": "images/items/autoscroll/pumpkinzones1.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-pumpkinzonesecretcourse1"
     },
     {
         "name": "Cancel Auto Scroll Pumpkin Zone Secret Course 2",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/pumpkinzones2.png",
-        "disabled_img": "images/items/autoscroll/pumpkinzones2.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-pumpkinzonesecretcourse2"
     },
     {
         "name": "Cancel Auto Scroll Turtle Zone 1",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/turtlezone1.png",
-        "disabled_img": "images/items/autoscroll/turtlezone1.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-turtlezone1"
     },
     {
         "name": "Cancel Auto Scroll Turtle Zone 2",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/turtlezone2.png",
-        "disabled_img": "images/items/autoscroll/turtlezone2.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-turtlezone2"
     },
     {
         "name": "Cancel Auto Scroll Turtle Zone 3",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/turtlezone3.png",
-        "disabled_img": "images/items/autoscroll/turtlezone3.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-turtlezone3"
     },
     {
         "name": "Cancel Auto Scroll Turtle Zone Secret Course",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/turtlezones.png",
-        "disabled_img": "images/items/autoscroll/turtlezones.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-turtlezonesecretcourse"
     },
     {
         "name": "Cancel Auto Scroll Hippo Zone",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/hippozone.png",
-        "disabled_img": "images/items/autoscroll/hippozone.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-hippozone"
     },
     {
         "name": "Cancel Auto Scroll Scenic Course",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/sceniccourse.png",
-        "disabled_img": "images/items/autoscroll/sceniccourse.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-sceniccourse"
     },
     {
         "name": "Cancel Auto Scroll Mushroom House",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/mushroomzone.png",
-        "disabled_img": "images/items/autoscroll/mushroomzone.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll-mushroomzone"
     },
     {
         "name": "Cancel Auto Scroll All",
         "type": "toggle",
         "img": "images/items/cancel-autoscroll/global.png",
-        "disabled_img": "images/items/autoscroll/global.png",
-        "disabled_img_mods": "none",
         "codes": "cancelautoscroll"
     },
     {
