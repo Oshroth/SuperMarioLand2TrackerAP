@@ -46,6 +46,7 @@
                 "sections": [
                     {
                         "name": "Coins",
+                        "clear_as_group": false,
                         "chest_unopened_img": "images/items/levels/coin.png",
                         "chest_opened_img": "images/items/levels/coin_off.png",
                         "item_count": 88

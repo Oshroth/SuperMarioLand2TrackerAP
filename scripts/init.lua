@@ -1,6 +1,6 @@
 -- entry point for all lua code of the pack
 -- more info on the lua API: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#lua-interface
-ENABLE_DEBUG_LOG = true
+ENABLE_DEBUG_LOG = false
 
 -- get current variant
 local variant = Tracker.ActiveVariantUID
@@ -47,11 +47,3 @@ ScriptHost:AddWatchForCode("midway-mario", "set-mario-castle-midway", toggle_mid
 if PopVersion and PopVersion >= "0.26.0" then
     ScriptHost:LoadScript("scripts/autotracking.lua")
 end
-
-function OnFrameHandler()
-    ScriptHost:RemoveOnFrameHandler("load handler")
-    -- stuff
-    ScriptHost:AddOnLocationSectionChangedHandler("location_section_change_handler", ForceUpdate)
-    ForceUpdate()
-end
-ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)

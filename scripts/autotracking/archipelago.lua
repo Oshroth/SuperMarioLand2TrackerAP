@@ -75,7 +75,6 @@ end
 
 
 function OnClear(slot_data)
-    ScriptHost:RemoveOnLocationSectionHandler("location_section_change_handler")
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called OnClear, slot_data:\n%s", dump_table(slot_data)))
     end
@@ -153,7 +152,6 @@ function OnClear(slot_data)
 		end
 	end
     AutoFill(slot_data)
-    ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
 end
 
 function OnItem(index, item_id, item_name, player_number)
@@ -204,6 +202,9 @@ function OnLocation(location_id, location_name)
         OnCoinLocation(location_id)
         return
     end
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("called OnLocation: %s, %s", location_id, location_name))
+    end
     local location_array = LOCATION_MAPPING[location_id]
     if not location_array or not location_array[1] then
         print(string.format("OnLocation: could not find location mapping for id %s", location_id))
@@ -222,13 +223,16 @@ function OnLocation(location_id, location_name)
             print(string.format("OnLocation: could not find location_object for code %s", location))
         end
     end
+    ForceUpdate()
 end
 
 -- called when a coin location gets cleared
 function OnCoinLocation(locationId)
     local coin = COIN_MAPPING[locationId]
     local coin_obj = Tracker:FindObjectForCode(coin[1])
-    --local coin_index = COIN_LOCATIONS_INDEX[coin[1]][coin[2]]
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("called OnCoinLocation: %s, %s", locationId, dump_table(coin)))
+    end
     RemoveValue(COIN_LOCATIONS[coin[1]], coin[2])
     if coin_obj then
         coin_obj.AvailableChestCount = TableLength(COIN_LOCATIONS[coin[1]])
