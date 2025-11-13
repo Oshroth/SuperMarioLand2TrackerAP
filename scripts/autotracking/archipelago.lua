@@ -219,11 +219,11 @@ function OnLocation(location_id, location_name)
             else
                 location_obj.Active = true
             end
+            ForceUpdate()
         else
             print(string.format("OnLocation: could not find location_object for code %s", location))
         end
     end
-    ForceUpdate()
 end
 
 -- called when a coin location gets cleared
@@ -236,6 +236,7 @@ function OnCoinLocation(locationId)
     RemoveValue(COIN_LOCATIONS[coin[1]], coin[2])
     if coin_obj then
         coin_obj.AvailableChestCount = TableLength(COIN_LOCATIONS[coin[1]])
+        ForceUpdate()
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("OnCoinLocation: could not find object for code %s", coin[1]))
     end
