@@ -36,9 +36,9 @@ ScriptHost:LoadScript("scripts/layouts_import.lua")
 
 -- Adds Watches for Item Grid Toggles
 ScriptHost:AddWatchForCode("goal-settings", "set-gc-goal", toggle_settings)
-ScriptHost:AddWatchForCode("goal-items", "set-gc-goal", toggle_itemgrid)
-ScriptHost:AddWatchForCode("pipe-items", "set-pipe-traversal", toggle_itemgrid)
-ScriptHost:AddWatchForCode("scroll-items", "set-scroll-mode", toggle_itemgrid)
+ScriptHost:AddWatchForCode("goal-items", "set-gc-goal", ToggleCoinsUI)
+ScriptHost:AddWatchForCode("pipe-items", "set-pipe-traversal", TogglePipesUI)
+ScriptHost:AddWatchForCode("scroll-items", "set-scroll-mode", ToggleScrollItemUI)
 ScriptHost:AddWatchForCode("scroll-main", "set-scroll-mode", toggle_maingrid)
 ScriptHost:AddWatchForCode("midway-main", "set-shuffle-midways", toggle_maingrid)
 ScriptHost:AddWatchForCode("midway-mario", "set-mario-castle-midway", toggle_midways)

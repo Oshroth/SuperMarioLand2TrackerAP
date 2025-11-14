@@ -1,5 +1,5 @@
 {
-    "items_coins": {
+    "items_scroll": {
         "type": "itemgrid",
         "item_margin": "5, 5",
         "margin": "0",
@@ -7,9 +7,6 @@
         "item_h_alignment": "center",
         "item_size": "40,40",
         "rows": [
-            [
-                "mariocoinfragment"
-            ]
         ]
     }
 }

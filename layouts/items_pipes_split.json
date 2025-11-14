@@ -1,5 +1,5 @@
 {
-    "items_coins": {
+    "items_pipes": {
         "type": "itemgrid",
         "item_margin": "5, 5",
         "margin": "0",
@@ -8,12 +8,10 @@
         "item_size": "40,40",
         "rows": [
             [
-                "mariocoin",
-                "treecoin",
-                "macrocoin",
-                "spacecoin",
-                "pumpkincoin",
-                "turtlecoin"
+                "pipetraversal-up",
+                "pipetraversal-down",
+                "pipetraversal-left",
+                "pipetraversal-right"
             ]
         ]
     }
