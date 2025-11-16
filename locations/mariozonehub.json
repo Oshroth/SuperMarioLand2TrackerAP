@@ -1,0 +1,103 @@
+[
+    {
+        "name": "Mario Zone",
+        "children": [
+            {
+                "name": "Mario Zone 1",
+                "sections": [
+                    {
+                        "ref": "Mario Zone 1/Midway Bell/Midway Bell",
+                        "name": "Midway Bell"
+                    },
+                    {
+                        "ref": "Mario Zone 1/Normal Exit/Normal Exit",
+                        "name": "Normal Exit"
+                    },
+                    {
+                        "ref": "Mario Zone 1/Coinsanity/Coins",
+                        "name": "Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariozonehub",
+                        "x": 62,
+                        "y": 111
+                    }
+                ]
+            },
+            {
+                "name": "Mario Zone 2",
+                "sections": [
+                    {
+                        "ref": "Mario Zone 2/Midway Bell/Midway Bell",
+                        "name": "Midway Bell"
+                    },
+                    {
+                        "ref": "Mario Zone 2/Normal Exit/Normal Exit",
+                        "name": "Normal Exit"
+                    },
+                    {
+                        "ref": "Mario Zone 2/Coinsanity/Coins",
+                        "name": "Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariozonehub",
+                        "x": 80,
+                        "y": 89
+                    }
+                ]
+            },
+            {
+                "name": "Mario Zone 3",
+                "sections": [
+                    {
+                        "ref": "Mario Zone 3/Midway Bell/Midway Bell",
+                        "name": "Midway Bell"
+                    },
+                    {
+                        "ref": "Mario Zone 3/Normal Exit/Normal Exit",
+                        "name": "Normal Exit"
+                    },
+                    {
+                        "ref": "Mario Zone 3/Coinsanity/Coins",
+                        "name": "Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariozonehub",
+                        "x": 80,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "name": "Mario Zone 4",
+                "sections": [
+                    {
+                        "ref": "Mario Zone 4/Midway Bell/Midway Bell",
+                        "name": "Midway Bell"
+                    },
+                    {
+                        "ref": "Mario Zone 4/Boss/Boss",
+                        "name": "Boss"
+                    },
+                    {
+                        "ref": "Mario Zone 4/Coinsanity/Coins",
+                        "name": "Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mariozonehub",
+                        "x": 80,
+                        "y": 10
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,7 +1,7 @@
 {
 	"name": "Super Mario Land 2 AP Tracker",
 	"game_name": "Super Mario Land 2",
-	"package_version": "0.7.0",
+	"package_version": "0.8.0",
 	"package_uid": "sml2_ap",
 	"author": "mobby45, Oshroth",
 	"variants": {

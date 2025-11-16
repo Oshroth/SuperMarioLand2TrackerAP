@@ -1,0 +1,496 @@
+[
+    {
+        "name": "Map",
+        "children":[
+            {
+                "name": "Mushroom Zone",
+                "sections": [
+                    {
+                        "ref": "Mushroom Zone/Midway Bell/Midway Bell",
+                        "name": "Mushroom Zone - Midway Bell"
+                    },
+                    {
+                        "ref": "Mushroom Zone/Normal Exit/Normal Exit",
+                        "name": "Mushroom Zone - Normal Exit"
+                    },
+                    {
+                        "ref": "Mushroom Zone/Coinsanity/Coins",
+                        "name": "Mushroom Zone - Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 203,
+                        "y": 385
+                    }
+                ]
+            },
+            {
+                "name": "Tree Zone",
+                "sections": [
+                    {
+                        "ref": "Tree Zone 1/Midway Bell/Midway Bell",
+                        "name": "Tree Zone 1 - Midway Bell"
+                    },
+                    {
+                        "ref": "Tree Zone 1/Normal Exit/Normal Exit",
+                        "name": "Tree Zone 1 - Normal Exit"
+                    },
+                    {
+                        "ref": "Tree Zone 1/Coinsanity/Coins",
+                        "name": "Tree Zone 1 - Coins"
+                    },
+                    {
+                        "ref": "Tree Zone 2/Midway Bell/Midway Bell",
+                        "name": "Tree Zone 2 - Midway Bell"
+                    },
+                    {
+                        "ref": "Tree Zone 2/Secret Exit/Secret Exit",
+                        "name": "Tree Zone 2 - Secret Exit"
+                    },
+                    {
+                        "ref": "Tree Zone 2/Normal Exit/Normal Exit",
+                        "name": "Tree Zone 2 - Normal Exit"
+                    },
+                    {
+                        "ref": "Tree Zone 2/Coinsanity/Coins",
+                        "name": "Tree Zone 2 - Coins"
+                    },
+                    {
+                        "ref": "Tree Zone 3/Normal Exit/Normal Exit",
+                        "name": "Tree Zone 3 - Normal Exit"
+                    },
+                    {
+                        "ref": "Tree Zone 3/Coinsanity/Coins",
+                        "name": "Tree Zone 3 - Coins"
+                    },
+                    {
+                        "ref": "Tree Zone 4/Midway Bell/Midway Bell",
+                        "name": "Tree Zone 4 - Midway Bell"
+                    },
+                    {
+                        "ref": "Tree Zone 4/Normal Exit/Normal Exit",
+                        "name": "Tree Zone 4 - Normal Exit"
+                    },
+                    {
+                        "ref": "Tree Zone 4/Coinsanity/Coins",
+                        "name": "Tree Zone 4 - Coins"
+                    },
+                    {
+                        "ref": "Tree Zone 5/Midway Bell/Midway Bell",
+                        "name": "Tree Zone 5 - Midway Bell"
+                    },
+                    {
+                        "ref": "Tree Zone 5/Boss/Boss",
+                        "name": "Tree Zone 5 - Boss"
+                    },
+                    {
+                        "ref": "Tree Zone 5/Coinsanity/Coins",
+                        "name": "Tree Zone 5 - Coins"
+                    },
+                    {
+                        "ref": "Tree Zone Secret Course/Normal Exit/Normal Exit",
+                        "name": "Tree Zone Secret Course - Normal Exit"
+                    },
+                    {
+                        "ref": "Tree Zone Secret Course/Coinsanity/Coins",
+                        "name": "Tree Zone Secret Course - Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 91,
+                        "y": 303
+                    }
+                ]
+            },
+            {
+                "name": "Mario Zone",
+                "sections": [
+                    {
+                        "ref": "Mario Zone 1/Midway Bell/Midway Bell",
+                        "name": "Mario Zone 1 - Midway Bell"
+                    },
+                    {
+                        "ref": "Mario Zone 1/Normal Exit/Normal Exit",
+                        "name": "Mario Zone 1 - Normal Exit"
+                    },
+                    {
+                        "ref": "Mario Zone 1/Coinsanity/Coins",
+                        "name": "Mario Zone 1 - Coins"
+                    },
+                    {
+                        "ref": "Mario Zone 2/Midway Bell/Midway Bell",
+                        "name": "Mario Zone 2 - Midway Bell"
+                    },
+                    {
+                        "ref": "Mario Zone 2/Normal Exit/Normal Exit",
+                        "name": "Mario Zone 2 - Normal Exit"
+                    },
+                    {
+                        "ref": "Mario Zone 2/Coinsanity/Coins",
+                        "name": "Mario Zone 2 - Coins"
+                    },
+                    {
+                        "ref": "Mario Zone 3/Midway Bell/Midway Bell",
+                        "name": "Mario Zone 3 - Midway Bell"
+                    },
+                    {
+                        "ref": "Mario Zone 3/Normal Exit/Normal Exit",
+                        "name": "Mario Zone 3 - Normal Exit"
+                    },
+                    {
+                        "ref": "Mario Zone 3/Coinsanity/Coins",
+                        "name": "Mario Zone 3 - Coins"
+                    },
+                    {
+                        "ref": "Mario Zone 4/Midway Bell/Midway Bell",
+                        "name": "Mario Zone 4 - Midway Bell"
+                    },
+                    {
+                        "ref": "Mario Zone 4/Boss/Boss",
+                        "name": "Mario Zone 4 - Boss"
+                    },
+                    {
+                        "ref": "Mario Zone 4/Coinsanity/Coins",
+                        "name": "Mario Zone 4 - Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 404,
+                        "y": 267
+                    }
+                ]
+            },
+            {
+                "name": "Space Zone",
+                "sections": [
+                    {
+                        "ref": "Space Zone 1/Midway Bell/Midway Bell",
+                        "name": "Space Zone 1 - Midway Bell"
+                    },
+                    {
+                        "ref": "Space Zone 1/Normal Exit/Normal Exit",
+                        "name": "Space Zone 1 - Normal Exit"
+                    },
+                    {
+                        "ref": "Space Zone 1/Secret Exit/Secret Exit",
+                        "name": "Space Zone 1 - Secret Exit"
+                    },
+                    {
+                        "ref": "Space Zone 1/Coinsanity/Coins",
+                        "name": "Space Zone 1 - Coins"
+                    },
+                    {
+                        "ref": "Space Zone 2/Midway Bell/Midway Bell",
+                        "name": "Space Zone 2 - Midway Bell"
+                    },
+                    {
+                        "ref": "Space Zone 2/Boss/Boss",
+                        "name": "Space Zone 2 - Boss"
+                    },
+                    {
+                        "ref": "Space Zone 2/Coinsanity/Coins",
+                        "name": "Space Zone 2 - Coins"
+                    },
+                    {
+                        "ref": "Space Zone Secret Course/Normal Exit/Normal Exit",
+                        "name": "Space Zone Secret Course - Normal Exit"
+                    },
+                    {
+                        "ref": "Space Zone Secret Course/Coinsanity/Coins",
+                        "name": "Space Zone Secret Course - Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 274,
+                        "y": 75
+                    }
+                ]
+            },
+            {
+                "name": "Macro Zone",
+                "sections": [
+                    {
+                        "ref": "Macro Zone 1/Midway Bell/Midway Bell",
+                        "name": "Macro Zone 1 - Midway Bell"
+                    },
+                    {
+                        "ref": "Macro Zone 1/Normal Exit/Normal Exit",
+                        "name": "Macro Zone 1 - Normal Exit"
+                    },
+                    {
+                        "ref": "Macro Zone 1/Secret Exit/Secret Exit",
+                        "name": "Macro Zone 1 - Secret Exit"
+                    },
+                    {
+                        "ref": "Macro Zone 1/Coinsanity/Coins",
+                        "name": "Macro Zone 1 - Coins"
+                    },
+                    {
+                        "ref": "Macro Zone 2/Midway Bell/Midway Bell",
+                        "name": "Macro Zone 2 - Midway Bell"
+                    },
+                    {
+                        "ref": "Macro Zone 2/Normal Exit/Normal Exit",
+                        "name": "Macro Zone 2 - Normal Exit"
+                    },
+                    {
+                        "ref": "Macro Zone 2/Coinsanity/Coins",
+                        "name": "Macro Zone 2 - Coins"
+                    },
+                    {
+                        "ref": "Macro Zone 3/Midway Bell/Midway Bell",
+                        "name": "Macro Zone 3 - Midway Bell"
+                    },
+                    {
+                        "ref": "Macro Zone 3/Normal Exit/Normal Exit",
+                        "name": "Macro Zone 3 - Normal Exit"
+                    },
+                    {
+                        "ref": "Macro Zone 3/Coinsanity/Coins",
+                        "name": "Macro Zone 3 - Coins"
+                    },
+                    {
+                        "ref": "Macro Zone 4/Midway Bell/Midway Bell",
+                        "name": "Macro Zone 4 - Midway Bell"
+                    },
+                    {
+                        "ref": "Macro Zone 4/Boss/Boss",
+                        "name": "Macro Zone 4 - Boss"
+                    },
+                    {
+                        "ref": "Macro Zone 4/Coinsanity/Coins",
+                        "name": "Macro Zone 4 - Coins"
+                    },
+                    {
+                        "ref": "Macro Zone Secret Course/Normal Exit/Normal Exit",
+                        "name": "Macro Zone Secret Course - Normal Exit"
+                    },
+                    {
+                        "ref": "Macro Zone Secret Course/Coinsanity/Coins",
+                        "name": "Macro Zone Secret Course - Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 212,
+                        "y": 137
+                    }
+                ]
+            },
+            {
+                "name": "Scenic Course",
+                "sections": [
+                    {
+                        "ref": "Scenic Course/Normal Exit/Normal Exit",
+                        "name": "Scenic Course - Normal Exit"
+                    },
+                    {
+                        "ref": "Scenic Course/Coinsanity/Coins",
+                        "name": "Scenic Course - Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 167,
+                        "y": 260
+                    }
+                ]
+            },
+            {
+                "name": "Mario's Castle",
+                "sections": [
+                    {
+                        "ref": "Mario's Castle/Midway Bell/Midway Bell",
+                        "name": "Mario's Castle - Midway Bell"
+                    },
+                    {
+                        "ref": "Mario's Castle/Goal/Wario",
+                        "name": "Mario's Castle - Wario"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 256,
+                        "y": 213
+                    }
+                ]
+            },
+            {
+                "name": "Hippo Zone",
+                "sections": [
+                    {
+                        "ref": "Hippo Zone/Exit/Normal or Secret Exit",
+                        "name": "Hippo Zone - Normal or Secret Exit"
+                    },
+                    {
+                        "ref": "Hippo Zone/Coinsanity/Coins",
+                        "name": "Hippo Zone - Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 96,
+                        "y": 124
+                    }
+                ]
+            },
+            {
+                "name": "Turtle Zone",
+                "sections": [
+                    {
+                        "ref": "Turtle Zone 1/Midway Bell/Midway Bell",
+                        "name": "Turtle Zone 1 - Midway Bell"
+                    },
+                    {
+                        "ref": "Turtle Zone 1/Normal Exit/Normal Exit",
+                        "name": "Turtle Zone 1 - Normal Exit"
+                    },
+                    {
+                        "ref": "Turtle Zone 1/Coinsanity/Coins",
+                        "name": "Turtle Zone 1 - Coins"
+                    },
+                    {
+                        "ref": "Turtle Zone 2/Midway Bell/Midway Bell",
+                        "name": "Turtle Zone 2 - Midway Bell"
+                    },
+                    {
+                        "ref": "Turtle Zone 2/Normal Exit/Normal Exit",
+                        "name": "Turtle Zone 2 - Normal Exit"
+                    },
+                    {
+                        "ref": "Turtle Zone 2/Secret Exit/Secret Exit",
+                        "name": "Turtle Zone 2 - Secret Exit"
+                    },
+                    {
+                        "ref": "Turtle Zone 2/Coinsanity/Coins",
+                        "name": "Turtle Zone 2 - Coins"
+                    },
+                    {
+                        "ref": "Turtle Zone 3/Midway Bell/Midway Bell",
+                        "name": "Turtle Zone 3 - Midway Bell"
+                    },
+                    {
+                        "ref": "Turtle Zone 3/Boss/Boss",
+                        "name": "Turtle Zone 3 - Boss"
+                    },
+                    {
+                        "ref": "Turtle Zone 3/Coinsanity/Coins",
+                        "name": "Turtle Zone 3 - Coins"
+                    },
+                    {
+                        "ref": "Turtle Zone Secret Course/Normal Exit/Normal Exit",
+                        "name": "Turtle Zone Secret Course - Normal Exit"
+                    },
+                    {
+                        "ref": "Turtle Zone Secret Course/Coinsanity/Coins",
+                        "name": "Turtle Zone Secret Course - Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 381,
+                        "y": 388
+                    }
+                ]
+            },
+            {
+                "name": "Pumpkin Zone",
+                "sections": [
+                    {
+                        "ref": "Pumpkin Zone 1/Midway Bell/Midway Bell",
+                        "name": "Pumpkin Zone 1 - Midway Bell"
+                    },
+                    {
+                        "ref": "Pumpkin Zone 1/Normal Exit/Normal Exit",
+                        "name": "Pumpkin Zone 1 - Normal Exit"
+                    },
+                    {
+                        "ref": "Pumpkin Zone 1/Coinsanity/Coins",
+                        "name": "Pumpkin Zone 1 - Coins"
+                    },
+                    {
+                        "ref": "Pumpkin Zone 2/Midway Bell/Midway Bell",
+                        "name": "Pumpkin Zone 2 - Midway Bell"
+                    },
+                    {
+                        "ref": "Pumpkin Zone 2/Normal Exit/Normal Exit",
+                        "name": "Pumpkin Zone 2 - Normal Exit"
+                    },
+                    {
+                        "ref": "Pumpkin Zone 2/Secret Exit/Secret Exit",
+                        "name": "Pumpkin Zone 2 - Secret Exit"
+                    },
+                    {
+                        "ref": "Pumpkin Zone 2/Coinsanity/Coins",
+                        "name": "Pumpkin Zone 2 - Coins"
+                    },
+                    {
+                        "ref": "Pumpkin Zone 3/Midway Bell/Midway Bell",
+                        "name": "Pumpkin Zone 3 - Midway Bell"
+                    },
+                    {
+                        "ref": "Pumpkin Zone 3/Normal Exit/Normal Exit",
+                        "name": "Pumpkin Zone 3 - Normal Exit"
+                    },
+                    {
+                        "ref": "Pumpkin Zone 3/Secret Exit/Secret Exit",
+                        "name": "Pumpkin Zone 3 - Secret Exit"
+                    },
+                    {
+                        "ref": "Pumpkin Zone 3/Coinsanity/Coins",
+                        "name": "Pumpkin Zone 3 - Coins"
+                    },
+                    {
+                        "ref": "Pumpkin Zone 4/Midway Bell/Midway Bell",
+                        "name": "Pumpkin Zone 4 - Midway Bell"
+                    },
+                    {
+                        "ref": "Pumpkin Zone 4/Boss/Boss",
+                        "name": "Pumpkin Zone 4 - Boss"
+                    },
+                    {
+                        "ref": "Pumpkin Zone 4/Coinsanity/Coins",
+                        "name": "Pumpkin Zone 4 - Coins"
+                    },
+                    {
+                        "ref": "Pumpkin Zone Secret Course 1/Normal Exit/Normal Exit",
+                        "name": "Pumpkin Zone Secret Course 1 - Normal Exit"
+                    },
+                    {
+                        "ref": "Pumpkin Zone Secret Course 1/Coinsanity/Coins",
+                        "name": "Pumpkin Zone Secret Course 1 - Coins"
+                    },
+                    {
+                        "ref": "Pumpkin Zone Secret Course 2/Normal Exit/Normal Exit",
+                        "name": "Pumpkin Zone Secret Course 2 - Normal Exit"
+                    },
+                    {
+                        "ref": "Pumpkin Zone Secret Course 2/Coinsanity/Coins",
+                        "name": "Pumpkin Zone Secret Course 2 - Coins"
+                    }
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 384,
+                        "y": 129
+                    }
+                ]
+            }
+        ]
+    }
+]

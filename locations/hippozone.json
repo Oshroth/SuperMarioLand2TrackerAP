@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Hippo Zone",
+        "children": [
+            {
+                "name": "Exit",
+                "access_rules": ["hippobubble", "waterphysics", "carrot, $no_scroll|hippozone"],
+                "sections": [
+                    {
+                        "name": "Normal or Secret Exit",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hippozone-2",
+                        "x": 1329,
+                        "y": 178
+                    },
+                    {
+                        "map": "hippozone-2",
+                        "x": 1329,
+                        "y": 244
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$hippozone_coins"],
+                "sections": [
+                    {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 171
+                    },
+                    {
+                        "name": "Coins",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 171
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hippozone-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "hippozone-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    }
+]

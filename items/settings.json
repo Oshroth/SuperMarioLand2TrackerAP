@@ -39,6 +39,7 @@
         "type": "consumable",
         "img": "images/items/coins/mariocoinfragment.png",
         "min_quantity": 0,
+        "initial_quantity": 1,
         "max_quantity": -1,
         "codes": "set-mc-frag-required"
     },
@@ -67,7 +68,7 @@
             },
             {
                 "name": "Auto Scroll Mode - Global Trap",
-                "img": "images/items/autoscroll/global.png",
+                "img": "images/items/settings/globaltrap.png",
                 "codes": "set-scroll-mode, set-scroll-mode-global-trap",
                 "inherit_codes": false
             },

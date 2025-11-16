@@ -1,0 +1,259 @@
+[
+    {
+        "name": "Space Zone 1",
+        "access_rules": ["hippobubble", "carrot, $no_scroll|hippozone"],
+        "children": [
+            {
+                "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
+                "sections": [
+                    {
+                        "name": "Midway Bell",
+                        "chest_unopened_img": "images/items/levels/midway.png",
+                        "chest_opened_img": "images/items/levels/midway_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "spacezone1-1",
+                        "x": 1912,
+                        "y": 422
+                    },
+                    {
+                        "map": "spacezone1-2",
+                        "x": 27,
+                        "y": 422
+                    }
+                ]
+            },
+            {
+                "name": "Normal Exit",
+                "access_rules": ["spacephysics", "carrot"],
+                "sections": [
+                    {
+                        "name": "Normal Exit",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "spacezone1-2",
+                        "x": 1163,
+                        "y": 464
+                    }
+                ]
+            },
+            {
+                "name": "Secret Exit",
+                "access_rules": ["spacephysics, $no_scroll|spacezone1", "carrot, $no_scroll|spacezone1"],
+                "sections": [
+                    {
+                        "name": "Secret Exit",
+                        "chest_unopened_img": "images/items/levels/secretexit.png",
+                        "chest_opened_img": "images/items/levels/secretexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "spacezone1-2",
+                        "x": 1163,
+                        "y": 175
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$spacezone1_coins"],
+                "sections": [
+                    {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 131
+                    },
+                    {
+                        "name": "Coins",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 131
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "spacezone1-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "spacezone1-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Space Zone 2",
+        "access_rules": ["$has|spacezoneprogression, @Space Zone 1"],
+        "children": [
+            {
+                "name": "Midway Bell",
+                "access_rules": ["spacephysics", "$has_midway|spacezone2", "$can_take_hit"],
+                "visibility_rules": ["set-shuffle-midways"],
+                "sections": [
+                    {
+                        "name": "Midway Bell",
+                        "chest_unopened_img": "images/items/levels/midway.png",
+                        "chest_opened_img": "images/items/levels/midway_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "spacezone2-3",
+                        "x": 1271,
+                        "y": 150
+                    },
+                    {
+                        "map": "spacezone2-4",
+                        "x": 26,
+                        "y": 150
+                    }
+                ]
+            },
+            {
+                "name": "Boss",
+                "access_rules": ["$has_pipe_right, spacephysics", "$has_pipe_right, $has_midway|spacezone2, $can_take_hit", "$has_pipe_right, $not_shuffle_midways, $can_take_hit", "$has_pipe_right, $can_take_hit|2"],
+                "sections": [
+              {
+                        "name": "Boss",
+                        "chest_unopened_img": "images/items/boss/tatanga.png",
+                        "chest_opened_img": "images/items/boss/tatanga_beaten.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "spacezone2-4",
+                        "x": 774,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$spacezone2_coins"],
+                "sections": [
+                    {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 132
+                    },
+                    {
+                        "name": "Coins",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 132
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "spacezone2-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "spacezone2-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "spacezone2-3",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "spacezone2-4",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Space Zone Secret Course",
+        "access_rules": ["spacezonesecret, @Space Zone 1"],
+        "children": [
+            {
+                "name": "Normal Exit",
+                "sections": [
+              {
+                        "name": "Normal Exit",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "spacezonesecret-2",
+                        "x": 705,
+                        "y": 452
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$spacezonesecret_coins"],
+                "sections": [
+                    {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 100
+                    },
+                    {
+                        "name": "Coins",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 100
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "spacezonesecret-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "spacezonesecret-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    }
+]
+

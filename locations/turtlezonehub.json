@@ -1,0 +1,103 @@
+[
+    {
+        "name": "Turtle Zone",
+        "children": [
+            {
+                "name": "Turtle Zone 1",
+                "sections": [
+                    {
+                        "ref": "Turtle Zone 1/Midway Bell/Midway Bell",
+                        "name": "Midway Bell"
+                    },
+                    {
+                        "ref": "Turtle Zone 1/Normal Exit/Normal Exit",
+                        "name": "Normal Exit"
+                    },
+                    {
+                        "ref": "Turtle Zone 1/Coinsanity/Coins",
+                        "name": "Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezonehub",
+                        "x": 75,
+                        "y": 33
+                    }
+                ]
+            },
+            {
+                "name": "Turtle Zone 2",
+                "sections": [
+                    {
+                        "ref": "Turtle Zone 2/Midway Bell/Midway Bell",
+                        "name": "Midway Bell"
+                    },
+                    {
+                        "ref": "Turtle Zone 2/Normal Exit/Normal Exit",
+                        "name": "Normal Exit"
+                    },
+                    {
+                        "ref": "Turtle Zone 2/Secret Exit/Secret Exit",
+                        "name": "Secret Exit"
+                    },
+                    {
+                        "ref": "Turtle Zone 2/Coinsanity/Coins",
+                        "name": "Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezonehub",
+                        "x": 115,
+                        "y": 89
+                    }
+                ]
+            },
+            {
+                "name": "Turtle Zone 3",
+                "sections": [
+                    {
+                        "ref": "Turtle Zone 3/Midway Bell/Midway Bell",
+                        "name": "Midway Bell"
+                    },
+                    {
+                        "ref": "Turtle Zone 3/Boss/Boss",
+                        "name": "Boss"
+                    },
+                    {
+                        "ref": "Turtle Zone 3/Coinsanity/Coins",
+                        "name": "Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezonehub",
+                        "x": 92,
+                        "y": 113
+                    }
+                ]
+            },
+            {
+                "name": "Turtle Zone Secret Course",
+                "sections": [
+                    {
+                        "ref": "Turtle Zone Secret Course/Normal Exit/Normal Exit",
+                        "name": "Normal Exit"
+                    },
+                    {
+                        "ref": "Turtle Zone Secret Course/Coinsanity/Coins",
+                        "name": "Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezonehub",
+                        "x": 144,
+                        "y": 4
+                    }
+                ]
+            }
+        ]
+    }
+]

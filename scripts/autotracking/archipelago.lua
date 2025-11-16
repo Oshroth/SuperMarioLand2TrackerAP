@@ -5,18 +5,31 @@
 -- this is useful since remote items will not reset but local items might
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/coin_mapping.lua")
 
 CUR_INDEX = -1
 
 SLOT_DATA = {}
+COIN_LOCATIONS = {} -- [location ids: [uncollected coin numbers]]
 
-function onClearHandler(slot_data)
+function ForceUpdate(location)
+    if location ~= nil and string.find(location.FullID, "/Available Coins") ~= nil then
+        return
+    end
+    local update = Tracker:FindObjectForCode("update")
+    if update == nil then
+        return
+    end
+    update.Active = not update.Active
+end
+
+function OnClearHandler(slot_data)
     local clear_timer = os.clock()
 
     -- Disable tracker updates.
     Tracker.BulkUpdate = true
     -- Use a protected call so that tracker updates always get enabled again, even if an error occurred.
-    local ok, err = pcall(onClear, slot_data)
+    local ok, err = pcall(OnClear, slot_data)
     -- Enable tracker updates again.
     if ok then
         -- Defer re-enabling tracker updates until the next frame, which doesn't happen until all received items/cleared
@@ -25,28 +38,61 @@ function onClearHandler(slot_data)
         local function frameCallback()
             ScriptHost:RemoveOnFrameHandler(handlerName)
             Tracker.BulkUpdate = false
+            ForceUpdate()
             print(string.format("Time taken total: %.2f", os.clock() - clear_timer))
         end
         ScriptHost:AddOnFrameHandler(handlerName, frameCallback)
     else
         Tracker.BulkUpdate = false
-        print("Error: onClear failed:")
+        print("Error: OnClear failed:")
         print(err)
     end
 end
 
-function onClear(slot_data)
+function ClearCoins()
+    for _, location in pairs(COIN_MAPPING_LOCATIONS) do
+        COIN_LOCATIONS[location[1]] = {}
+    end
+    for _, id in pairs(Archipelago.CheckedLocations) do
+        local coin = COIN_MAPPING[id]
+        if coin ~= nil then
+            if COIN_LOCATIONS[coin[1]] == nil then
+                COIN_LOCATIONS[coin[1]] = {}
+            end
+            table.insert(COIN_LOCATIONS[coin[1]], coin[2])
+        end
+    end
+    for _, id in pairs(Archipelago.MissingLocations) do
+        local coin = COIN_MAPPING[id]
+        if coin ~= nil then
+            if COIN_LOCATIONS[coin[1]] == nil then
+                COIN_LOCATIONS[coin[1]] = {}
+            end
+            table.insert(COIN_LOCATIONS[coin[1]], coin[2])
+        end
+    end
+    for level, coin_locations in pairs(COIN_LOCATIONS) do
+        table.sort(coin_locations)
+    end
+end
+
+
+function OnClear(slot_data)
+    ScriptHost:RemoveOnLocationSectionHandler("location_section_change_handler")
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
+        print(string.format("called OnClear, slot_data:\n%s", dump_table(slot_data)))
     end
     SLOT_DATA = slot_data
     CUR_INDEX = -1
+    COIN_LOCATIONS = {}
+
+    ClearCoins()
     -- reset locations
     for _, location_array in pairs(LOCATION_MAPPING) do
         for _, location in pairs(location_array) do
             if location then
                 if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                    print(string.format("onClear: clearing location %s", location))
+                    print(string.format("OnClear: clearing location %s", location))
                 end
                 local location_obj = Tracker:FindObjectForCode(location)
                 if location_obj then
@@ -55,9 +101,21 @@ function onClear(slot_data)
                     else
                         location_obj.Active = false
                     end
-                elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                    print(string.format("onClear: could not find object for code %s", location))
                 end
+            end
+        end
+    end
+    -- reset coin locations
+    for _, location in pairs(COIN_MAPPING_LOCATIONS) do
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("OnClear: clearing coin location %s", location[1]))
+        end
+        local location_obj = Tracker:FindObjectForCode(location[1])
+        if location_obj then
+            if location[1]:sub(1, 1) == "@" then
+                location_obj.AvailableChestCount = TableLength(COIN_LOCATIONS[location[1]])
+            else
+                location_obj.Active = false
             end
         end
     end
@@ -68,7 +126,7 @@ function onClear(slot_data)
 				local item_code = item_table[1]
 				local item_type = item_table[2]
                 if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                    print(string.format("onClear: clearing item %s of type %s", item_code, item_type))
+                    print(string.format("OnClear: clearing item %s of type %s", item_code, item_type))
                 end
 				if item_code then
 					local item_obj = Tracker:FindObjectForCode(item_code)
@@ -86,26 +144,25 @@ function onClear(slot_data)
                                 item_obj.AcquiredCount = 0
                             end
                         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                            print(string.format("onClear: unknown item type %s for code %s", item_type, item_code))
+                            print(string.format("OnClear: unknown item type %s for code %s", item_type, item_code))
                         end
-                    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                        print(string.format("onClear: could not find object for code %s", item_code))
                     end
 				elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-					print(string.format("onClear: skipping item_table with no item_code"))
+					print(string.format("OnClear: skipping item_table with no item_code"))
 				end
 			elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-				print(string.format("onClear: skipping empty item_table"))
+				print(string.format("OnClear: skipping empty item_table"))
 			end
 		end
 	end
-    autoFill(slot_data)
+    ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
+    AutoFill(slot_data)
 end
 
-function onItem(index, item_id, item_name, player_number)
+function OnItem(index, item_id, item_name, player_number)
     if item_id > 128 then return end -- Ignore coin items
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onItem: %s, %s, %s, %s, %s", index, item_id, item_name, player_number, CUR_INDEX))
+        print(string.format("called OnItem: %s, %s, %s, %s, %s", index, item_id, item_name, player_number, CUR_INDEX))
     end
     if not AUTOTRACKER_ENABLE_ITEM_TRACKING then
         return
@@ -116,7 +173,7 @@ function onItem(index, item_id, item_name, player_number)
     CUR_INDEX = index
     local item = ITEM_MAPPING[item_id]
     if not item or not item[1] then
-        print(string.format("onItem: could not find item mapping for id %s", item_id))
+        print(string.format("OnItem: could not find item mapping for id %s", item_id))
         return
     end
     for _, item_pair in pairs(item) do
@@ -138,26 +195,29 @@ function onItem(index, item_id, item_name, player_number)
             elseif item_type == "consumable" then
                 item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment * (tonumber(item_pair[3]) or 1)
             elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print(string.format("onItem: unknown item type %s for code %s", item_type, item_code))
+                print(string.format("OnItem: unknown item type %s for code %s", item_type, item_code))
             end
-        else
-            print(string.format("onItem: could not find object for code %s", item_code[1]))
         end
     end
 end
 
 -- called when a location gets cleared
-function onLocation(location_id, location_name)
-    if location_id > 60 then return end -- Skip coinsanity
+function OnLocation(location_id, location_name)
+    if COIN_MAPPING[location_id] ~= nil then
+        OnCoinLocation(location_id)
+        return
+    end
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("called OnLocation: %s, %s", location_id, location_name))
+    end
     local location_array = LOCATION_MAPPING[location_id]
     if not location_array or not location_array[1] then
-        print(string.format("onLocation: could not find location mapping for id %s", location_id))
+        print(string.format("OnLocation: could not find location mapping for id %s", location_id))
         return
     end
 
     for _, location in pairs(location_array) do
         local location_obj = Tracker:FindObjectForCode(location)
-        -- print(location, location_obj)
         if location_obj then
             if location:sub(1, 1) == "@" then
                 location_obj.AvailableChestCount = location_obj.AvailableChestCount - 1
@@ -165,12 +225,27 @@ function onLocation(location_id, location_name)
                 location_obj.Active = true
             end
         else
-            print(string.format("onLocation: could not find location_object for code %s", location))
+            print(string.format("OnLocation: could not find location_object for code %s", location))
         end
     end
 end
-            
-function autoFill(slot_data)
+
+-- called when a coin location gets cleared
+function OnCoinLocation(locationId)
+    local coin = COIN_MAPPING[locationId]
+    local coin_obj = Tracker:FindObjectForCode(coin[1])
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("called OnCoinLocation: %s, %s", locationId, dump_table(coin)))
+    end
+    RemoveValue(COIN_LOCATIONS[coin[1]], coin[2])
+    if coin_obj then
+        coin_obj.AvailableChestCount = TableLength(COIN_LOCATIONS[coin[1]])
+    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("OnCoinLocation: could not find object for code %s", coin[1]))
+    end
+end
+
+function AutoFill(slot_data)
     if slot_data == nil then
         print("No slot data")
         return
@@ -265,12 +340,12 @@ end
 
 -- add AP callbacks
 -- un-/comment as needed
-Archipelago:AddClearHandler("clear handler", onClearHandler)
+Archipelago:AddClearHandler("clear handler", OnClearHandler)
 if AUTOTRACKER_ENABLE_ITEM_TRACKING then
-    Archipelago:AddItemHandler("item handler", onItem)
+    Archipelago:AddItemHandler("item handler", OnItem)
 end
 if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
-    Archipelago:AddLocationHandler("location handler", onLocation)
+    Archipelago:AddLocationHandler("location handler", OnLocation)
 end
 
 -- Archipelago:AddSetReplyHandler("notify handler", onNotify)
