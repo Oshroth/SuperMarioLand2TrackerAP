@@ -6,3 +6,4 @@
 project export-ignore
 .github export-ignore
 .vscode export-ignore
+versions.json export-ignore
