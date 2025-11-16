@@ -1,6 +1,6 @@
 -- entry point for all lua code of the pack
 -- more info on the lua API: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#lua-interface
-ENABLE_DEBUG_LOG = true
+ENABLE_DEBUG_LOG = false
 
 -- get current variant
 local variant = Tracker.ActiveVariantUID
@@ -27,20 +27,18 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     -- Maps
     Tracker:AddMaps("maps/maps.json")
     -- Locations
-    Tracker:AddLocations("locations/locations.json")
+    ScriptHost:LoadScript("scripts/locations.lua")
 end
 
--- Locations
-ScriptHost:LoadScript("scripts/locations.lua")
 
 -- Layout
 ScriptHost:LoadScript("scripts/layouts_import.lua")
 
 -- Adds Watches for Item Grid Toggles
 ScriptHost:AddWatchForCode("goal-settings", "set-gc-goal", toggle_settings)
-ScriptHost:AddWatchForCode("goal-items", "set-gc-goal", toggle_itemgrid)
-ScriptHost:AddWatchForCode("pipe-items", "set-pipe-traversal", toggle_itemgrid)
-ScriptHost:AddWatchForCode("scroll-items", "set-scroll-mode", toggle_itemgrid)
+ScriptHost:AddWatchForCode("goal-items", "set-gc-goal", ToggleCoinsUI)
+ScriptHost:AddWatchForCode("pipe-items", "set-pipe-traversal", TogglePipesUI)
+ScriptHost:AddWatchForCode("scroll-items", "set-scroll-mode", ToggleScrollItemUI)
 ScriptHost:AddWatchForCode("scroll-main", "set-scroll-mode", toggle_maingrid)
 ScriptHost:AddWatchForCode("midway-main", "set-shuffle-midways", toggle_maingrid)
 ScriptHost:AddWatchForCode("midway-mario", "set-mario-castle-midway", toggle_midways)
@@ -49,3 +47,11 @@ ScriptHost:AddWatchForCode("midway-mario", "set-mario-castle-midway", toggle_mid
 if PopVersion and PopVersion >= "0.26.0" then
     ScriptHost:LoadScript("scripts/autotracking.lua")
 end
+
+function OnFrameHandler()
+    ScriptHost:RemoveOnFrameHandler("load handler")
+    -- stuff
+    ScriptHost:AddOnLocationSectionChangedHandler("location_section_change_handler", ForceUpdate)
+    ForceUpdate()
+end
+ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)

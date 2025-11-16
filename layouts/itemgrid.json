@@ -1,0 +1,57 @@
+{
+    "shared_item_grid": {
+        "type": "array",
+        "margin": "0,0",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "5, 5",
+                "margin": "0",
+                "h_alignment": "left",
+                "item_h_alignment": "center",
+                "item_size": "40,40",
+                "rows": [
+                    [
+                        "mushroom",
+                        "fireflower",
+                        "carrot",
+                        "hippobubble",
+                        "spacephysics",
+                        "waterphysics"
+                    ]
+                ]
+            },
+            {
+                "type": "layout",
+                "key": "items_coins"
+			},
+            {
+                "type": "itemgrid",
+                "item_margin": "5, 5",
+                "margin": "0",
+                "h_alignment": "left",
+                "item_h_alignment": "center",
+                "item_size": "40,40",
+                "rows": [
+                    [
+                        "mariozoneprogression",
+                        "treezoneprogression",
+                        "macrozoneprogression",
+                        "spacezoneprogression",
+                        "pumpkinzoneprogression",
+                        "turtlezoneprogression"
+                    ]
+                ]
+            },
+            {
+                "type": "layout",
+                "key": "items_pipes"
+			},
+            {
+                "type": "layout",
+                "key": "items_scroll"
+			}
+        ]
+    }
+}

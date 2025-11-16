@@ -63,4 +63,23 @@ function has(item, amount, amountInLogic)
         return count >= amount
     end
 end
-            
+
+function has_any(...)
+    local items = { ... }
+    for _, item in pairs(items) do
+        if Tracker:ProviderCountForCode(item) > 0 then
+            return true
+        end
+    end
+    return false
+end
+
+function has_all(...)
+    local items = { ... }
+    for _, item in pairs(items) do
+        if Tracker:ProviderCountForCode(item) <= 0 then
+            return false
+        end
+    end
+    return true
+end
