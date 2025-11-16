@@ -1,0 +1,336 @@
+[
+    {
+        "name": "Turtle Zone 1",
+        "children": [
+            {
+                "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
+                "sections": [
+                    {
+                        "name": "Midway Bell",
+                        "chest_unopened_img": "images/items/levels/midway.png",
+                        "chest_opened_img": "images/items/levels/midway_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezone1-1",
+                        "x": 1704,
+                        "y": 374
+                    },
+                    {
+                        "map": "turtlezone1-2",
+                        "x": 44,
+                        "y": 374
+                    }                    
+                ]
+            },
+            {
+                "name": "Normal Exit",
+                "access_rules": ["$not_blocked_by_sharks"],
+                "sections": [
+                    {
+                        "name": "Normal Exit",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezone1-2",
+                        "x": 1387,
+                        "y": 371
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$turtlezone1_coins"],
+                "sections": [
+                    {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 77
+                    },
+                    {
+                        "name": "Coins",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 77
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezone1-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "turtlezone1-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Turtle Zone 2",
+        "access_rules": ["$has|turtlezoneprogression"],
+        "children": [
+            {
+                "name": "Midway Bell",
+                "access_rules": ["waterphysics, $no_scroll|turtlezone2", "$has_midway|turtlezone2"],
+                "visibility_rules": ["set-shuffle-midways"],
+                "sections": [
+                    {
+                        "name": "Midway Bell",
+                        "chest_unopened_img": "images/items/levels/midway.png",
+                        "chest_opened_img": "images/items/levels/midway_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezone2-2",
+                        "x": 377,
+                        "y": 22
+                    }
+                ]
+            },
+            {
+                "name": "Normal Exit",
+                "access_rules": ["$has_pipe_up, $has_pipe_down, $has_pipe_right, $has_pipe_left, waterphysics, $no_scroll|turtlezone2"],
+                "sections": [
+                    {
+                        "name": "Normal Exit",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezone2-4",
+                        "x": 395,
+                        "y": 227
+                    }
+                ]
+            },
+            {
+                "name": "Secret Exit",
+                "access_rules": ["$has_pipe_up, waterphysics, $no_scroll|turtlezone2"],
+                "sections": [
+                    {
+                        "name": "Secret Exit",
+                        "chest_unopened_img": "images/items/levels/secretexit.png",
+                        "chest_opened_img": "images/items/levels/secretexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezone2-1",
+                        "x": 1255,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$turtlezone2_coins"],
+                "sections": [
+                    {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 27
+                    },
+                    {
+                        "name": "Coins",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 27
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezone2-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "turtlezone2-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "turtlezone2-3",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "turtlezone2-4",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Turtle Zone 3",
+        "access_rules": ["$has|turtlezoneprogression|2"],
+        "children": [
+            {
+                "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
+                "sections": [
+                    {
+                        "name": "Midway Bell",
+                        "chest_unopened_img": "images/items/levels/midway.png",
+                        "chest_opened_img": "images/items/levels/midway_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezone3-1",
+                        "x": 1376,
+                        "y": 120
+                    },
+                    {
+                        "map": "turtlezone3-2",
+                        "x": 20,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Boss",
+                "access_rules": ["$has_pipe_right"],
+                "sections": [
+                    {
+                        "name": "Boss",
+                        "chest_unopened_img": "images/items/boss/pako.png",
+                        "chest_opened_img": "images/items/boss/pako_beaten.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezone3-3",
+                        "x": 80,
+                        "y": 73
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$turtlezone3_coins"],
+                "sections": [
+                    {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 59
+                    },
+                    {
+                        "name": "Coins",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 59
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezone3-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "turtlezone3-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Turtle Zone Secret Course",
+        "access_rules": ["turtlezonesecret, @Turtle Zone 2"],
+        "children": [
+            {
+                "name": "Normal Exit",
+                "access_rules": [" fireflower", "carrot"],
+                "sections": [
+                    {
+                        "name": "Normal Exit",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezonesecret-2",
+                        "x": 775,
+                        "y": 227
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$turtlezonesecret_coins"],
+                "sections": [
+                    {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 97
+                    },
+                    {
+                        "name": "Coins",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 97
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "turtlezonesecret-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "turtlezonesecret-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -32,7 +32,7 @@
         },
         "s": {
             "name": "s",
-            "img": "images/secret.png",
+            "img": "images/s.png",
             "alignment": "topRight",
             "offset": 2
         },
@@ -106,7 +106,7 @@
             "name": "secret",
             "img": "images/secret.png",
             "alignment": "topLeft",
-            "offset": 2
+            "offset": 1
         },
         "progression": {
             "name": "progression",

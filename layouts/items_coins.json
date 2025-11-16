@@ -1,49 +1,20 @@
 {
-    "shared_item_grid": {
-        "type": "array",
-        "margin": "0,0",
-        "orientation": "vertical",
-        "content": [
-            {
-                "type": "dock",
-                "dock": "bottom",
-                "margin": "0,0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "5, 5",
-                        "h_alignment": "left",
-                        "item_h_alignment": "center",
-                        "item_size": "40,40",
-                        "rows": [
-                            [
-                                "mushroom",
-                                "fireflower",
-                                "carrot",
-                                "hippobubble",
-                                "spacephysics",
-                                "waterphysics"
-                            ],
-                            [
-                                "mariocoin",
-                                "treecoin",
-                                "macrocoin",
-                                "spacecoin",
-                                "pumpkincoin",
-                                "turtlecoin"
-                            ],
-                            [
-                                "mariozoneprogression",
-                                "treezoneprogression",
-                                "macrozoneprogression",
-                                "spacezoneprogression",
-                                "pumpkinzoneprogression",
-                                "turtlezoneprogression"
-                            ]
-                        ]
-                    }
-                ]
-            }
+    "items_coins": {
+        "type": "itemgrid",
+        "item_margin": "5, 5",
+        "margin": "0, 0",
+        "h_alignment": "left",
+        "item_h_alignment": "center",
+        "item_size": "40,40",
+        "rows": [
+            [
+                "mariocoin",
+                "treecoin",
+                "macrocoin",
+                "spacecoin",
+                "pumpkincoin",
+                "turtlecoin"
+            ]
         ]
     }
 }

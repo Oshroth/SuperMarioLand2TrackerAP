@@ -1,0 +1,127 @@
+[
+    {
+        "name": "Macro Zone",
+        "children": [
+            {
+                "name": "Macro Zone 1",
+                "sections": [
+                    {
+                        "ref": "Macro Zone 1/Midway Bell/Midway Bell",
+                        "name": "Midway Bell"
+                    },
+                    {
+                        "ref": "Macro Zone 1/Normal Exit/Normal Exit",
+                        "name": "Normal Exit"
+                    },
+                    {
+                        "ref": "Macro Zone 1/Secret Exit/Secret Exit",
+                        "name": "Secret Exit"
+                    },
+                    {
+                        "ref": "Macro Zone 1/Coinsanity/Coins",
+                        "name": "Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "macrozonehub",
+                        "x": 19,
+                        "y": 117
+                    }
+                ]
+            },
+            {
+                "name": "Macro Zone 2",
+                "sections": [
+                    {
+                        "ref": "Macro Zone 2/Midway Bell/Midway Bell",
+                        "name": "Midway Bell"
+                    },
+                    {
+                        "ref": "Macro Zone 2/Normal Exit/Normal Exit",
+                        "name": "Normal Exit"
+                    },
+                    {
+                        "ref": "Macro Zone 2/Coinsanity/Coins",
+                        "name": "Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "macrozonehub",
+                        "x": 35,
+                        "y": 101
+                    }
+                ]
+            },
+            {
+                "name": "Macro Zone 3",
+                "sections": [
+                    {
+                        "ref": "Macro Zone 3/Midway Bell/Midway Bell",
+                        "name": "Midway Bell"
+                    },
+                    {
+                        "ref": "Macro Zone 3/Normal Exit/Normal Exit",
+                        "name": "Normal Exit"
+                    },
+                    {
+                        "ref": "Macro Zone 3/Coinsanity/Coins",
+                        "name": "Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "macrozonehub",
+                        "x": 87,
+                        "y": 101
+                    }
+                ]
+            },
+            {
+                "name": "Macro Zone 4",
+                "sections": [
+                    {
+                        "ref": "Macro Zone 4/Midway Bell/Midway Bell",
+                        "name": "Midway Bell"
+                    },
+                    {
+                        "ref": "Macro Zone 4/Boss/Boss",
+                        "name": "Boss"
+                    },
+                    {
+                        "ref": "Macro Zone 4/Coinsanity/Coins",
+                        "name": "Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "macrozonehub",
+                        "x": 95,
+                        "y": 61
+                    }
+                ]
+            },
+            {
+                "name": "Macro Zone Secret Course",
+                "sections": [
+                    {
+                        "ref": "Macro Zone Secret Course/Normal Exit/Normal Exit",
+                        "name": "Normal Exit"
+                    },
+                    {
+                        "ref": "Macro Zone Secret Course/Coinsanity/Coins",
+                        "name": "Coins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "macrozonehub",
+                        "x": 19,
+                        "y": 61
+                    }
+                ]
+            }
+        ]
+    }
+]

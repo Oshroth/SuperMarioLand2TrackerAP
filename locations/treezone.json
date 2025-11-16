@@ -1,0 +1,483 @@
+[
+    {
+        "name": "Tree Zone 1",
+        "children": [
+            {
+                "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
+                "sections": [
+                    {
+                        "name": "Midway Bell",
+                        "chest_unopened_img": "images/items/levels/midway.png",
+                        "chest_opened_img": "images/items/levels/midway_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone1-1",
+                        "x": 2152,
+                        "y": 422
+                    },
+                    {
+                        "map": "treezone1-2",
+                        "x": 47,
+                        "y": 422
+                    }
+                ]
+            },
+            {
+                "name": "Normal Exit",
+                "sections": [
+                    {
+                        "name": "Normal Exit",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone1-2",
+                        "x": 1953,
+                        "y": 482
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$treezone1_coins"],
+                "sections": [
+                    {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 118
+                    },
+                    {
+                        "name": "Coins",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 118
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone1-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "treezone1-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tree Zone 2",
+        "access_rules": ["$has|treezoneprogression"],
+        "children": [
+            {
+                "name": "Midway Bell",
+                "access_rules": ["$has_pipe_right", "$has_midway|treezone2"],
+                "visibility_rules": ["set-shuffle-midways"],
+                "sections": [
+                    {
+                        "name": "Midway Bell",
+                        "chest_unopened_img": "images/items/levels/midway.png",
+                        "chest_opened_img": "images/items/levels/midway_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone2-1",
+                        "x": 2328,
+                        "y": 278
+                    },
+                    {
+                        "map": "treezone2-2",
+                        "x": 34,
+                        "y": 111
+                    }
+                ]
+            },
+            {
+                "name": "Normal Exit",
+                "access_rules": ["$has_pipe_right", "$has_midway|treezone2"],
+                "sections": [
+                    {
+                        "name": "Normal Exit",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone2-2",
+                        "x": 2033,
+                        "y": 490
+                    }
+                ]
+            },
+            {
+                "name": "Secret Exit",
+                "access_rules": ["$has_pipe_right, carrot"],
+                "sections": [
+                    {
+                        "name": "Secret Exit",
+                        "chest_unopened_img": "images/items/levels/secretexit.png",
+                        "chest_opened_img": "images/items/levels/secretexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone2-2",
+                        "x": 2033,
+                        "y": 168
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$treezone2_coins"],
+                "sections": [
+                    {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 98
+                    },
+                    {
+                        "name": "Coins",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 98
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone2-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "treezone2-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tree Zone 3",
+        "access_rules": ["$has|treezoneprogression|2"],
+        "children": [
+            {
+                "name": "Normal Exit",
+                "access_rules": ["$no_scroll|treezone3"],
+                "sections": [
+                    {
+                        "name": "Normal Exit",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone3-3",
+                        "x": 1255,
+                        "y": 227
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$treezone3_coins"],
+                "sections": [
+                    {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 25
+                    },
+                    {
+                        "name": "Coins",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 25
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone3-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "treezone3-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "treezone3-3",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tree Zone 4",
+        "access_rules": ["$has|treezoneprogression|2"],
+        "children": [
+            {
+                "name": "Midway Bell",
+                "access_rules": ["$has_pipe_right, $has_pipe_up", "$has_midway|treezone4"],
+                "visibility_rules": ["set-shuffle-midways"],
+                "sections": [
+                    {
+                        "name": "Midway Bell",
+                        "chest_unopened_img": "images/items/levels/midway.png",
+                        "chest_opened_img": "images/items/levels/midway_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone4-2",
+                        "x": 1060,
+                        "y": 74
+                    },
+                                        {
+                        "map": "treezone4-3",
+                        "x": 61,
+                        "y": 71
+                    }
+                ]
+            },
+            {
+                "name": "Normal Exit",
+                "access_rules": ["$has_pipe_down, @Tree Zone 4/Midway Bell"],
+                "sections": [
+                    {
+                        "name": "Normal Exit",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone4-3",
+                        "x": 1062,
+                        "y": 423
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$treezone4_coins"],
+                "sections": [
+                    {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 74
+                    },
+                    {
+                        "name": "Coins",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 74
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone4-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "treezone4-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "treezone4-3",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tree Zone 5",
+        "access_rules": ["$has|treezoneprogression|3"],
+        "children": [
+            {
+                "name": "Midway Bell",
+                "visibility_rules": ["set-shuffle-midways"],
+                "sections": [
+                    {
+                        "name": "Midway Bell",
+                        "chest_unopened_img": "images/items/levels/midway.png",
+                        "chest_opened_img": "images/items/levels/midway_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone5-1",
+                        "x": 1680,
+                        "y": 150
+                    },
+                    {
+                        "map": "treezone5-2",
+                        "x": 30,
+                        "y": 150
+                    }
+                ]
+            },
+            {
+                "name": "Boss",
+                "access_rules": ["$has_pipe_right, $has_pipe_up", "$has_pipe_right, carrot"],
+                "sections": [
+                    {
+                        "name": "Boss",
+                        "chest_unopened_img": "images/items/boss/bigbird.png",
+                        "chest_opened_img": "images/items/boss/bigbird_beaten.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone5-2",
+                        "x": 1501,
+                        "y": 158
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$treezone5_coins"],
+                "sections": [
+                    {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 33
+                    },
+                    {
+                        "name": "Coins",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 33
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezone5-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "treezone5-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tree Zone Secret Course",
+        "access_rules": ["treezonesecret, @Tree Zone 2"],
+        "children": [
+            {
+                "name": "Normal Exit",
+                "sections": [
+                    {
+                        "name": "Normal Exit",
+                        "chest_unopened_img": "images/items/levels/normalexit.png",
+                        "chest_opened_img": "images/items/levels/normalexit_off.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezonesecret-2",
+                        "x": 1447,
+                        "y": 113
+                    }
+                ]
+            },
+            {
+                "name": "Coinsanity",
+                "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$treezonesecret_coins"],
+                "sections": [
+                    {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 75
+                    },
+                    {
+                        "name": "Coins",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 75
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "treezonesecret-1",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    },
+                    {
+                        "map": "treezonesecret-2",
+                        "x": 20,
+                        "y": 20,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    }
+]
+
