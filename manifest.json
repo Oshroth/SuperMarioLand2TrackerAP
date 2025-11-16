@@ -4,6 +4,7 @@
 	"package_version": "0.8.0",
 	"package_uid": "sml2_ap",
 	"author": "mobby45, Oshroth",
+	"versions_url": "https://raw.githubusercontent.com/mobby45/SuperMarioLand2TrackerAP/refs/heads/main/versions.json",
 	"variants": {
 		"standard": {
 			"display_name": "Horizontal Map Tracker",
