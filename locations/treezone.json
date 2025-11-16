@@ -50,6 +50,12 @@
                 "access_rules": ["$treezone1_coins"],
                 "sections": [
                     {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 118
+                    },
+                    {
                         "name": "Coins",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/items/levels/coin.png",
@@ -147,6 +153,12 @@
                 "access_rules": ["$treezone2_coins"],
                 "sections": [
                     {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 98
+                    },
+                    {
                         "name": "Coins",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/items/levels/coin.png",
@@ -199,6 +211,12 @@
                 "visibility_rules": ["set-coinsanity"],
                 "access_rules": ["$treezone3_coins"],
                 "sections": [
+                    {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 25
+                    },
                     {
                         "name": "Coins",
                         "clear_as_group": false,
@@ -284,6 +302,12 @@
                 "access_rules": ["$treezone4_coins"],
                 "sections": [
                     {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 74
+                    },
+                    {
                         "name": "Coins",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/items/levels/coin.png",
@@ -367,6 +391,12 @@
                 "access_rules": ["$treezone5_coins"],
                 "sections": [
                     {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 33
+                    },
+                    {
                         "name": "Coins",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/items/levels/coin.png",
@@ -416,7 +446,14 @@
             {
                 "name": "Coinsanity",
                 "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$treezonesecret_coins"],
                 "sections": [
+                    {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 75
+                    },
                     {
                         "name": "Coins",
                         "clear_as_group": false,

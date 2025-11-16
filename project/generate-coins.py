@@ -49,7 +49,7 @@ lines.append("}\n\n")
 coinMapping.pop()
 lines.append("COIN_MAPPING_LOCATIONS = {\n")
 for location in coinMapping:
-    lines.append(f"\t\"{location[1]}\",\n")
+    lines.append(f"\t{{\"{location[1]}\", \"{location[1].replace("Coinsanity/Coins", "Coinsanity/Available Coins")}\"}},\n")
 lines.append("}")
 
 with open("coin_mapping.lua", "w", encoding="utf-8") as f:

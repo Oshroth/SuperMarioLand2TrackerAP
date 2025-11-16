@@ -107,3 +107,12 @@ function RemoveValue(T, val)
         end
     end
 end
+
+function FindValue(T, val)
+    for k, v in pairs(T) do
+        if v == val then
+            return k
+        end
+    end
+    return nil
+end

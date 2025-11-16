@@ -10,9 +10,12 @@ ScriptHost:LoadScript("scripts/autotracking/coin_mapping.lua")
 CUR_INDEX = -1
 
 SLOT_DATA = {}
-COIN_LOCATIONS = {}
+COIN_LOCATIONS = {} -- [location ids: [uncollected coin numbers]]
 
-function ForceUpdate()
+function ForceUpdate(location)
+    if location ~= nil and string.find(location.FullID, "/Available Coins") ~= nil then
+        return
+    end
     local update = Tracker:FindObjectForCode("update")
     if update == nil then
         return
@@ -48,7 +51,7 @@ end
 
 function ClearCoins()
     for _, location in pairs(COIN_MAPPING_LOCATIONS) do
-        COIN_LOCATIONS[location] = {}
+        COIN_LOCATIONS[location[1]] = {}
     end
     for _, id in pairs(Archipelago.CheckedLocations) do
         local coin = COIN_MAPPING[id]
@@ -75,6 +78,7 @@ end
 
 
 function OnClear(slot_data)
+    ScriptHost:RemoveOnLocationSectionHandler("location_section_change_handler")
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called OnClear, slot_data:\n%s", dump_table(slot_data)))
     end
@@ -104,12 +108,12 @@ function OnClear(slot_data)
     -- reset coin locations
     for _, location in pairs(COIN_MAPPING_LOCATIONS) do
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("OnClear: clearing coin location %s", location))
+            print(string.format("OnClear: clearing coin location %s", location[1]))
         end
-        local location_obj = Tracker:FindObjectForCode(location)
+        local location_obj = Tracker:FindObjectForCode(location[1])
         if location_obj then
-            if location:sub(1, 1) == "@" then
-                location_obj.AvailableChestCount = TableLength(COIN_LOCATIONS[location])
+            if location[1]:sub(1, 1) == "@" then
+                location_obj.AvailableChestCount = TableLength(COIN_LOCATIONS[location[1]])
             else
                 location_obj.Active = false
             end
@@ -151,6 +155,7 @@ function OnClear(slot_data)
 			end
 		end
 	end
+    ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
     AutoFill(slot_data)
 end
 
@@ -219,7 +224,6 @@ function OnLocation(location_id, location_name)
             else
                 location_obj.Active = true
             end
-            ForceUpdate()
         else
             print(string.format("OnLocation: could not find location_object for code %s", location))
         end
@@ -236,7 +240,6 @@ function OnCoinLocation(locationId)
     RemoveValue(COIN_LOCATIONS[coin[1]], coin[2])
     if coin_obj then
         coin_obj.AvailableChestCount = TableLength(COIN_LOCATIONS[coin[1]])
-        ForceUpdate()
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("OnCoinLocation: could not find object for code %s", coin[1]))
     end

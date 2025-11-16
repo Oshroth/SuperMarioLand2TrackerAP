@@ -47,6 +47,12 @@
                 "access_rules": ["$pumpkinzone1_coins"],
                 "sections": [
                     {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 40
+                    },
+                    {
                         "name": "Coins",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/items/levels/coin.png",
@@ -143,6 +149,12 @@
                 "visibility_rules": ["set-coinsanity"],
                 "access_rules": ["$pumpkinzone2_coins"],
                 "sections": [
+                    {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 171
+                    },
                     {
                         "name": "Coins",
                         "clear_as_group": false,
@@ -251,6 +263,12 @@
                 "access_rules": ["$pumpkinzone3_coins"],
                 "sections": [
                     {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 61
+                    },
+                    {
                         "name": "Coins",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/items/levels/coin.png",
@@ -340,6 +358,12 @@
                 "access_rules": ["$pumpkinzone4_coins"],
                 "sections": [
                     {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 73
+                    },
+                    {
                         "name": "Coins",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/items/levels/coin.png",
@@ -409,6 +433,12 @@
                 "access_rules": ["$pumpkinzonesecret1_coins"],
                 "sections": [
                     {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 409
+                    },
+                    {
                         "name": "Coins",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/items/levels/coin.png",
@@ -458,7 +488,14 @@
             {
                 "name": "Coinsanity",
                 "visibility_rules": ["set-coinsanity"],
+                "access_rules": ["$pumpkinzonesecret2_coins"],
                 "sections": [
+                    {
+                        "name": "Available Coins",
+                        "chest_unopened_img": "images/items/levels/coin.png",
+                        "chest_opened_img": "images/items/levels/coin_off.png",
+                        "item_count": 12
+                    },
                     {
                         "name": "Coins",
                         "clear_as_group": false,

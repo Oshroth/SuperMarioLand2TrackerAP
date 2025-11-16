@@ -26,6 +26,10 @@ function no_scroll(levelCode)
     end
 end
 
+function HasScroll(levelCode)
+    return not no_scroll(levelCode)
+end
+
 function has_pipe_up()
     local pipeMode = Tracker:FindObjectForCode("set-pipe-traversal").CurrentStage
 
@@ -99,16 +103,83 @@ function not_blocked_by_sharks()
 end
 
 function AreCoinsAvailable(reachableCoins, location)
+    if Archipelago.PlayerNumber == -1 then
+        local coinLoc = Tracker:FindObjectForCode(location)
+        if coinLoc ~= nil then
+            if coinLoc.AvailableChestCount == 0 then
+                UpdateAvailableCoins(0, location)
+            else
+                UpdateAvailableCoins(reachableCoins, location)
+            end
+            return (coinLoc.ChestCount - coinLoc.AvailableChestCount) < reachableCoins
+        end
+        return false
+    end
     local coinLoc = COIN_LOCATIONS[location]
     if coinLoc == nil then
+        UpdateAvailableCoins(0, location)
         return true
     end
+    local count = 0
     for _, v in ipairs(coinLoc) do
         if v <= reachableCoins then
+            count = v
+        elseif count ~= 0 then
+            UpdateAvailableCoins(count, location)
             return true
+        else
+            UpdateAvailableCoins(0, location)
+            return false
         end
     end
-    return false
+    UpdateAvailableCoins(count, location)
+    return true
+end
+
+function UpdateAvailableCoins(coins, location)
+    local availableLoc = nil
+    for _, mapping in ipairs(COIN_MAPPING_LOCATIONS) do
+        if mapping[1] == location then
+            availableLoc = Tracker:FindObjectForCode(mapping[2])
+        end
+    end
+    if availableLoc == nil then
+        return
+    end
+    availableLoc.AvailableChestCount = coins
+end
+
+function UpdateAvailableCoinsToMax(location)
+    local availableLoc = nil
+    for _, mapping in ipairs(COIN_MAPPING_LOCATIONS) do
+        if mapping[1] == location then
+            availableLoc = Tracker:FindObjectForCode(mapping[2])
+        end
+    end
+    if availableLoc == nil then
+        return
+    end
+    if Archipelago.PlayerNumber == -1 then
+        local coinLoc = Tracker:FindObjectForCode(location)
+        if coinLoc ~= nil and coinLoc.AvailableChestCount == 0 then
+            availableLoc.AvailableChestCount = 0
+        else
+            availableLoc.AvailableChestCount = availableLoc.ChestCount
+        end
+        return
+    end
+    local coinLoc = COIN_LOCATIONS[location]
+    if coinLoc == nil or #coinLoc == 0 then
+        availableLoc.AvailableChestCount = 0
+        return
+    end
+
+    availableLoc.AvailableChestCount = coinLoc[#coinLoc]
+end
+
+function sceniccourse_coins()
+    UpdateAvailableCoinsToMax("@Scenic Course/Coinsanity/Coins")
+    return true
 end
 
 function mushroomzone_coins()
@@ -135,6 +206,7 @@ end
 function treezone1_coins()
     local reachableCoins = 87
     if no_scroll("treezone1") then
+        UpdateAvailableCoinsToMax("@Tree Zone 1/Coinsanity/Coins")
         return true
     end
 
@@ -143,7 +215,7 @@ end
 
 function treezone2_coins()
     local reachableCoins = 18
-    local autoScroll = not no_scroll("treezone2")
+    local autoScroll = HasScroll("treezone2")
 
     if has_pipe_right() then
         reachableCoins = reachableCoins + 38
@@ -164,19 +236,21 @@ function treezone2_coins()
 end
 
 function treezone3_coins()
-    if not no_scroll("treezone3") then
-        return AreCoinsAvailable(4, "@Tree Zone 3/Coinsanity/Coins")
+    local location = "@Tree Zone 3/Coinsanity/Coins"
+    if HasScroll("treezone3") then
+        return AreCoinsAvailable(4, location)
     end
-    if AreCoinsAvailable(19, "@Tree Zone 3/Coinsanity/Coins") then
+    if has("carrot") then
+        UpdateAvailableCoinsToMax(location)
         return true
-    elseif has_any("mushroom", "fireflower") and AreCoinsAvailable(21, "@Tree Zone 3/Coinsanity/Coins") then
-        return true
+    elseif has_any("mushroom", "fireflower") then
+        return AreCoinsAvailable(21, location)
     end
-    return has("carrot")
+    return AreCoinsAvailable(19, location)
 end
 
 function treezone4_coins()
-    local autoScroll = not no_scroll("treezone4")
+    local autoScroll = HasScroll("treezone4")
     local entryway = 14
     local hall = 4
     local firstTripDownstairs = 31
@@ -222,7 +296,7 @@ function treezone4_coins()
 end
 
 function treezone5_coins()
-    local autoScroll = not no_scroll("treezone5")
+    local autoScroll = HasScroll("treezone5")
     local reachableCoins = 0
 
     if has_any("mushroom", "fireflower") then
@@ -240,10 +314,15 @@ function treezone5_coins()
     return AreCoinsAvailable(reachableCoins, "@Tree Zone 5/Coinsanity/Coins")
 end
 
+function treezonesecret_coins()
+    UpdateAvailableCoinsToMax("@Tree Zone Secret Course/Coinsanity/Coins")
+    return true
+end
+
 function pumpkinzone1_coins()
-    local autoScroll = not no_scroll("pumpkinzone1")
+    local autoScroll = HasScroll("pumpkinzone1")
     if autoScroll then
-        return AreCoinsAvailable(12, "@Pumpkin Zone 1/Coinsanity/Coins") and has_midway("pumpkinzone1")
+        return has_midway("pumpkinzone1") and AreCoinsAvailable(12, "@Pumpkin Zone 1/Coinsanity/Coins")
     end
     local reachableCoins = 0
     if has_midway("pumpkinzone1") or has_pipe_down() then
@@ -257,7 +336,7 @@ function pumpkinzone1_coins()
 end
 
 function pumpkinzone2_coins()
-    local autoScroll = not no_scroll("pumpkinzone2")
+    local autoScroll = HasScroll("pumpkinzone2")
     local reachableCoins =  17
     if has_pipe_down() then
         if not autoScroll then
@@ -278,7 +357,7 @@ function pumpkinzone2_coins()
 end
 
 function pumpkinzone3_coins()
-    local autoScroll = not no_scroll("pumpkinzone3")
+    local autoScroll = HasScroll("pumpkinzone3")
     local reachableCoins = 38
     if has_pipe_up() and ((not autoScroll) or has_pipe_down()) then
         reachableCoins = reachableCoins + 12
@@ -293,7 +372,7 @@ end
 function pumpkinzone4_coins()
     local reachableCoins = 29
     if has_pipe_down() then
-        if not no_scroll("pumpkinzone4") then
+        if HasScroll("pumpkinzone4") then
             if has_pipe_up() then
                 reachableCoins = reachableCoins + 16
             else
@@ -311,20 +390,23 @@ function pumpkinzone4_coins()
 end
 
 function pumpkinzonesecret1_coins()
-    if AreCoinsAvailable(40, "@Pumpkin Zone Secret Course 1/Coinsanity/Coins") then
-        return true
-    end
     if has("carrot") then
-        if not no_scroll("pumpkinzonesecret1") then
+        if HasScroll("pumpkinzonesecret1") then
             return AreCoinsAvailable(172, "@Pumpkin Zone Secret Course 1/Coinsanity/Coins")
         end
+        UpdateAvailableCoinsToMax("@Pumpkin Zone Secret Course 1/Coinsanity/Coins")
         return true
     end
-    return false
+    return AreCoinsAvailable(40, "@Pumpkin Zone Secret Course 1/Coinsanity/Coins")
+end
+
+function pumpkinzonesecret2_coins()
+    UpdateAvailableCoinsToMax("@Pumpkin Zone Secret Course 2/Coinsanity/Coins")
+    return true
 end
 
 function mariozone1_coins()
-    local autoScroll = not no_scroll("mariozone1")
+    local autoScroll = HasScroll("mariozone1")
     local reachableCoins = 0
     if has_pipe_right() or (has_pipe_left() and has_midway("mariozone1") and not autoScroll) then
         reachableCoins = reachableCoins + 32
@@ -344,8 +426,13 @@ function mariozone1_coins()
     return AreCoinsAvailable(reachableCoins, "@Mario Zone 1/Coinsanity/Coins")
 end
 
+function mariozone2_coins()
+    UpdateAvailableCoinsToMax("@Mario Zone 2/Coinsanity/Coins")
+    return true
+end
+
 function mariozone3_coins()
-    local autoScroll = not no_scroll("mariozone3")
+    local autoScroll = HasScroll("mariozone3")
     local reachableCoins = 10
     local reachableSpikeCoins = 0
     if has("carrot") then
@@ -367,11 +454,15 @@ function mariozone3_coins()
 end
 
 function mariozone4_coins()
-    return AreCoinsAvailable(60, "@Mario Zone 4/Coinsanity/Coins") or no_scroll("mariozone4")
+    if no_scroll("mariozone4") then
+        UpdateAvailableCoinsToMax("@Mario Zone 4/Coinsanity/Coins")
+        return true
+    end
+    return AreCoinsAvailable(60, "@Mario Zone 4/Coinsanity/Coins")
 end
 
 function turtlezone1_coins()
-    local autoScroll = not no_scroll("turtlezone1")
+    local autoScroll = HasScroll("turtlezone1")
     local reachableCoins = 30
     if not_blocked_by_sharks() then
         reachableCoins = reachableCoins + 13
@@ -393,7 +484,7 @@ function turtlezone1_coins()
 end
 
 function turtlezone2_coins()
-    local autoScroll = not no_scroll("turtlezone2")
+    local autoScroll = HasScroll("turtlezone2")
     local reachableCoins = 2
     if autoScroll then
         if has("waterphysics") then
@@ -420,7 +511,11 @@ function turtlezone2_coins()
 end
 
 function turtlezone3_coins()
-    return has_any("waterphysics", "mushroom", "fireflower", "carrot") or AreCoinsAvailable(51, "@Turtle Zone 3/Coinsanity/Coins")
+    if has_any("waterphysics", "mushroom", "fireflower", "carrot") then
+        UpdateAvailableCoinsToMax("@Turtle Zone 3/Coinsanity/Coins")
+        return true
+    end
+    return AreCoinsAvailable(51, "@Turtle Zone 3/Coinsanity/Coins")
 end
 
 function turtlezonesecret_coins()
@@ -436,7 +531,7 @@ end
 
 function hippozone_coins()
     local reachableCoins = 4
-    if not no_scroll("hippozone") then
+    if HasScroll("hippozone") then
         if has("hippobubble") then
             reachableCoins = 160
         elseif has("carrot") then
@@ -463,7 +558,8 @@ function hippozone_coins()
 end
 
 function spacezone1_coins()
-    local autoScroll = not no_scroll("spacezone1")
+    local autoScroll = HasScroll("spacezone1")
+    local levelCode = "@Space Zone 1/Coinsanity/Coins"
     if autoScroll then
         local reachableCoins = 0
         reachableCoins = reachableCoins + 12
@@ -473,14 +569,20 @@ function spacezone1_coins()
         if has("spacephysics") then
             reachableCoins = reachableCoins + 40
         end
-        return AreCoinsAvailable(reachableCoins, "@Space Zone 1/Coinsanity/Coins")
+        return AreCoinsAvailable(reachableCoins, levelCode)
     end
-
-    return AreCoinsAvailable(21, "@Space Zone 1/Coinsanity/Coins") or (AreCoinsAvailable(50, "@Space Zone 1/Coinsanity/Coins") and has_any("mushroom", "fireflower")) or has_any("carrot", "spacephysics")
+    if has_any("carrot", "spacephysics") then
+        UpdateAvailableCoinsToMax(levelCode)
+        return true
+    end
+    if has_any("mushroom", "fireflower") and AreCoinsAvailable(50, levelCode) then
+        return true
+    end
+    return AreCoinsAvailable(21, levelCode)
 end
 
 function spacezone2_coins()
-    local autoScroll = not no_scroll("spacezone2")
+    local autoScroll = HasScroll("spacezone2")
     local reachableCoins = 12
     if has_any("mushroom", "fireflower", "carrot", "spacephysics") then
         reachableCoins = reachableCoins + 15
@@ -501,11 +603,15 @@ function spacezone2_coins()
 end
 
 function spacezonesecret_coins()
-    return AreCoinsAvailable(96, "@Space Zone Secret Course/Coinsanity/Coins") or no_scroll("spacezonesecret")
+    if no_scroll("spacezonesecret") then
+        UpdateAvailableCoinsToMax("@Space Zone Secret Course/Coinsanity/Coins")
+        return true
+    end
+    return AreCoinsAvailable(96, "@Space Zone Secret Course/Coinsanity/Coins")
 end
 
 function macrozone1_coins()
-    local autoScroll = not no_scroll("macrozone1")
+    local autoScroll = HasScroll("macrozone1")
     local reachableCoins = 0
     if has_pipe_down() then
         reachableCoins = reachableCoins + 69
@@ -534,24 +640,23 @@ function macrozone1_coins()
 end
 
 function macrozone2_coins()
+    local levelCode = "@Macro Zone 2/Coinsanity/Coins"
     local autoScroll = no_scroll("macrozone2")
 
-    if AreCoinsAvailable(27, "@Macro Zone 2/Coinsanity/Coins") then
-        return true
-    end
     if has_pipe_up() and has("waterphysics") and not autoScroll then
         if has_pipe_down() then
+            UpdateAvailableCoinsToMax(levelCode)
             return true
         end
         if has_midway("macrozone2") then
-            return AreCoinsAvailable(42, "@Macro Zone 2/Coinsanity/Coins")
+            return AreCoinsAvailable(42, levelCode)
         end
     end
-    return false
+    return AreCoinsAvailable(27, levelCode)
 end
 
 function macrozone3_coins()
-    local autoScroll = not no_scroll("macrozone3")
+    local autoScroll = HasScroll("macrozone3")
     local reachableCoins = 7
 
     if not autoScroll then
@@ -561,6 +666,7 @@ function macrozone3_coins()
         if autoScroll then
             reachableCoins = reachableCoins + 56
         else
+            UpdateAvailableCoinsToMax("@Macro Zone 3/Coinsanity/Coins")
             return true
         end
     elseif has_pipe_up() then
@@ -580,7 +686,7 @@ end
 
 function macrozone4_coins()
     local reachableCoins = 61
-    if not no_scroll("macrozone4") then
+    if HasScroll("macrozone4") then
         reachableCoins = reachableCoins - 8
         if has("carrot") then
             reachableCoins = reachableCoins + 6
@@ -591,5 +697,9 @@ function macrozone4_coins()
 end
 
 function macrozonesecret_coins()
-    return has_any("mushroom", "fireflower")
+    if has_any("mushroom", "fireflower") then
+        UpdateAvailableCoinsToMax("@Macro Zone Secret Course/Coinsanity/Coins")
+        return true
+    end
+    return false
 end
