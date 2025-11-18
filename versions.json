@@ -1,8 +1,12 @@
 {
+    "versions": [
+        {
     "package_version": "0.8.0",
     "download_url": "https://github.com/mobby45/SuperMarioLand2TrackerAP/releases/download/0.8.0/sml2-poptracker-0.8.0.zip",
     "sha256": "11340A30BD448F52631FA9815CBB8C72145335DF8690A609D959FE319DE3B7CC",
     "changelog": [
         "Added Coinsanity"
+    ]
+        }
     ]
 }
