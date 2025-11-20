@@ -135,6 +135,7 @@
         "type": "consumable",
         "img": "images/items/settings/mariozone3cranes.png",
         "disabled_img_mods": "none",
+        "overlay_font_size": 15,
         "min_quantity": 0,
         "initial_quantity": 3,
         "max_quantity": 3,
@@ -145,6 +146,7 @@
         "type": "consumable",
         "img": "images/items/settings/turtlezone1sharks.png",
         "disabled_img_mods": "none",
+        "overlay_font_size": 15,
         "min_quantity": 0,
         "max_quantity": 2,
         "codes": "set-tz1-sharks"

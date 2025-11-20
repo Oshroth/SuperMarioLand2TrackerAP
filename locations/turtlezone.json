@@ -224,7 +224,15 @@
                         "name": "Boss",
                         "chest_unopened_img": "images/items/boss/pako.png",
                         "chest_opened_img": "images/items/boss/pako_beaten.png",
-                        "item_count": 1
+                        "visibility_rules": ["set-gc-goal-shuffle", "set-gc-goal-fragmenthunt"]
+                    },
+                    {
+                        "name": "Vanilla Boss",
+                        "chest_unopened_img": "images/items/boss/pako.png",
+                        "chest_opened_img": "images/items/boss/pako_beaten.png",
+                        "visibility_rules": "set-gc-goal-vanilla",
+                        "item_count": 1,
+                        "hosted_item": "turtlecoin"
                     }
                 ],
                 "map_locations": [
